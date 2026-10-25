@@ -62,25 +62,26 @@ export async function searchPlaces(text) {
   }
   if (name.length < 2) return [];
   const where = `UPPER(BASENAME) LIKE '${esc(name.toUpperCase())}%'` + (stateFips ? ` AND STATE='${stateFips}'` : "");
-  const fields = "GEOID,NAME,BASENAME,STATE,COUNTY,INTPTLAT,INTPTLON";
-  const opts = { where, outFields: fields, returnGeometry: "false", resultRecordCount: "12", orderByFields: "BASENAME" };
+  // Places layers have no COUNTY field; county subdivisions do.
+  const base = { where, returnGeometry: "false", resultRecordCount: "12", orderByFields: "BASENAME" };
+  const placeFields = "GEOID,NAME,BASENAME,STATE,INTPTLAT,INTPTLON";
   const [inc, cdp, cs] = await Promise.all([
-    query(LAYER.incorporated, opts).catch(() => []),
-    query(LAYER.cdp, opts).catch(() => []),
-    query(LAYER.cousub, { ...opts, where: where + " AND FUNCSTAT='A'" }).catch(() => []),
+    query(LAYER.incorporated, { ...base, outFields: placeFields }).catch(() => []),
+    query(LAYER.cdp, { ...base, outFields: placeFields }).catch(() => []),
+    query(LAYER.cousub, { ...base, outFields: placeFields + ",COUNTY" }).catch(() => []),
   ]);
   const out = [];
-  const seen = new Set();
+  const seen = new Map();
   const push = (layer, kindLabel) => ({ attributes: a }) => {
     const key = `${a.STATE}|${a.NAME.toLowerCase()}`;
-    // Michigan cities show up both as places and county subdivisions; keep one.
-    if (seen.has(key)) return;
-    seen.add(key);
-    out.push({
+    // Michigan cities show up both as places and county subdivisions; keep one, borrow its county.
+    if (seen.has(key)) { const prev = seen.get(key); if (!prev.county && a.COUNTY) prev.county = a.COUNTY; return; }
+    const item = {
       kind: layer, layer, id: a.GEOID, state: a.STATE, county: a.COUNTY || null,
       label: a.NAME, sub: STATES[a.STATE]?.[1] || "", kindLabel,
       lat: +a.INTPTLAT, lon: +a.INTPTLON,
-    });
+    };
+    seen.set(key, item); out.push(item);
   };
   inc.forEach(push("incorporated", "city or village"));
   cs.forEach(push("cousub", "township"));
