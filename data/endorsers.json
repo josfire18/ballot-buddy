@@ -1,0 +1,31 @@
+{
+  "_about": "Maps well-known endorsers (matched against Wikipedia link targets or text, case-insensitive) to a plain-language label and the issue signals an endorsement from them implies. Signals use the same -2..2 'agrees with the statement' scale as issues.json and are shown as 'inferred from endorsements'.",
+  "endorsers": [
+    { "match": ["donald trump"], "label": "Trump", "signals": { "trump": 2, "immigration": 2 } },
+    { "match": ["maga inc", "america pac"], "label": "Trump-aligned super PAC", "signals": { "trump": 2 } },
+    { "match": ["jd vance"], "label": "JD Vance", "signals": { "trump": 2 } },
+    { "match": ["national rifle association", "nra political victory fund", "nra-pvf"], "label": "NRA", "signals": { "guns": -2 } },
+    { "match": ["gun owners of america", "michigan coalition for responsible gun owners"], "label": "Gun-rights groups", "signals": { "guns": -2 } },
+    { "match": ["giffords", "everytown for gun safety", "moms demand action", "brady campaign", "brady united"], "label": "Gun-safety groups", "signals": { "guns": 2 } },
+    { "match": ["planned parenthood action fund", "planned parenthood advocates of michigan", "planned parenthood", "reproductive freedom for all", "naral"], "label": "Abortion-rights groups", "signals": { "abortion": 2 } },
+    { "match": ["emily's list", "emilys list"], "label": "EMILY's List", "signals": { "abortion": 2 } },
+    { "match": ["susan b. anthony pro-life america", "sba pro-life america", "national right to life committee", "right to life of michigan", "right to life"], "label": "Anti-abortion groups", "signals": { "abortion": -2 } },
+    { "match": ["afl-cio", "united auto workers", "uaw", "seiu", "service employees international union", "american federation of teachers", "michigan education association", "national education association", "afscme", "american federation of state, county and municipal employees", "communications workers of america", "united food and commercial workers", "american federation of government employees"], "label": "Labor unions", "signals": { "labor": 2 } },
+    { "match": ["united states chamber of commerce", "u.s. chamber of commerce", "michigan chamber of commerce", "detroit regional chamber"], "label": "Chamber of Commerce", "signals": { "taxes": -1 } },
+    { "match": ["americans for prosperity", "club for growth"], "label": "Low-tax, small-government groups", "signals": { "taxes": -2, "healthcare": -1 } },
+    { "match": ["national federation of independent business", "nfib"], "label": "Small-business lobby (NFIB)", "signals": { "taxes": -1, "labor": -1 } },
+    { "match": ["sierra club", "league of conservation voters", "lcv action fund", "sunrise movement", "climate hawks vote", "friends of the earth", "food & water watch", "food & water action", "center for biological diversity", "clean water action", "michigan league of conservation voters"], "label": "Environmental groups", "signals": { "climate": 2 } },
+    { "match": ["democratic socialists of america", "justice democrats", "our revolution", "bernie sanders", "progressive change campaign committee", "progressive democrats of america", "congressional progressive caucus"], "label": "Progressive left", "signals": { "taxes": 2, "healthcare": 2, "labor": 2, "trump": -2 } },
+    { "match": ["human rights campaign", "equality pac", "lgbtq+ victory fund", "lgbtq victory fund", "equality michigan"], "label": "LGBTQ-rights groups", "signals": { "lgbtq": 2 } },
+    { "match": ["police officers association of michigan", "fraternal order of police", "michigan fraternal order of police", "national border patrol council"], "label": "Police unions", "signals": { "crime": 1 } },
+    { "match": ["aipac", "democratic majority for israel", "republican jewish coalition", "united democracy project"], "label": "Pro-Israel groups", "signals": {} },
+    { "match": ["track aipac", "cair action", "council on american–islamic relations", "council on american-islamic relations", "us campaign for palestinian rights", "pal pac", "emgage"], "label": "Groups critical of US Israel policy", "signals": {} },
+    { "match": ["end citizens united"], "label": "Campaign-finance reform groups", "signals": {} },
+    { "match": ["michigan farm bureau", "american farm bureau federation"], "label": "Farm Bureau", "signals": {} },
+    { "match": ["votevets", "vote vets"], "label": "VoteVets", "signals": { "trump": -1 } },
+    { "match": ["make america healthy again", "maha action", "maha pac"], "label": "MAHA (RFK Jr.) groups", "signals": { "trump": 1 } },
+    { "match": ["democratic congressional campaign committee"], "label": "House Democrats' campaign arm", "signals": {} },
+    { "match": ["national republican congressional committee", "congressional leadership fund"], "label": "House Republicans' campaign arm", "signals": {} },
+    { "match": ["the detroit news", "detroit free press", "detroit news"], "label": "Newspaper endorsements", "signals": {}, "kind": "newspaper" }
+  ]
+}

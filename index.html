@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ballot Buddy</title>
+  <meta name="description" content="Find every race on your 2026 ballot, see where each candidate stands in plain words, and build your own ballot to bring to the polls.">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://upload.wikimedia.org; connect-src https://tigerweb.geo.census.gov https://en.wikipedia.org; base-uri 'none'; form-action 'none'">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cellipse cx='16' cy='16' rx='13' ry='9' fill='%232450B8'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,600;0,800;1,400&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="wrap masthead-row">
+      <a class="brand" href="./" aria-label="Ballot Buddy home">
+        <span class="oval oval-filled" aria-hidden="true"></span>
+        <span>Ballot Buddy</span>
+      </a>
+      <span class="election-date" id="election-date">Election Day is Tuesday, Nov. 3</span>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="intro" id="intro">
+      <h1>Know your whole ballot before you walk in.</h1>
+      <p class="lede">Tell us where you vote. We'll find every race on your ballot, show where each candidate stands in plain words, and let you mark your picks.</p>
+    </section>
+
+    <section class="step" id="step-where" aria-labelledby="h-where">
+      <h2 id="h-where"><span class="step-n">1</span> Where do you vote?</h2>
+      <form class="search" id="search-form" role="search" autocomplete="off">
+        <label for="place-input" class="visually-hidden">City, township, or ZIP code</label>
+        <input id="place-input" type="search" placeholder="City, township, or ZIP code" aria-describedby="search-help" aria-autocomplete="list" aria-controls="place-results" aria-expanded="false" enterkeyhint="search">
+        <button type="submit" class="btn btn-primary">Find my ballot</button>
+      </form>
+      <p class="help" id="search-help">
+        <button type="button" class="linklike" id="use-location">Use my exact location instead</button>.
+        It's more precise if your city is split between districts. Only your coordinates are sent, to the Census Bureau's map service, to look up your districts.
+      </p>
+      <ul class="results" id="place-results" role="listbox" hidden></ul>
+      <div id="where-status" class="status" role="status" aria-live="polite"></div>
+      <div id="where-summary"></div>
+    </section>
+
+    <section class="step" id="step-what" aria-labelledby="h-what" hidden>
+      <h2 id="h-what"><span class="step-n">2</span> What do you care about?</h2>
+      <p class="help">Start from a party, then adjust anything you disagree with. Tap the star on issues that matter most to you. Skip any you don't care about.</p>
+      <div class="party-pick" role="group" aria-label="Start from a party">
+        <button type="button" class="chip-btn" data-preset="D">Start as a Democrat</button>
+        <button type="button" class="chip-btn" data-preset="R">Start as a Republican</button>
+        <button type="button" class="chip-btn" data-preset="I">Start blank</button>
+      </div>
+      <ol class="quiz" id="quiz"></ol>
+    </section>
+
+    <section class="step" id="step-races" aria-labelledby="h-races" hidden>
+      <h2 id="h-races"><span class="step-n">3</span> Your races</h2>
+      <p class="help" id="races-help">Candidates are ranked by how closely they match your answers. Fill in an oval to add your pick to your ballot.</p>
+      <div class="legend" aria-label="How stances are known">
+        <span><i class="basis basis-record"></i> From their record or statements</span>
+        <span><i class="basis basis-endorsement"></i> Inferred from endorsements</span>
+        <span><i class="basis basis-party"></i> Assumed from party</span>
+      </div>
+      <div id="races"></div>
+    </section>
+
+    <section class="step" id="step-ballot" aria-labelledby="h-ballot" hidden>
+      <h2 id="h-ballot">My ballot</h2>
+      <div id="ballot-sheet" class="ballot-sheet"></div>
+      <div class="ballot-actions">
+        <button type="button" class="btn btn-primary" id="print-ballot">Print my ballot</button>
+        <button type="button" class="btn" id="share-ballot">Copy share link</button>
+        <button type="button" class="btn btn-quiet" id="clear-ballot">Clear picks</button>
+      </div>
+      <p class="help">Your picks are saved in this browser only. The share link carries your picks inside the link itself — nothing is stored on a server.</p>
+    </section>
+
+    <footer class="colophon">
+      <p>Ballot Buddy is a free, unofficial guide made by friends. Always check your official sample ballot: <a id="sample-ballot-link" href="https://www.vote411.org/ballot" rel="noopener">find yours here</a>.</p>
+      <p>District maps from the U.S. Census Bureau (TIGERweb). Candidate lists and endorsements from Wikipedia, refreshed every 12 hours. Michigan stances hand-checked against nonpartisan guides and news coverage, with links on every card.</p>
+    </footer>
+  </main>
+
+  <nav class="ballot-bar" id="ballot-bar" hidden aria-label="My ballot">
+    <div class="wrap ballot-bar-row">
+      <span id="ballot-count">0 of 0 races picked</span>
+      <a class="btn btn-primary btn-small" href="#step-ballot">View my ballot</a>
+    </div>
+  </nav>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

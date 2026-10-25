@@ -1,0 +1,192 @@
+{
+  "_scale": "Every stance is a number from -2 to 2 on the same axis as the question. 2 = strongly agrees with the statement, -2 = strongly disagrees, 0 = mixed. null/absent = unknown.",
+  "issues": [
+    {
+      "id": "taxes",
+      "short": "Taxes",
+      "statement": "Raise taxes on the wealthy and big corporations.",
+      "help": "Think income tax rates for top earners, corporate tax rates, and tax cuts like the 2025 federal tax law.",
+      "labels": {
+        "-2": "Tax cutter",
+        "-1": "Leans low-tax",
+        "0": "Mixed on taxes",
+        "1": "Leans tax-the-rich",
+        "2": "Tax the rich"
+      }
+    },
+    {
+      "id": "healthcare",
+      "short": "Health care",
+      "statement": "Government should do more to make health care affordable.",
+      "help": "Expanding Medicaid, ACA subsidies or Medicare for All, versus market-based reforms and spending cuts.",
+      "labels": {
+        "-2": "Shrink gov't health care",
+        "-1": "Market-based health care",
+        "0": "Mixed on health care",
+        "1": "Expand coverage",
+        "2": "Universal health care"
+      }
+    },
+    {
+      "id": "abortion",
+      "short": "Abortion",
+      "statement": "Abortion should be legal.",
+      "help": "Michigan's constitution protects abortion rights since 2022's Proposal 3; federal law is still contested.",
+      "labels": {
+        "-2": "Anti-abortion",
+        "-1": "Leans anti-abortion",
+        "0": "Mixed on abortion",
+        "1": "Leans pro-choice",
+        "2": "Pro-choice"
+      }
+    },
+    {
+      "id": "guns",
+      "short": "Guns",
+      "statement": "Gun laws should be stricter.",
+      "help": "Universal background checks, red flag laws, safe storage, assault-weapon limits.",
+      "labels": {
+        "-2": "Gun-rights hardliner",
+        "-1": "Pro-gun",
+        "0": "Mixed on guns",
+        "1": "Leans gun-safety",
+        "2": "Gun-safety champion"
+      }
+    },
+    {
+      "id": "immigration",
+      "short": "Immigration",
+      "statement": "Prioritize border enforcement and deportations.",
+      "help": "More ICE funding, border wall, ending sanctuary cities, versus a path to citizenship and limits on ICE.",
+      "labels": {
+        "-2": "Strongly pro-immigrant",
+        "-1": "Pro-immigrant",
+        "0": "Mixed on immigration",
+        "1": "Enforcement-first",
+        "2": "Immigration hardliner"
+      }
+    },
+    {
+      "id": "climate",
+      "short": "Climate & energy",
+      "statement": "Fighting climate change should be a top priority, even if energy costs more.",
+      "help": "Clean-energy mandates and EV policy versus fewer regulations on fossil fuels.",
+      "labels": {
+        "-2": "Anti-climate-mandates",
+        "-1": "Skeptical of climate rules",
+        "0": "Mixed on climate",
+        "1": "Pro-climate action",
+        "2": "Climate champion"
+      }
+    },
+    {
+      "id": "labor",
+      "short": "Unions",
+      "statement": "Make it easier for workers to join unions.",
+      "help": "Repealing right-to-work, the PRO Act, protecting collective bargaining.",
+      "labels": {
+        "-2": "Anti-union",
+        "-1": "Leans anti-union",
+        "0": "Mixed on unions",
+        "1": "Pro-union",
+        "2": "Strongly pro-union"
+      }
+    },
+    {
+      "id": "voting",
+      "short": "Voting rules",
+      "statement": "Require proof of citizenship and photo ID to vote.",
+      "help": "Voter ID and the SAVE Act versus easier early, absentee and automatic voting.",
+      "labels": {
+        "-2": "Easier voting",
+        "-1": "Leans easier voting",
+        "0": "Mixed on voting rules",
+        "1": "Leans stricter voting",
+        "2": "Strict voter ID & citizenship proof"
+      }
+    },
+    {
+      "id": "lgbtq",
+      "short": "LGBTQ rights",
+      "statement": "Expand legal protections for LGBTQ people.",
+      "help": "Anti-discrimination laws, same-sex marriage, transgender health care and sports rules.",
+      "labels": {
+        "-2": "Opposes LGBTQ protections",
+        "-1": "Limits LGBTQ protections",
+        "0": "Mixed on LGBTQ rights",
+        "1": "Supports LGBTQ rights",
+        "2": "LGBTQ-rights champion"
+      }
+    },
+    {
+      "id": "schools",
+      "short": "School choice",
+      "statement": "Public money should help families pay for private school.",
+      "help": "Vouchers and tax-credit scholarships versus keeping funds in public schools.",
+      "labels": {
+        "-2": "Public schools only",
+        "-1": "Leans public schools",
+        "0": "Mixed on school choice",
+        "1": "Leans school choice",
+        "2": "School-choice champion"
+      }
+    },
+    {
+      "id": "crime",
+      "short": "Crime",
+      "statement": "Focus on tougher enforcement over criminal-justice reform.",
+      "help": "Longer sentences and more policing versus bail reform, diversion and police accountability.",
+      "labels": {
+        "-2": "Criminal-justice reformer",
+        "-1": "Leans reform",
+        "0": "Mixed on crime",
+        "1": "Tough on crime",
+        "2": "Hardline law-and-order"
+      }
+    },
+    {
+      "id": "trump",
+      "short": "Trump agenda",
+      "statement": "I want leaders who back President Trump's agenda.",
+      "help": "Tariffs, the Iran war, federal workforce cuts and other administration priorities.",
+      "labels": {
+        "-2": "Anti-Trump",
+        "-1": "Leans anti-Trump",
+        "0": "Mixed on Trump",
+        "1": "Leans Trump",
+        "2": "MAGA-aligned"
+      }
+    }
+  ],
+  "partyPresets": {
+    "D": {
+      "taxes": 2,
+      "healthcare": 2,
+      "abortion": 2,
+      "guns": 2,
+      "immigration": -1,
+      "climate": 1,
+      "labor": 2,
+      "voting": -1,
+      "lgbtq": 2,
+      "schools": -2,
+      "crime": -1,
+      "trump": -2
+    },
+    "R": {
+      "taxes": -2,
+      "healthcare": -1,
+      "abortion": -1,
+      "guns": -2,
+      "immigration": 2,
+      "climate": -2,
+      "labor": -1,
+      "voting": 2,
+      "lgbtq": -1,
+      "schools": 2,
+      "crime": 2,
+      "trump": 2
+    },
+    "I": {}
+  }
+}

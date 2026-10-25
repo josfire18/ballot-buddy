@@ -1,0 +1,722 @@
+{
+  "state": "MI",
+  "electionDate": "2026-11-03",
+  "updated": "2026-10-25",
+  "sampleBallotUrl": "https://mvic.sos.state.mi.us/Voter/Index",
+  "votingInfoUrl": "https://www.michigan.gov/vote",
+  "notes": "Hand-checked research. Stances use the -2..2 'agrees with the statement' scale from issues.json. Every stance carries the short summary shown on the card; sources are listed per candidate.",
+  "candidates": {
+    "Jocelyn Benson": {
+      "blurb": "Michigan Secretary of State since 2019; former Wayne State law dean. Running on lowering costs for health care, prescriptions and housing.",
+      "running_mate": "Winnie Brinks",
+      "stances": {
+        "taxes": [
+          0,
+          "Won't raise taxes on the middle class; proposes home-buyer tax credits and cutting government costs instead."
+        ],
+        "healthcare": [
+          2,
+          "\"Healthcare should be a right.\" Would expand low/no-cost preventive care, medical debt relief, $5,000 caregiver credit."
+        ],
+        "abortion": [
+          2,
+          "Supports legal abortion; backed 2022's Proposal 3 that put reproductive rights in the state constitution."
+        ],
+        "guns": [
+          2,
+          "Backs red flag laws, universal background checks and safe storage; banned open carry at polling places in 2020."
+        ],
+        "immigration": [
+          -1,
+          "Opposes federal ICE deployments in Michigan and withholding funds from sanctuary cities."
+        ],
+        "climate": [
+          2,
+          "Supports 100% clean electricity by 2040; tougher penalties for polluters and Great Lakes protections."
+        ],
+        "labor": [
+          2,
+          "\"Unions built the middle class.\" Supports collective bargaining and benefits for striking workers."
+        ],
+        "voting": [
+          -2,
+          "Opposes proof-of-citizenship requirements; backs a state Voting Rights Act."
+        ],
+        "lgbtq": [
+          2,
+          "Supported adding sexual orientation and gender identity to civil-rights law."
+        ],
+        "schools": [
+          -1,
+          "Opposes draining money from neighborhood public schools; OK with charters held to the same standards."
+        ],
+        "crime": [
+          -1,
+          "Launched IDs for newly paroled people; focuses on re-entry and police-community trust."
+        ],
+        "trump": [
+          -2,
+          "Campaigns against Trump administration tariffs, the Iran war and federal cuts."
+        ]
+      },
+      "sources": [
+        {
+          "title": "guides.vote: Michigan Governor 2026",
+          "url": "https://guides.vote/wp-content/uploads/2026/09/Michigan-Governor-Guide-2026.pdf"
+        },
+        {
+          "title": "Michigan Public: Benson and James second debate (Oct 16)",
+          "url": "https://www.michiganpublic.org/politics-government/2026-10-16/republican-john-james-and-democrat-jocelyn-benson-running-for-governor-debate-for-second-time"
+        }
+      ]
+    },
+    "John James": {
+      "blurb": "Two-term U.S. Representative (MI-10, Macomb County), Army helicopter pilot in Iraq, businessman. Running on cutting taxes and government waste.",
+      "running_mate": "Jay DeBoyer",
+      "stances": {
+        "taxes": [
+          -2,
+          "Would eliminate Michigan's income tax and reform property taxes."
+        ],
+        "healthcare": [
+          -2,
+          "\"Not more government, it's less.\" Voted for Medicaid cuts and against extending ACA subsidies; wants Medicaid work requirements."
+        ],
+        "abortion": [
+          -1,
+          "Called himself \"100% pro-life\" (2018); in 2024 said voters \"already decided\" with Proposal 3."
+        ],
+        "guns": [
+          -2,
+          "\"SHALL NOT BE INFRINGED.\" Sponsored national concealed-carry reciprocity."
+        ],
+        "immigration": [
+          2,
+          "Voted for +$75B ICE funding, 900 miles of border wall, E-Verify; opposes sanctuary cities."
+        ],
+        "climate": [
+          -1,
+          "Calls the 100% clean-energy-by-2040 law \"insane\"; prefers \"innovation rather than mandates.\""
+        ],
+        "labor": [
+          -1,
+          "Supports right-to-work; has also joined a nurses' picket line and praised UAW workers."
+        ],
+        "voting": [
+          2,
+          "Wants a constitutional amendment requiring proof of citizenship and voter ID."
+        ],
+        "lgbtq": [
+          -1,
+          "Voted to ban gender-affirming care for minors and trans girls in girls' sports."
+        ],
+        "schools": [
+          2,
+          "Would opt Michigan into the federal private-school scholarship tax credit \"on day one.\""
+        ],
+        "crime": [
+          2,
+          "\"Lock up violent criminals\"; more training, equipment and legal protections for police."
+        ],
+        "trump": [
+          1,
+          "Voted for the 2025 federal tax-and-spending law; says he'll break with Trump when Michigan's interests differ."
+        ]
+      },
+      "sources": [
+        {
+          "title": "guides.vote: Michigan Governor 2026",
+          "url": "https://guides.vote/wp-content/uploads/2026/09/Michigan-Governor-Guide-2026.pdf"
+        },
+        {
+          "title": "Michigan Public: James distances himself from Trump in debate (Oct 7)",
+          "url": "https://www.michiganpublic.org/politics-government/2026-10-07/james-distances-himself-from-trump-as-benson-tries-to-connect-them-in-gubernatorial-debate"
+        }
+      ]
+    },
+    "Abdul El-Sayed": {
+      "blurb": "Physician by training and former Detroit and Wayne County health director; has never held elected office. Endorsed by Bernie Sanders.",
+      "stances": {
+        "taxes": [
+          2,
+          "Higher top rate on income over $1M and a billionaire wealth tax; against corporate tax breaks."
+        ],
+        "healthcare": [
+          2,
+          "Would pass Medicare for All, abolish medical debt and reverse 2025 Medicaid/ACA cuts."
+        ],
+        "abortion": [
+          2,
+          "Would codify Roe v. Wade into federal law; supports funding Planned Parenthood."
+        ],
+        "guns": [
+          2,
+          "Supports red flag laws and banning \"guns meant for a theatre of war.\""
+        ],
+        "immigration": [
+          -2,
+          "Path to citizenship, Dream Act, protect birthright citizenship; supports abolishing ICE and restructuring enforcement."
+        ],
+        "climate": [
+          2,
+          "Path to 100% renewable energy; would shut down the Line 5 pipeline."
+        ],
+        "labor": [
+          2,
+          "Would pass the PRO Act; says right-to-work should be illegal."
+        ],
+        "voting": [
+          -2,
+          "Opposes voter ID and the SAVE Act; Election Day holiday, no-reason absentee voting."
+        ],
+        "lgbtq": [
+          2,
+          "\"I stand with the LGBTQ+ community\"; would guarantee civil rights in health care."
+        ],
+        "schools": [
+          -2,
+          "Opposes vouchers moving \"public money into private pockets.\""
+        ],
+        "crime": [
+          -2,
+          "Opposes cash bail; backs the George Floyd Justice in Policing Act and violence-prevention programs."
+        ],
+        "trump": [
+          -2,
+          "Calls the Iran war \"illegal and unjustifiable\"; campaigns against the Trump agenda."
+        ]
+      },
+      "sources": [
+        {
+          "title": "guides.vote: Michigan U.S. Senate 2026",
+          "url": "https://guides.vote/guide/2026-michigan-us-senate-voters-guide/"
+        }
+      ]
+    },
+    "Mike Rogers": {
+      "blurb": "Former seven-term U.S. Representative (MI-8, 2001–2015), ex-FBI agent and House Intelligence chair. Narrowly lost the 2024 Senate race.",
+      "stances": {
+        "taxes": [
+          -2,
+          "Backs the 2025 \"One Big Beautiful Bill\" tax cuts: \"There's no tax cut I don't like.\""
+        ],
+        "healthcare": [
+          -1,
+          "Wants free-market health plans; voted to repeal the ACA but called defense-for-health-care cuts \"a bridge too far.\""
+        ],
+        "abortion": [
+          -1,
+          "\"I'm a pro-life guy\"; supported overturning Roe but opposes a national ban and says states decide."
+        ],
+        "guns": [
+          -1,
+          "\"Banning guns isn't going to do it\"; supports background checks and enforcing existing laws."
+        ],
+        "immigration": [
+          2,
+          "Finish the border wall, restore Remain in Mexico, oppose sanctuary cities; prioritizes deporting criminals over mass deportation."
+        ],
+        "climate": [
+          -2,
+          "Says EV and renewable mandates are \"destroying Michigan's auto industry.\""
+        ],
+        "labor": [
+          0,
+          "Backed the 2023 UAW strike; past votes to limit prevailing-wage rules and the NLRB."
+        ],
+        "voting": [
+          2,
+          "Supports voter ID and would pass the SAVE Act."
+        ],
+        "lgbtq": [
+          -1,
+          "Accepts same-sex marriage as law; opposes trans athletes in women's sports; against firing people for being LGBTQ."
+        ],
+        "schools": [
+          2,
+          "Wants Michigan to join the federal private-school scholarship tax credit."
+        ],
+        "crime": [
+          2,
+          "\"Back the blue all the way\"; urged sending the National Guard to Detroit."
+        ],
+        "trump": [
+          2,
+          "Advised Trump's 2016 transition; supports giving the president authority to continue the Iran war."
+        ]
+      },
+      "sources": [
+        {
+          "title": "guides.vote: Michigan U.S. Senate 2026",
+          "url": "https://guides.vote/guide/2026-michigan-us-senate-voters-guide/"
+        }
+      ]
+    },
+    "Garlin Gilchrist": {
+      "blurb": "Lieutenant Governor since 2019 and former software engineer. Refuses corporate PAC money.",
+      "stances": {
+        "voting": [
+          -2,
+          "Would not give the Trump administration Michigan's unredacted voter roll; wants to expand participation and resist federal interference."
+        ],
+        "trump": [
+          -2,
+          "Pledges to be Michigan's \"chief privacy officer\" against federal election demands."
+        ]
+      },
+      "sources": [
+        {
+          "title": "Votebeat: SoS candidates on transparency and the Trump administration",
+          "url": "https://www.votebeat.org/michigan/2026/10/08/garlin-gilchrist-anthony-forlini-secretary-of-state-2026-election/"
+        }
+      ]
+    },
+    "Anthony Forlini": {
+      "blurb": "Macomb County Clerk since 2021 and former state representative. Says he's the only candidate already running elections.",
+      "stances": {
+        "voting": [
+          1,
+          "Priorities are cleaner voter rolls, more transparency and supporting local clerks."
+        ]
+      },
+      "sources": [
+        {
+          "title": "Votebeat: SoS candidates on transparency and the Trump administration",
+          "url": "https://www.votebeat.org/michigan/2026/10/08/garlin-gilchrist-anthony-forlini-secretary-of-state-2026-election/"
+        }
+      ]
+    },
+    "Eli Savit": {
+      "blurb": "Washtenaw County Prosecutor since 2021; clerked for two U.S. Supreme Court justices.",
+      "stances": {
+        "crime": [
+          -2,
+          "Has pursued progressive criminal-justice reforms as prosecutor while promising to pursue serious crime."
+        ],
+        "climate": [
+          1,
+          "Would make polluters answer for environmental damage."
+        ],
+        "voting": [
+          -1,
+          "Promises to guard voters' access to the ballot."
+        ],
+        "trump": [
+          -1,
+          "Vows to protect civil rights and hold corporations accountable; open to challenging federal policy."
+        ]
+      },
+      "sources": [
+        {
+          "title": "Axios Detroit: Meet the AG and SoS candidates (Oct 19)",
+          "url": "https://www.axios.com/local/detroit/2026/10/19/michigan-attorney-general-secretary-state-2026-guide"
+        },
+        {
+          "title": "WDIV: Michigan AG candidates",
+          "url": "https://clickondetroit.com/news/local/2026/05/25/what-to-know-about-the-candidates-running-for-michigan-attorney-general-in-2026-election"
+        }
+      ]
+    },
+    "Doug Lloyd": {
+      "blurb": "Eaton County Prosecutor for 13 years; past president of the Prosecuting Attorneys Association of Michigan.",
+      "stances": {
+        "crime": [
+          1,
+          "Favors a more traditional approach; promises even-handed charging."
+        ],
+        "trump": [
+          1,
+          "Criticizes AG Dana Nessel's lawsuits as \"political lawfare\"; would push back on politically driven cases."
+        ]
+      },
+      "sources": [
+        {
+          "title": "Axios Detroit: Meet the AG and SoS candidates (Oct 19)",
+          "url": "https://www.axios.com/local/detroit/2026/10/19/michigan-attorney-general-secretary-state-2026-guide"
+        }
+      ]
+    },
+    "Sean McCann": {
+      "blurb": "State senator from Kalamazoo (2019–present). Running on cost of living: gas, housing, health care, child care. Endorsed by Gov. Whitmer and the UAW region.",
+      "sources": [
+        {
+          "title": "Michigan Advance (Oct 14)",
+          "url": "https://michiganadvance.com/2026/10/14/buttigieg-and-mccann-argue-republican-self-interest-is-undermining-the-american-dream/"
+        }
+      ]
+    },
+    "Bill Huizenga": {
+      "blurb": "U.S. Representative since 2011, seeking a ninth term. Pushing a car-purchase tax break and a gas-tax holiday.",
+      "sources": [
+        {
+          "title": "Michigan Advance (Oct 14)",
+          "url": "https://michiganadvance.com/2026/10/14/buttigieg-and-mccann-argue-republican-self-interest-is-undermining-the-american-dream/"
+        },
+        {
+          "title": "House Clerk: Laken Riley Act final passage, roll call 23 (Jan 22, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023"
+        }
+      ],
+      "stances": {
+        "immigration": [
+          2,
+          "Voted YES on the Laken Riley Act ICE detention mandate (Jan 2025) and for the 2025 tax-and-spending law that added roughly $75B for ICE."
+        ]
+      }
+    },
+    "Christina Hines": {
+      "blurb": "Former prosecutor in Washtenaw and Wayne counties. Running on health-care costs, reproductive freedom and voting rights.",
+      "stances": {
+        "abortion": [
+          2,
+          "Wants to \"protect reproductive freedom.\""
+        ],
+        "voting": [
+          -1,
+          "Wants to guard voting rights."
+        ]
+      },
+      "sources": [
+        {
+          "title": "Michigan Public: 10th District race (Sep 28)",
+          "url": "https://www.michiganpublic.org/politics-government/2026-09-28/10th-congressional-race-michigan-michael-bouchard-christina-hines"
+        }
+      ]
+    },
+    "Michael Bouchard Jr.": {
+      "blurb": "Former Army captain (82nd and 101st Airborne), son of Oakland County's sheriff; Trump-endorsed. Priorities: national security, border enforcement, manufacturing, parental school choice.",
+      "stances": {
+        "immigration": [
+          2,
+          "Lists border enforcement among his top priorities."
+        ],
+        "schools": [
+          1,
+          "Supports more parental choice in education."
+        ]
+      },
+      "sources": [
+        {
+          "title": "Michigan Public: 10th District race (Sep 28)",
+          "url": "https://www.michiganpublic.org/politics-government/2026-09-28/10th-congressional-race-michigan-michael-bouchard-christina-hines"
+        }
+      ]
+    },
+    "William Lawrence": {
+      "blurb": "Co-founder of the Sunrise climate movement; endorsed by Bernie Sanders. Won a three-way Democratic primary.",
+      "sources": [
+        {
+          "title": "Michigan Advance: Lawrence wins MI-7 primary",
+          "url": "https://michiganadvance.com/2026/08/04/will-lawrence-emerges-as-victor-in-mi-7-democratic-primary/"
+        }
+      ]
+    },
+    "Tom Barrett": {
+      "blurb": "First-term U.S. Representative, former state senator and Army helicopter pilot.",
+      "sources": [
+        {
+          "title": "House Clerk: Laken Riley Act final passage, roll call 23 (Jan 22, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023"
+        }
+      ],
+      "stances": {
+        "immigration": [
+          2,
+          "Voted YES on the Laken Riley Act ICE detention mandate (Jan 2025) and for the 2025 tax-and-spending law that added roughly $75B for ICE."
+        ]
+      }
+    },
+    "Donavan McKinney": {
+      "blurb": "State representative from Detroit and Democratic Socialists of America member; defeated Rep. Shri Thanedar in the primary. Supports Medicare for All.",
+      "sources": [
+        {
+          "title": "Michigan Public: McKinney ousts Thanedar",
+          "url": "https://www.michiganpublic.org/politics-government/2026-08-05/donavan-mckinney-ousts-democratic-incumbent-shri-thanedar-in13th-congressional-district"
+        }
+      ]
+    },
+    "Hillary Scholten": {
+      "sources": [
+        {
+          "title": "House Clerk: Laken Riley Act final passage, roll call 23 (Jan 22, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023"
+        },
+        {
+          "title": "Michigan Public: 2 MI Dems help pass Laken Riley Act",
+          "url": "https://www.michiganpublic.org/politics-government/2025-01-23/immigration-bill-is-first-to-head-to-trumps-desk-with-some-mi-support-and-some-heated-opposition"
+        }
+      ],
+      "blurb": "U.S. Representative since 2023; former immigration attorney at the Justice Department.",
+      "stances": {
+        "immigration": [
+          1,
+          "Voted YES on the Laken Riley Act (Jan 2025), which requires ICE to detain undocumented immigrants charged with theft or violent crimes. One of 46 House Democrats who did."
+        ]
+      }
+    },
+    "Kristen McDonald Rivet": {
+      "sources": [
+        {
+          "title": "House Clerk: Laken Riley Act final passage, roll call 23 (Jan 22, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023"
+        },
+        {
+          "title": "Michigan Public: 2 MI Dems help pass Laken Riley Act",
+          "url": "https://www.michiganpublic.org/politics-government/2025-01-23/immigration-bill-is-first-to-head-to-trumps-desk-with-some-mi-support-and-some-heated-opposition"
+        }
+      ],
+      "blurb": "First-term U.S. Representative; former state senator from Bay City.",
+      "stances": {
+        "immigration": [
+          1,
+          "Voted YES on the Laken Riley Act (Jan 2025), which requires ICE to detain undocumented immigrants charged with theft or violent crimes. One of 46 House Democrats who did."
+        ]
+      }
+    },
+    "Rashida Tlaib": {
+      "sources": [
+        {
+          "title": "House Clerk: Laken Riley Act final passage, roll call 23 (Jan 22, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023"
+        },
+        {
+          "title": "Michigan Public: 2 MI Dems help pass Laken Riley Act",
+          "url": "https://www.michiganpublic.org/politics-government/2025-01-23/immigration-bill-is-first-to-head-to-trumps-desk-with-some-mi-support-and-some-heated-opposition"
+        }
+      ],
+      "blurb": "U.S. Representative since 2019; member of the progressive \"Squad.\"",
+      "stances": {
+        "immigration": [
+          -2,
+          "Voted NO on the Laken Riley Act (Jan 2025) ICE detention mandate."
+        ]
+      }
+    },
+    "Jack Bergman": {
+      "sources": [
+        {
+          "title": "House Clerk: Laken Riley Act final passage, roll call 23 (Jan 22, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023"
+        }
+      ],
+      "blurb": "U.S. Representative since 2017; retired Marine Corps lieutenant general.",
+      "stances": {
+        "immigration": [
+          2,
+          "Voted YES on the Laken Riley Act ICE detention mandate (Jan 2025) and for the 2025 tax-and-spending law that added roughly $75B for ICE."
+        ]
+      }
+    },
+    "John Moolenaar": {
+      "sources": [
+        {
+          "title": "House Clerk: Laken Riley Act final passage, roll call 23 (Jan 22, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023"
+        }
+      ],
+      "blurb": "U.S. Representative since 2015; chairs the House China select committee.",
+      "stances": {
+        "immigration": [
+          2,
+          "Voted YES on the Laken Riley Act ICE detention mandate (Jan 2025) and for the 2025 tax-and-spending law that added roughly $75B for ICE."
+        ]
+      }
+    },
+    "Tim Walberg": {
+      "sources": [
+        {
+          "title": "House Clerk: Laken Riley Act final passage, roll call 23 (Jan 22, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023"
+        }
+      ],
+      "blurb": "U.S. Representative since 2011 (also 2007–2009).",
+      "stances": {
+        "immigration": [
+          2,
+          "Voted YES on the Laken Riley Act ICE detention mandate (Jan 2025) and for the 2025 tax-and-spending law that added roughly $75B for ICE."
+        ]
+      }
+    },
+    "Lisa McClain": {
+      "sources": [
+        {
+          "title": "House Clerk: Laken Riley Act final passage, roll call 23 (Jan 22, 2025)",
+          "url": "https://clerk.house.gov/evs/2025/roll023"
+        }
+      ],
+      "blurb": "U.S. Representative since 2021; House Republican Conference chair.",
+      "stances": {
+        "immigration": [
+          2,
+          "Voted YES on the Laken Riley Act ICE detention mandate (Jan 2025) and for the 2025 tax-and-spending law that added roughly $75B for ICE."
+        ]
+      }
+    }
+  },
+  "extraRaces": [
+    {
+      "id": "mi-supreme-court",
+      "office": "Michigan Supreme Court",
+      "kind": "nonpartisan",
+      "voteFor": 2,
+      "note": "Nonpartisan on the ballot, but each party nominates candidates at its convention. Democratic nominees currently hold a 6–1 majority.",
+      "candidates": [
+        {
+          "name": "Megan Cavanagh",
+          "party": "D",
+          "partyNote": "Democratic-nominated",
+          "incumbent": true,
+          "blurb": "Chief Justice; elected 2018. Endorsed by the Michigan AFL-CIO."
+        },
+        {
+          "name": "Noah Hood",
+          "party": "D",
+          "partyNote": "Democratic-nominated",
+          "incumbent": true,
+          "blurb": "Appointed by Gov. Whitmer in 2025; previously on the Court of Appeals."
+        },
+        {
+          "name": "Casandra Morse-Bills",
+          "party": "R",
+          "partyNote": "Republican-nominated",
+          "blurb": "Presiding judge, 23rd Circuit (Alcona, Arenac, Iosco, Oscoda). Says the current court imposes a political agenda. Endorsed by the Michigan Chamber."
+        },
+        {
+          "name": "Michael D. Warren Jr.",
+          "party": "R",
+          "partyNote": "Republican-nominated",
+          "blurb": "Oakland County Circuit judge since 2002; has taught law at Wayne State. Endorsed by the Michigan Chamber."
+        },
+        {
+          "name": "Thomas Howe",
+          "party": "O",
+          "partyNote": "Also on the ballot",
+          "blurb": ""
+        },
+        {
+          "name": "Jody White",
+          "party": "O",
+          "partyNote": "Also on the ballot",
+          "blurb": ""
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bridge Michigan: 6 candidates compete for 2 seats",
+          "url": "https://www.bridgemi.com/michigan-government/whos-running-for-michigan-supreme-court-6-candidates-compete-for-2-seats/"
+        },
+        {
+          "title": "Michigan Public candidate interviews",
+          "url": "https://michiganpublic.org/politics-government/2026-10-09/michigan-supreme-court-candidates-2026"
+        }
+      ]
+    },
+    {
+      "id": "mi-sbe",
+      "office": "State Board of Education",
+      "kind": "partisan",
+      "voteFor": 2,
+      "note": "Two of eight seats. The board is 6–2 Democratic now and could become 4–4.",
+      "candidates": [
+        {
+          "name": "Judith Pritchett",
+          "party": "D",
+          "incumbent": true
+        },
+        {
+          "name": "Tiffany Tilley",
+          "party": "D",
+          "incumbent": true
+        },
+        {
+          "name": "Bree Moeggenberg",
+          "party": "R"
+        },
+        {
+          "name": "Terence Collins",
+          "party": "R"
+        },
+        {
+          "name": "Charles Essner",
+          "party": "L"
+        },
+        {
+          "name": "Wissam Charafeddine",
+          "party": "G"
+        },
+        {
+          "name": "William Mohr II",
+          "party": "O",
+          "partyNote": "U.S. Taxpayers"
+        },
+        {
+          "name": "Christine C. Schwartz",
+          "party": "O",
+          "partyNote": "U.S. Taxpayers"
+        },
+        {
+          "name": "Mary Anne Hering",
+          "party": "O",
+          "partyNote": "Working Class"
+        },
+        {
+          "name": "Kelli Monroe",
+          "party": "O",
+          "partyNote": "Natural Law"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Votebeat: everything on Michigan's ballot",
+          "url": "https://www.votebeat.org/michigan/2026/09/16/midterm-election-2026-whats-on-your-ballot-voter-guide/"
+        }
+      ]
+    },
+    {
+      "id": "mi-universities",
+      "office": "University boards (U of M, MSU, Wayne State)",
+      "kind": "info",
+      "note": "You'll pick two candidates for each board. These are partisan races; the full list is on your sample ballot.",
+      "link": {
+        "title": "See your sample ballot",
+        "url": "https://mvic.sos.state.mi.us/Voter/Index"
+      }
+    }
+  ],
+  "proposals": [
+    {
+      "id": "mi-prop-1",
+      "title": "Proposal 1: Constitutional convention",
+      "question": "Should Michigan hold a convention of elected delegates in 2027 to rewrite the state constitution?",
+      "yes": "Starts a rewrite of the whole constitution. Voters would still have to approve the final document. Some Republican legislative leaders have voiced support.",
+      "no": "Keeps the constitution as written. Opposed by a coalition of business, labor and voting-rights groups, and by candidates from both parties including Benson and James.",
+      "lean": {
+        "yes": "Some Republican leaders",
+        "no": "Benson, James, and a bipartisan business/labor coalition"
+      },
+      "sources": [
+        {
+          "title": "Votebeat: Proposal 1 explained",
+          "url": "https://www.votebeat.org/michigan/2026/07/09/constitutional-convention-concon-proposal-1-explained/"
+        }
+      ]
+    },
+    {
+      "id": "mi-prop-2",
+      "title": "Proposal 2: Money out of politics",
+      "question": "Ban campaign contributions from regulated utilities and large government contractors, and expand disclosure rules for political ads, including online.",
+      "yes": "Becomes law; it would take a three-quarters vote of the Legislature to change. Backed by Michiganders for Money Out of Politics, funded largely by national progressive groups.",
+      "no": "Keeps current rules. Opposed by Protect MI Free Speech, funded by business groups including Consumers Energy's parent, Blue Cross and Comcast.",
+      "lean": {
+        "yes": "Progressive and good-government groups",
+        "no": "Utilities and business groups"
+      },
+      "sources": [
+        {
+          "title": "Votebeat: everything on Michigan's ballot",
+          "url": "https://www.votebeat.org/michigan/2026/09/16/midterm-election-2026-whats-on-your-ballot-voter-guide/"
+        }
+      ]
+    }
+  ]
+}
