@@ -1,8 +1,8 @@
-import { searchPlaces, districtsForPlace, districtsForPoint, STATES } from "./geo.js?v=202610260003";
-import { houseRace, statewideRace, statewideRaceSpecs, summary, normName } from "./wiki.js?v=202610260003";
-import { profile, score, curatedFor } from "./match.js?v=202610260003";
+import { searchPlaces, districtsForPlace, districtsForPoint, STATES } from "./geo.js?v=202610260006";
+import { houseRace, statewideRace, statewideRaceSpecs, summary, normName } from "./wiki.js?v=202610260006";
+import { profile, score, curatedFor } from "./match.js?v=202610260006";
 
-const V = "202610260003"; // cache-busting version, set by tools/bump-version.sh
+const V = "202610260006"; // cache-busting version, set by tools/bump-version.sh
 // ---------- tiny helpers ----------
 const $ = (s, el = document) => el.querySelector(s);
 const ESC = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
@@ -314,7 +314,7 @@ function candRow(race, { c, prof, sc, deal }, isTop, pick) {
       ${pct != null ? `<div class="match ${band}" aria-label="${pct}% match"><div class="match-pct">${pct}%</div><div class="match-bar"><i style="width:${pct}%"></i></div><div class="match-sub">${sc.byRecord ? `${sc.byRecord} on record` : "estimated"}</div></div>` : `<div></div>`}
     </div>
     <ul class="verdicts">${dealHtml}${!badges.length && !deal.length && (c.party === "D" || c.party === "R") ? `<li class="verdict"><i class="basis basis-party"></i>No record found yet; tap below for typical ${c.party === "D" ? "Democratic" : "Republican"} positions</li>` : ""}${badges.map(([iss, s]) => `<li class="verdict ${relation(iss, s.value)}" title="${esc(s.summary)}"><i class="basis basis-${s.basis}"></i>${esc(labelFor(iss, s.value))}</li>`).join("")}</ul>
-    <details class="more" data-link="${esc(c.link || "")}" data-name="${esc(c.name)}">
+    ${!Object.keys(prof.stances).length && !prof.tags.length && !c.curated && !c.link ? "" : `<details class="more" data-link="${esc(c.link || "")}" data-name="${esc(c.name)}">
       <summary>Where ${esc(c.name.split(" ").slice(-1)[0])} stands</summary>
       <div class="more-body">
         <div class="bio" data-bio>${c.curated?.blurb ? `<p>${esc(c.curated.blurb)}</p>` : ""}</div>
@@ -326,7 +326,7 @@ function candRow(race, { c, prof, sc, deal }, isTop, pick) {
         ${prof.tags.length ? `<h4>Endorsed by</h4><ul class="tags">${prof.tags.map((t) => `<li class="tag" title="${esc(t.examples.join(", "))}">${esc(t.label)}${t.examples.length > 1 || t.examples[0] !== t.label ? `: ${esc(t.examples.slice(0, 3).join(", "))}` : ""}</li>`).join("")}</ul>` : ""}
         ${c.curated?.sources?.length ? `<h4>Sources</h4><ul class="sources">${c.curated.sources.map((s) => `<li><a href="${safeUrl(s.url)}" rel="noopener">${esc(s.title)}</a></li>`).join("")}</ul>` : ""}
       </div>
-    </details>
+    </details>`}
   </li>`;
 }
 
