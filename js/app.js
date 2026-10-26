@@ -292,7 +292,9 @@ function candRow(race, { c, prof, sc, deal }, isTop, pick) {
   const pct = sc?.pct;
   const band = pct == null ? "" : pct >= 70 ? "" : pct >= 50 ? "mid" : "low";
   // Badges: issues the person answered first (most important first), else strongest stances.
-  const entries = Object.entries(prof.stances).filter(([iss, s]) => s.basis !== "party" || state.answers[iss] !== undefined);
+  // Badges only show what's actually known (record or endorsements); party guesses stay in the details.
+  const dealIssues = new Set(deal.map((d) => d.issue));
+  const entries = Object.entries(prof.stances).filter(([iss, s]) => s.basis !== "party" && !dealIssues.has(iss));
   const scoreIssue = ([iss, s]) => (state.answers[iss] !== undefined ? 10 : 0) + (state.importance[iss] === 2 ? 5 : 0) + (state.dealbreakers[iss] ? 20 : 0) + Math.abs(s.value) + (s.basis === "record" ? 3 : s.basis === "endorsement" ? 1 : -5);
   const badges = entries.filter(([, s]) => s.value !== 0 || s.basis === "record").sort((a, b) => scoreIssue(b) - scoreIssue(a)).slice(0, 4);
   const dealHtml = deal.map((d) => {
@@ -310,7 +312,7 @@ function candRow(race, { c, prof, sc, deal }, isTop, pick) {
       </div>
       ${pct != null ? `<div class="match ${band}" aria-label="${pct}% match"><div class="match-pct">${pct}%</div><div class="match-bar"><i style="width:${pct}%"></i></div><div class="match-sub">${sc.byRecord ? `${sc.byRecord} on record` : "estimated"}</div></div>` : `<div></div>`}
     </div>
-    <ul class="verdicts">${dealHtml}${badges.map(([iss, s]) => `<li class="verdict ${relation(iss, s.value)}" title="${esc(s.summary)}"><i class="basis basis-${s.basis}"></i>${esc(labelFor(iss, s.value))}</li>`).join("")}</ul>
+    <ul class="verdicts">${dealHtml}${!badges.length && !deal.length && (c.party === "D" || c.party === "R") ? `<li class="verdict"><i class="basis basis-party"></i>No record found yet; tap below for typical ${c.party === "D" ? "Democratic" : "Republican"} positions</li>` : ""}${badges.map(([iss, s]) => `<li class="verdict ${relation(iss, s.value)}" title="${esc(s.summary)}"><i class="basis basis-${s.basis}"></i>${esc(labelFor(iss, s.value))}</li>`).join("")}</ul>
     <details class="more" data-link="${esc(c.link || "")}" data-name="${esc(c.name)}">
       <summary>Where ${esc(c.name.split(" ").slice(-1)[0])} stands</summary>
       <div class="more-body">
