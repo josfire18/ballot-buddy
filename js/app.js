@@ -1,7 +1,8 @@
-import { searchPlaces, districtsForPlace, districtsForPoint, STATES } from "./geo.js";
-import { houseRace, statewideRace, statewideRaceSpecs, summary, normName } from "./wiki.js";
-import { profile, score, curatedFor } from "./match.js";
+import { searchPlaces, districtsForPlace, districtsForPoint, STATES } from "./geo.js?v=202610260003";
+import { houseRace, statewideRace, statewideRaceSpecs, summary, normName } from "./wiki.js?v=202610260003";
+import { profile, score, curatedFor } from "./match.js?v=202610260003";
 
+const V = "202610260003"; // cache-busting version, set by tools/bump-version.sh
 // ---------- tiny helpers ----------
 const $ = (s, el = document) => el.querySelector(s);
 const ESC = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
@@ -24,7 +25,7 @@ const races = new Map(); // id -> race data (with profiles)
 init().catch((e) => { console.error(e); $("#where-status").textContent = "Something went wrong loading the app. Refresh to try again."; });
 
 async function init() {
-  const [issues, endorsers] = await Promise.all([fetch("data/issues.json").then((r) => r.json()), fetch("data/endorsers.json").then((r) => r.json())]);
+  const [issues, endorsers] = await Promise.all([fetch(`data/issues.json?v=${V}`).then((r) => r.json()), fetch(`data/endorsers.json?v=${V}`).then((r) => r.json())]);
   ISSUES = issues.issues; PRESETS = issues.partyPresets; ENDORSERS = endorsers.endorsers;
   countdown();
   wireSearch();
@@ -106,7 +107,7 @@ async function applyWhere(where, { restoring = false } = {}) {
   state.where = where; save();
   $("#where-status").textContent = "";
   const abbr = STATES[where.districts.state]?.[0];
-  CURATED = abbr ? await fetch(`data/curated/${abbr}.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null) : null;
+  CURATED = abbr ? await fetch(`data/curated/${abbr}.json?v=${V}`).then((r) => (r.ok ? r.json() : null)).catch(() => null) : null;
   if (CURATED?.sampleBallotUrl) $("#sample-ballot-link").href = CURATED.sampleBallotUrl;
   renderWhere();
   $("#step-what").hidden = false; $("#step-races").hidden = false; $("#step-ballot").hidden = false; $("#ballot-bar").hidden = false;
