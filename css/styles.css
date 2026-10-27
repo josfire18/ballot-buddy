@@ -57,6 +57,8 @@ a { color: var(--pen); text-underline-offset: 2px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.05rem; color: var(--ink); text-decoration: none; letter-spacing: -0.01em; }
 .election-date { color: var(--ink-2); font-size: 0.875rem; text-align: right; }
 .masthead-end { display: flex; align-items: center; gap: 8px; }
+.brand { white-space: nowrap; }
+@media (max-width: 420px) { .election-date { font-size: 0.75rem; line-height: 1.25; max-width: 13ch; } .masthead-end { gap: 2px; } }
 .theme-toggle { all: unset; cursor: pointer; display: grid; place-items: center; width: 44px; height: 44px; margin-right: -10px; border-radius: 10px; color: var(--ink-2); flex: none; }
 .theme-toggle:hover { color: var(--ink); background: var(--pen-soft); }
 .theme-toggle:focus-visible { outline: 3px solid var(--focus); outline-offset: -2px; }
