@@ -1,7 +1,7 @@
 // Turns curated stances, endorsements and party into per-issue positions,
 // then scores each candidate against the person's answers.
 
-import { normName } from "./wiki.js?v=202610260006";
+import { normName } from "./wiki.js?v=202610270304";
 
 export const WEIGHT = { record: 1, endorsement: 0.5, party: 0.3 };
 

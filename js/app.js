@@ -1,8 +1,8 @@
-import { searchPlaces, districtsForPlace, districtsForPoint, STATES } from "./geo.js?v=202610260006";
-import { houseRace, statewideRace, statewideRaceSpecs, summary, normName } from "./wiki.js?v=202610260006";
-import { profile, score, curatedFor } from "./match.js?v=202610260006";
+import { searchPlaces, districtsForPlace, districtsForPoint, STATES } from "./geo.js?v=202610270304";
+import { houseRace, statewideRace, statewideRaceSpecs, summary, normName } from "./wiki.js?v=202610270304";
+import { profile, score, curatedFor } from "./match.js?v=202610270304";
 
-const V = "202610260006"; // cache-busting version, set by tools/bump-version.sh
+const V = "202610270304"; // cache-busting version, set by tools/bump-version.sh
 // ---------- tiny helpers ----------
 const $ = (s, el = document) => el.querySelector(s);
 const ESC = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
