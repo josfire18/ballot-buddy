@@ -56,6 +56,14 @@ a { color: var(--pen); text-underline-offset: 2px; }
 .masthead-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 56px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.05rem; color: var(--ink); text-decoration: none; letter-spacing: -0.01em; }
 .election-date { color: var(--ink-2); font-size: 0.875rem; text-align: right; }
+.masthead-end { display: flex; align-items: center; gap: 8px; }
+.theme-toggle { all: unset; cursor: pointer; display: grid; place-items: center; width: 44px; height: 44px; margin-right: -10px; border-radius: 10px; color: var(--ink-2); flex: none; }
+.theme-toggle:hover { color: var(--ink); background: var(--pen-soft); }
+.theme-toggle:focus-visible { outline: 3px solid var(--focus); outline-offset: -2px; }
+.theme-toggle svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.theme-toggle .icon-sun { display: none; }
+.theme-toggle[data-mode="dark"] .icon-moon { display: none; }
+.theme-toggle[data-mode="dark"] .icon-sun { display: block; }
 
 /* The oval is the motif */
 .oval { display: inline-block; width: 26px; height: 16px; border: 2px solid var(--ink); border-radius: 50%; flex: none; position: relative; background: var(--sheet); }
@@ -70,6 +78,37 @@ a { color: var(--pen); text-underline-offset: 2px; }
 .intro { padding: 40px 0 8px; }
 h1 { font-weight: 800; font-size: clamp(2rem, 6vw, 3.1rem); line-height: 1.05; letter-spacing: -0.03em; margin: 0 0 14px; max-width: 16ch; }
 .lede { font-size: 1.125rem; color: var(--ink-2); max-width: 56ch; margin: 0; }
+.hero { display: flex; align-items: center; gap: 24px; }
+.hero-text { flex: 1 1 auto; min-width: 0; }
+.hero-art { flex: none; width: 200px; height: auto; }
+@media (max-width: 600px) { .hero-art { display: none; } }
+.art-shadow { fill: var(--pen); }
+.art-sheet { fill: var(--sheet); stroke: var(--ink); stroke-width: 2.5; }
+.art-ink, .art-ink-fill { fill: var(--ink); }
+.art-paper { fill: var(--paper); }
+.art-rule { fill: var(--rule-strong); }
+.art-oval { fill: var(--sheet); stroke: var(--ink); stroke-width: 2.5; }
+.art-oval-1, .art-oval-2 { animation: art-fill 500ms ease-out forwards; }
+.art-oval-2 { animation-delay: 450ms; }
+@keyframes art-fill { to { fill: var(--pen); stroke: var(--pen); } }
+.art-pencil { fill: var(--focus); stroke: var(--ink); stroke-width: 2.5; }
+.art-band { fill: var(--rule-strong); stroke: var(--ink); stroke-width: 2.5; }
+.art-tip { fill: var(--mixed-soft); stroke: var(--ink); stroke-width: 2.5; stroke-linejoin: round; }
+.art-spark { fill: var(--focus); }
+@media (prefers-reduced-motion: reduce) { .art-oval-1, .art-oval-2 { fill: var(--pen); stroke: var(--pen); } }
+
+/* How it works */
+.how { list-style: none; margin: 28px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.how li { display: flex; gap: 12px; align-items: flex-start; background: var(--sheet); border: 1px solid var(--rule); border-radius: 12px; padding: 14px; }
+.how-n { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--pen); color: var(--sheet); font-size: 0.8125rem; font-weight: 800; flex: none; }
+.how h2 { font-size: 0.9375rem; font-weight: 800; letter-spacing: -0.01em; margin: 2px 0 4px; }
+.how p { margin: 0; font-size: 0.8125rem; line-height: 1.45; color: var(--ink-2); }
+@media (max-width: 640px) {
+  .how { margin-top: 20px; gap: 8px; }
+  .how li { flex-direction: column; align-items: center; text-align: center; gap: 6px; padding: 10px 6px; }
+  .how h2 { font-size: 0.8125rem; line-height: 1.25; margin: 0; }
+  .how p { display: none; }
+}
 
 /* Steps */
 .step { margin: 36px 0; }
