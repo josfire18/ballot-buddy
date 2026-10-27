@@ -11,7 +11,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,600;0,800;1,400&display=swap">
-  <link rel="stylesheet" href="css/styles.css?v=202610270304">
+  <link rel="stylesheet" href="css/styles.css?v=202610270308">
+  <script src="js/theme.js?v=202610270308"></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -21,14 +22,72 @@
         <span class="oval oval-filled" aria-hidden="true"></span>
         <span>Ballot Buddy</span>
       </a>
-      <span class="election-date" id="election-date">Election Day is Tuesday, Nov. 3</span>
+      <div class="masthead-end">
+        <span class="election-date" id="election-date">Election Day is Tuesday, Nov. 3</span>
+        <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+        </button>
+      </div>
     </div>
   </header>
 
   <main id="main" class="wrap">
     <section class="intro" id="intro">
-      <h1>Know your whole ballot before you walk in.</h1>
-      <p class="lede">Tell us where you vote. We'll find every race on your ballot, show where each candidate stands in plain words, and let you mark your picks.</p>
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Know your whole ballot before you walk in.</h1>
+          <p class="lede">Tell us where you vote. We'll find every race on your ballot, show where each candidate stands in plain words, and let you mark your picks.</p>
+        </div>
+        <svg class="hero-art" viewBox="0 0 240 220" aria-hidden="true">
+          <g transform="rotate(-5 120 110)">
+            <rect class="art-shadow" x="44" y="22" width="150" height="186" rx="12"/>
+            <rect class="art-sheet" x="38" y="14" width="150" height="186" rx="12"/>
+            <rect class="art-ink" x="38" y="14" width="150" height="34" rx="12"/>
+            <rect class="art-ink" x="38" y="34" width="150" height="14"/>
+            <rect class="art-paper" x="56" y="26" width="64" height="8" rx="4"/>
+            <ellipse class="art-oval art-oval-1" cx="66" cy="76" rx="12" ry="8"/>
+            <rect class="art-ink" x="88" y="71" width="78" height="6" rx="3"/>
+            <rect class="art-rule" x="88" y="81" width="50" height="4" rx="2"/>
+            <ellipse class="art-oval art-oval-2" cx="66" cy="114" rx="12" ry="8"/>
+            <rect class="art-ink" x="88" y="109" width="66" height="6" rx="3"/>
+            <rect class="art-rule" x="88" y="119" width="60" height="4" rx="2"/>
+            <ellipse class="art-oval" cx="66" cy="152" rx="12" ry="8"/>
+            <rect class="art-ink" x="88" y="147" width="74" height="6" rx="3"/>
+            <rect class="art-rule" x="88" y="157" width="42" height="4" rx="2"/>
+          </g>
+          <g transform="rotate(35 196 120)">
+            <rect class="art-pencil" x="186" y="44" width="20" height="112" rx="3"/>
+            <rect class="art-band" x="186" y="44" width="20" height="16" rx="3"/>
+            <path class="art-tip" d="M186 156 L196 182 L206 156 Z"/>
+            <path class="art-ink-fill" d="M193 174 L196 182 L199 174 Z"/>
+          </g>
+          <path class="art-spark" d="M28 40 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z"/>
+        </svg>
+      </div>
+      <ol class="how" aria-label="How it works">
+        <li>
+          <span class="how-n">1</span>
+          <div>
+            <h2>Find your races</h2>
+            <p>Enter your city, township, or ZIP. We match you to every district, so you only see races on your ballot.</p>
+          </div>
+        </li>
+        <li>
+          <span class="how-n">2</span>
+          <div>
+            <h2>Tell us what matters</h2>
+            <p>Answer a few quick questions, and we'll rank candidates by how closely they match you.</p>
+          </div>
+        </li>
+        <li>
+          <span class="how-n">3</span>
+          <div>
+            <h2>Compare and pick</h2>
+            <p>See where each candidate stands in plain words, with sources. Fill in your ovals, then print or share your ballot.</p>
+          </div>
+        </li>
+      </ol>
     </section>
 
     <section class="step" id="step-where" aria-labelledby="h-where">
@@ -95,6 +154,6 @@
   </nav>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script type="module" src="js/app.js?v=202610270304"></script>
+  <script type="module" src="js/app.js?v=202610270308"></script>
 </body>
 </html>
