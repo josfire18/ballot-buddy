@@ -101,9 +101,10 @@ export async function importCounty(pdf, { url, fips, name }) {
       const p = parseOffice(`X (${juris})`, "", name);
       const text = k.body.join(" ").replace(/\s+/g, " ").replace(/ \u2019 /g, "\u2019").trim();
       // One header can hold several questions ("PROPOSED AMENDMENT ... Should this proposal be adopted?").
-      const parts = text.split(/(?=PROPOSED AMENDMENT|[A-Z][A-Z .'-]+ (?:BOND|MILLAGE|OPERATING|SINKING FUND)[A-Z ]* PROPOSAL)/).map((t) => t.trim()).filter(Boolean);
+      // Questions end with "?"; a new one starts with an ALL-CAPS heading after that.
+      const parts = text.split(/(?<=\?)\s+(?=(?:[A-Z0-9 .,'-]|\([0-9a-zA-Z]+\)){8,} [A-Z][a-z])/).map((t) => t.trim()).filter(Boolean);
       parts.forEach((t, i) => {
-        const head = (t.match(/^([A-Z0-9 .,'()-]{8,}?)(?= [A-Z][a-z])/) || [, ""])[1].trim();
+        const head = (t.match(/^((?:[A-Z0-9 .,'-]|\([0-9a-zA-Z]+\)){8,}?)(?= [A-Z][a-z])/) || [, ""])[1].trim();
         proposals.push({ id: `mi-${fips}-${slug(juris)}-${slug(head || String(i + 1))}`, title: head ? titleCase(head) : `${titleCase(juris)} proposal`, where: p.where, scope: p.scope, text: head ? t.slice(head.length).trim() : t });
       });
       continue;
