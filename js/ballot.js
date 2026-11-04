@@ -63,7 +63,7 @@ export async function loadBallot(where, stateAbbr, V) {
     if (scope.sldu) return listShare(d.stateSenate, scope.sldu);
     if (scope.sldl) return listShare(d.stateHouse, scope.sldl);
     if (scope.countyName) return Math.max(0, ...counties.filter((c) => jkey(c.cname) === jkey(scope.countyName)).map((c) => +c.share || 0));
-    if (scope.coa || scope.circuit || scope.districtCourt) return 0; // shown from the county list instead, which knows its courts
+    if ("coa" in scope || "circuit" in scope || "districtCourt" in scope) return 0; // shown from the county list instead, which knows its courts
     let s = file ? file.share : 1;
     if (scope.city) s = Math.min(s, muniShare("city", scope.city));
     if (scope.village) s = Math.min(s, muniShare("village", scope.village));

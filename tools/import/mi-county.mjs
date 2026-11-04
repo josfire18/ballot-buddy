@@ -36,12 +36,12 @@ export function parseOffice(rawTitle, rawTerm, countyName) {
     else if ((mm = j.match(/^(.+?) (CHARTER )?TOWNSHIP$/))) { scope = { township: titleCase(mm[1]) }; where = `${titleCase(mm[1])} Township`; level = "township"; }
     else if (/COMMUNITY COLLEGE/.test(j)) { scope = { college: titleCase(j) }; where = titleCase(j); level = "college"; }
     else if (/SCHOOL|SCHOOLS|ACADEMY/.test(j)) { scope = { school: titleCase(j) }; where = titleCase(j); level = "school"; }
-    else if ((mm = j.match(/^(\d+)(?:ST|ND|RD|TH) (DISTRICT|CIRCUIT)$/))) {
-      const n = +mm[1];
+    else if ((mm = j.match(/^(\d+)(?:ST|ND|RD|TH)? ?([A-Z])? (DISTRICT|CIRCUIT)$/))) {
+      const n = mm[2] ? `${mm[1]}${mm[2]}` : +mm[1];
       // Courts on this county's ballot: scope to the county, remember which court.
       if (/APPEALS/.test(office)) { scope = { county: true }; court = { coa: n }; level = "judicial"; }
       else if (/CIRCUIT/.test(office)) { scope = { county: true }; court = { circuit: n }; level = "judicial"; }
-      else if (/DISTRICT COURT/.test(office)) { scope = { county: true }; court = { districtCourt: n }; level = "judicial"; }
+      else if (/DISTRICT COURT/.test(office)) { scope = { county: true }; court = { districtCourt: String(n) }; level = "judicial"; }
       else if (/COMMISSIONER/.test(office)) { scope = { county: true, commissionDistrict: n }; where = `${countyName} County`; }
       else { scope = { unmapped: true }; where = titleCase(j); }
     } else { scope = { unmapped: true }; where = titleCase(j); }
@@ -56,7 +56,7 @@ export function parseOffice(rawTitle, rawTerm, countyName) {
   const voteFor = +((rawTerm || "").match(/not more than (\d+)/i) || [, 1])[1];
   const term = (rawTerm || "").replace(/\s*-\s*Vote for not more than \d+/i, "").trim();
   let label = titleCase(office);
-  if (court) label = court.coa ? `Court of Appeals, ${ord(court.coa)} District` : court.circuit ? `Circuit Court, ${ord(court.circuit)} Circuit` : `District Court, ${ord(court.districtCourt)} District`;
+  if (court) label = court.coa ? `Court of Appeals, ${ord(court.coa)} District` : court.circuit ? `Circuit Court, ${ord(court.circuit)} Circuit` : `District Court, ${/^\d+$/.test(court.districtCourt) ? ord(+court.districtCourt) : court.districtCourt} District`;
   if (scope.ward) label += `, ${/CITY OF ALBION/.test(juris || "") ? "Precinct" : "Ward"} ${scope.ward}`;
   if (scope.commissionDistrict) label += `, District ${scope.commissionDistrict}`;
   if (/^Partial/i.test(term)) label += ` (${term.replace(/^Partial Term/i, "partial term")})`;
@@ -115,7 +115,7 @@ export async function importCounty(pdf, { url, fips, name }) {
       const pr = PARTY[c.party];
       const out = { name: c.name.replace(/\s*\(I\)\s*$/, "").replace(/\s+/g, " ").trim() };
       if (/\(I\)\s*$/.test(c.name)) out.incumbent = true;
-      if (pr && pr.code !== "N") { out.party = pr.code; out.partyLabel = pr.label; } else out.party = "N";
+      if (pr && pr.code !== "N" && p.level !== "judicial") { out.party = pr.code; out.partyLabel = pr.label; } else out.party = "N";
       if (/withdr/i.test(c.status) || c.wd) out.status = "withdrew";
       if (/disqual/i.test(c.status)) out.status = "disqualified";
       return out;

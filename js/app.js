@@ -1,9 +1,9 @@
-import { searchPlaces, districtsForPlace, districtsForPoint, STATES } from "./geo.js?v=202611041902";
-import { houseRace, statewideRace, statewideRaceSpecs, summary, normName } from "./wiki.js?v=202611041902";
-import { profile, score, curatedFor } from "./match.js?v=202611041902";
-import { loadBallot } from "./ballot.js?v=202611041902";
+import { searchPlaces, districtsForPlace, districtsForPoint, STATES } from "./geo.js?v=202611041904";
+import { houseRace, statewideRace, statewideRaceSpecs, summary, normName } from "./wiki.js?v=202611041904";
+import { profile, score, curatedFor } from "./match.js?v=202611041904";
+import { loadBallot } from "./ballot.js?v=202611041904";
 
-const V = "202611041902"; // cache-busting version, set by tools/bump-version.sh
+const V = "202611041904"; // cache-busting version, set by tools/bump-version.sh
 // ---------- tiny helpers ----------
 const $ = (s, el = document) => el.querySelector(s);
 const ESC = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };

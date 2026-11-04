@@ -31,7 +31,11 @@ export function classify(raw) {
   else if (/Supreme Court/i.test(title)) c = { id: `mi-supreme-court${partial}`, office: "Michigan Supreme Court", level: "judicial", scope: { state: true }, partisan: false };
   else if (/Court of Appeals/i.test(title)) c = { id: `mi-coa-${n}${incumbentPos?.startsWith("Non") ? "-open" : ""}${partial}`, office: `Court of Appeals, ${ordinal(n)} District`, level: "judicial", scope: { coa: n }, partisan: false };
   else if (/Circuit Court/i.test(title)) c = { id: `mi-circuit-${n}${incumbentPos?.startsWith("Non") ? "-open" : ""}${partial}`, office: `Circuit Court, ${ordinal(n)} Circuit`, level: "judicial", scope: { circuit: n }, partisan: false };
-  else if (/District Court/i.test(title)) c = { id: `mi-district-court-${n}${incumbentPos?.startsWith("Non") ? "-open" : ""}${partial}`, office: `District Court, ${ordinal(n)} District`, level: "judicial", scope: { districtCourt: n }, partisan: false };
+  else if (/District Court/i.test(title)) {
+    // District courts are numbered like "10th" or lettered like "14A".
+    const dc = n ? String(n) : (title.match(/^(\d+[A-Z])\b/) || [, "?"])[1];
+    c = { id: `mi-district-court-${dc.toLowerCase()}${incumbentPos?.startsWith("Non") ? "-open" : ""}${partial}`, office: `District Court, ${n ? ordinal(n) : dc} District`, level: "judicial", scope: { districtCourt: dc }, partisan: false };
+  }
   else if (/Probate/i.test(title)) {
     const county = (title.match(/^([A-Z. ]+?) Judge of Probate/) || [, ""])[1];
     const name = county.toLowerCase().replace(/\b[a-z]/g, (x) => x.toUpperCase());
