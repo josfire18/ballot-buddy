@@ -1793,13 +1793,13 @@
  ],
  "proposals": [
   {
-   "id": "mi-26025-city-of-albion-1",
-   "title": "City of Albion proposal",
+   "id": "mi-26025-city-of-albion-proposed-amendment-to-section-10-6-a-of-the-charter-of-the-city-of-albion",
+   "title": "Proposed Amendment To Section 10.6(A) of the Charter of the City of Albion",
    "where": "City of Albion",
    "scope": {
     "city": "Albion"
    },
-   "text": "PROPOSED AMENDMENT TO SECTION 10.6(a) OF THE CHARTER OF THE CITY OF ALBION Section 10.6(a) requires the board of review to be composed of four (4) taxpayers of the city who have the qualifications for holding elective city office. The amendment would: (1) change the total board of review membership to three (3) taxpayers of the city who have the qualifications for holding elective city office. Should this proposal be adopted?"
+   "text": "Section 10.6(a) requires the board of review to be composed of four (4) taxpayers of the city who have the qualifications for holding elective city office. The amendment would: (1) change the total board of review membership to three (3) taxpayers of the city who have the qualifications for holding elective city office. Should this proposal be adopted?"
   },
   {
    "id": "mi-26025-city-of-albion-proposed-amendment-to-section-7-2-of-the-charter-of-the-city-of-albion",
@@ -1811,206 +1811,8 @@
    "text": "Section 7.2 requires the city manager to hold a bachelor’s degree and at least a master’s degree in public administration or equivalent. The amendment would: (1) remove the master’s degree requirement and replace it with a minimum of ten (10) years of public administration experience. Should this proposal be adopted?"
   },
   {
-   "id": "mi-26025-hastings-area-school-system-1",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "H"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-2",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "A"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-3",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "S"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-4",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "T"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-5",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "I"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-6",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "N"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-7",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "G"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-8",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "S"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-9",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "A"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-10",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "R"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-11",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "E"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-12",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "A"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-13",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "S"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-14",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "C"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-15",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "H"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-16",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "O"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-17",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "O"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-18",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "L"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-19",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "S"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-20",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "Y"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-21",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "S"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-22",
-   "title": "Hastings Area School System proposal",
-   "where": "Hastings Area School System",
-   "scope": {
-    "school": "Hastings Area School System"
-   },
-   "text": "T"
-  },
-  {
-   "id": "mi-26025-hastings-area-school-system-em-bond-proposal",
-   "title": "Em Bond Proposal",
+   "id": "mi-26025-hastings-area-school-system-hastings-area-school-system-bond-proposal",
+   "title": "Hastings Area School System Bond Proposal",
    "where": "Hastings Area School System",
    "scope": {
     "school": "Hastings Area School System"
