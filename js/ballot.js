@@ -86,13 +86,15 @@ export async function loadBallot(where, stateAbbr, V) {
       pickers.set(key, p);
       contest.picker = { key, value: c.scope.ward || c.scope.commissionDistrict };
     }
-    if (c.scope.school && schools.filter((s) => s.share >= 0.02).length > 1) {
+    if (c.scope.school && schools.length > 1) {
       const key = "school";
       const p = pickers.get(key) || { key, kind: "school", where: "school district", options: [] };
       if (!p.options.includes(c.where)) p.options.push(c.where);
+      p.shares = p.shares || {}; p.shares[c.where] = schoolShare(c.scope.school);
       pickers.set(key, p);
       contest.picker = { key, value: c.where };
     }
+    if (contest.picker) contest.coverage = 1; // once you pick your ward or district, the race is yours
     out.push(contest);
   };
 
@@ -102,7 +104,7 @@ export async function loadBallot(where, stateAbbr, V) {
 
   const ORDER = ["federal", "state", "legislative", "board", "judicial", "county", "city", "township", "village", "college", "school", "other"];
   out.sort((a, b) => ORDER.indexOf(a.level) - ORDER.indexOf(b.level));
-  for (const p of pickers.values()) p.options.sort((a, b) => (typeof a === "number" ? a - b : String(a).localeCompare(String(b))));
+  for (const p of pickers.values()) p.options.sort((a, b) => (typeof a === "number" ? a - b : p.shares ? (p.shares[b] || 0) - (p.shares[a] || 0) : String(a).localeCompare(String(b))));
 
   const covered = new Set(countyFiles.map((f) => f.fips));
   return {

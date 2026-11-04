@@ -147,10 +147,10 @@ export async function districtsForPlace(place) {
     q("sldu"), q("sldl"), q("county"), q("incorporated"), q("cousub"), q("school"), q("schoolSec"), q("schoolElem"),
   ]);
   if (!cds.length) throw new Error("No congressional district found for that place.");
-  const share = (feats) => {
+  const share = (feats, { min = 0.02, N = 36 } = {}) => {
     if (feats.length === 1) return [{ ...attrs(feats[0]), share: 1 }];
     const [x0, y0, x1, y1] = bbox(rings);
-    const N = 36, counts = new Map(), total = { n: 0 };
+    const counts = new Map(), total = { n: 0 };
     for (let i = 0; i < N; i++) for (let j = 0; j < N; j++) {
       const x = x0 + ((i + 0.5) / N) * (x1 - x0), y = y0 + ((j + 0.5) / N) * (y1 - y0);
       if (!inPolygon(x, y, rings)) continue;
@@ -160,13 +160,13 @@ export async function districtsForPlace(place) {
     }
     return feats
       .map((f) => ({ ...attrs(f), share: total.n ? (counts.get(f.attributes.GEOID) || 0) / total.n : 0 }))
-      .filter((d) => d.share >= 0.02)
+      .filter((d) => d.share >= min)
       .sort((a, b) => b.share - a.share);
   };
   const state = cds[0].attributes.STATE;
   return {
     state, congressional: share(cds), stateSenate: share(upper), stateHouse: share(lower),
-    jurisdictions: { counties: share(counties), places: share(inc), cousubs: share(cousub), schools: share([...school, ...schoolSec, ...schoolElem]) },
+    jurisdictions: { counties: share(counties), places: share(inc), cousubs: share(cousub), schools: share([...school, ...schoolSec, ...schoolElem], { min: 0.002, N: 90 }) },
   };
 }
 

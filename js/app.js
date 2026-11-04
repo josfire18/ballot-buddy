@@ -1,9 +1,9 @@
-import { searchPlaces, districtsForPlace, districtsForPoint, STATES } from "./geo.js?v=202611041904";
-import { houseRace, statewideRace, statewideRaceSpecs, summary, normName } from "./wiki.js?v=202611041904";
-import { profile, score, curatedFor } from "./match.js?v=202611041904";
-import { loadBallot } from "./ballot.js?v=202611041904";
+import { searchPlaces, districtsForPlace, districtsForPoint, STATES } from "./geo.js?v=202611041906";
+import { houseRace, statewideRace, statewideRaceSpecs, summary, normName } from "./wiki.js?v=202611041906";
+import { profile, score, curatedFor } from "./match.js?v=202611041906";
+import { loadBallot } from "./ballot.js?v=202611041906";
 
-const V = "202611041904"; // cache-busting version, set by tools/bump-version.sh
+const V = "202611041906"; // cache-busting version, set by tools/bump-version.sh
 // ---------- tiny helpers ----------
 const $ = (s, el = document) => el.querySelector(s);
 const ESC = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
@@ -255,7 +255,7 @@ function renderPicker(p, el) {
     ? `Ward races only show for your ward. ${p.map ? `Not sure? <a href="${safeUrl(p.map)}" rel="noopener">Check the ward map</a> or your` : "Check your"} <a href="${safeUrl(CURATED?.sampleBallotUrl || "https://www.vote411.org/ballot")}" rel="noopener">sample ballot</a>.`
     : `${esc(state.where.label)} is split between school districts. Your tax bill or <a href="${safeUrl(CURATED?.sampleBallotUrl || "https://www.vote411.org/ballot")}" rel="noopener">sample ballot</a> says which.`;
   el.innerHTML = `<div class="race-head"><h3>${esc(label)}</h3></div><p class="race-note">${help}</p>
-    <div class="choices picker-choices" role="group" aria-label="${esc(label)}">${p.options.map((o) => `<button type="button" class="chip-btn" data-choice="${esc(o)}" aria-pressed="${String(cur) === String(o)}">${p.kind === "ward" ? `Ward ${esc(o)}` : esc(o)}</button>`).join("")}</div>`;
+    <div class="choices picker-choices" role="group" aria-label="${esc(label)}">${p.options.map((o) => `<button type="button" class="chip-btn" data-choice="${esc(o)}" aria-pressed="${String(cur) === String(o)}">${p.kind === "ward" ? `Ward ${esc(o)}` : esc(o)}${p.shares?.[o] != null ? ` <span class="race-meta">(${p.shares[o] >= 0.01 ? `${Math.round(p.shares[o] * 100)}%` : "<1%"} of the area)</span>` : ""}</button>`).join("")}</div>`;
   el.querySelectorAll("[data-choice]").forEach((b) => b.addEventListener("click", () => {
     setChoice(p.key, String(cur) === b.dataset.choice ? undefined : b.dataset.choice);
     renderBallot();
