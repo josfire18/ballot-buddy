@@ -13,6 +13,9 @@ const LAYER = {
   cd: ["Legislative", 0],        // 120th Congress districts (elected Nov 2026)
   sldu: ["Legislative", 1],      // 2026 state senate
   sldl: ["Legislative", 2],      // 2026 state house
+  school: ["School", 0],         // current unified school districts
+  schoolSec: ["School", 1],
+  schoolElem: ["School", 2],
 };
 
 export const STATES = {
@@ -138,10 +141,10 @@ export async function districtsForPlace(place) {
   const geometry = JSON.stringify({ rings, spatialReference: { wkid: 4326 } });
   const spatial = { geometry, geometryType: "esriGeometryPolygon", inSR: "4326", spatialRel: "esriSpatialRelIntersects", outSR: "4326", maxAllowableOffset: "0.001" };
   const fields = "GEOID,STATE,BASENAME,NAME";
-  const [cds, upper, lower] = await Promise.all([
+  const q = (layer) => query(LAYER[layer], { ...spatial, outFields: fields, returnGeometry: "true" }, { post: true }).catch(() => []);
+  const [cds, upper, lower, counties, inc, cousub, school, schoolSec, schoolElem] = await Promise.all([
     query(LAYER.cd, { ...spatial, outFields: fields, returnGeometry: "true" }, { post: true }),
-    query(LAYER.sldu, { ...spatial, outFields: fields, returnGeometry: "true" }, { post: true }).catch(() => []),
-    query(LAYER.sldl, { ...spatial, outFields: fields, returnGeometry: "true" }, { post: true }).catch(() => []),
+    q("sldu"), q("sldl"), q("county"), q("incorporated"), q("cousub"), q("school"), q("schoolSec"), q("schoolElem"),
   ]);
   if (!cds.length) throw new Error("No congressional district found for that place.");
   const share = (feats) => {
@@ -161,18 +164,25 @@ export async function districtsForPlace(place) {
       .sort((a, b) => b.share - a.share);
   };
   const state = cds[0].attributes.STATE;
-  return { state, congressional: share(cds), stateSenate: share(upper), stateHouse: share(lower) };
+  return {
+    state, congressional: share(cds), stateSenate: share(upper), stateHouse: share(lower),
+    jurisdictions: { counties: share(counties), places: share(inc), cousubs: share(cousub), schools: share([...school, ...schoolSec, ...schoolElem]) },
+  };
 }
 
 /** Exact districts for a single point (from "Use my location"). */
 export async function districtsForPoint(lat, lon) {
   const spatial = { geometry: `${lon},${lat}`, geometryType: "esriGeometryPoint", inSR: "4326", spatialRel: "esriSpatialRelIntersects", outFields: "GEOID,STATE,BASENAME,NAME", returnGeometry: "false" };
-  const [cds, upper, lower] = await Promise.all([
-    query(LAYER.cd, spatial), query(LAYER.sldu, spatial).catch(() => []), query(LAYER.sldl, spatial).catch(() => []),
+  const q = (layer) => query(LAYER[layer], spatial).catch(() => []);
+  const [cds, upper, lower, counties, inc, cousub, school, schoolSec, schoolElem] = await Promise.all([
+    query(LAYER.cd, spatial), q("sldu"), q("sldl"), q("county"), q("incorporated"), q("cousub"), q("school"), q("schoolSec"), q("schoolElem"),
   ]);
   if (!cds.length) throw new Error("That location isn't inside a U.S. congressional district.");
   const one = (f) => f.map((x) => ({ ...attrs(x), share: 1 }));
-  return { state: cds[0].attributes.STATE, congressional: one(cds), stateSenate: one(upper), stateHouse: one(lower) };
+  return {
+    state: cds[0].attributes.STATE, congressional: one(cds), stateSenate: one(upper), stateHouse: one(lower),
+    jurisdictions: { counties: one(counties), places: one(inc), cousubs: one(cousub), schools: one([...school, ...schoolSec, ...schoolElem]) },
+  };
 }
 
 function attrs(f) {

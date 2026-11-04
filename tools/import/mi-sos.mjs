@@ -7,7 +7,7 @@ const WIKI = { "mi-governor": "governor", "mi-sos": "sos", "mi-ag": "ag", "us-se
 
 /** Turn the raw office header into a contest skeleton (id, office, scope...). */
 export function classify(raw) {
-  const header = raw.replace(/\s+Files In [A-Z .]+ County/i, "").replace(/\s*\(\d+\)\s*Position/i, "").replace(/\s+Position\s*$/i, "").trim();
+  const header = raw.replace(/\s+Files (In [A-Z .]+ County|With County)/i, "").replace(/Termss/, "Terms").replace(/\s*\(\d+\)\s*Position/i, "").replace(/\s+Position\s*$/i, "").trim();
   const voteFor = +(header.match(/\((\d+)\)s?\s*$/) || [, 1])[1];
   const clean = header.replace(/\s*\(\d+\)s?\s*$/, "");
   const term = (clean.match(/((?:\d+ Year Terms?)|(?:Partial Term[^)]*))$/i) || [, ""])[1].replace(/Terms$/, "Term");
@@ -32,7 +32,11 @@ export function classify(raw) {
   else if (/Court of Appeals/i.test(title)) c = { id: `mi-coa-${n}${incumbentPos?.startsWith("Non") ? "-open" : ""}${partial}`, office: `Court of Appeals, ${ordinal(n)} District`, level: "judicial", scope: { coa: n }, partisan: false };
   else if (/Circuit Court/i.test(title)) c = { id: `mi-circuit-${n}${incumbentPos?.startsWith("Non") ? "-open" : ""}${partial}`, office: `Circuit Court, ${ordinal(n)} Circuit`, level: "judicial", scope: { circuit: n }, partisan: false };
   else if (/District Court/i.test(title)) c = { id: `mi-district-court-${n}${incumbentPos?.startsWith("Non") ? "-open" : ""}${partial}`, office: `District Court, ${ordinal(n)} District`, level: "judicial", scope: { districtCourt: n }, partisan: false };
-  else if (/Probate/i.test(title)) c = { id: `mi-probate-${title.toLowerCase().replace(/[^a-z0-9]+/g, "-")}${partial}`, office: title, level: "judicial", scope: { unmapped: true }, partisan: false };
+  else if (/Probate/i.test(title)) {
+    const county = (title.match(/^([A-Z. ]+?) Judge of Probate/) || [, ""])[1];
+    const name = county.toLowerCase().replace(/\b[a-z]/g, (x) => x.toUpperCase());
+    c = { id: `mi-probate-${county.toLowerCase().replace(/[^a-z0-9]+/g, "-")}${incumbentPos?.startsWith("Non") ? "-open" : ""}${partial}`, office: `Probate Court, ${name} County`, level: "judicial", scope: county ? { countyName: name } : { unmapped: true }, partisan: false };
+  }
   else c = { id: `mi-${title.toLowerCase().replace(/[^a-z0-9]+/g, "-")}${partial}`, office: title, level: "other", scope: { unmapped: true } };
   if (incumbentPos) c.note = incumbentPos;
   if (partial) c.office += ` (${term.replace(/^Partial Term\s*-?\s*/i, "partial term, ").replace(/\s+/g, " ")})`;

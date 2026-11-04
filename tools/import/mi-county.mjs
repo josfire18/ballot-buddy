@@ -47,6 +47,8 @@ export function parseOffice(rawTitle, rawTerm, countyName) {
     } else { scope = { unmapped: true }; where = titleCase(j); }
   }
   if (/PROBATE|JUDGE/.test(office) && scope.county) level = "judicial";
+  const wardInOffice = office.match(/\s*\bWARD (\d+)\b/);
+  if (wardInOffice && !sub) { sub = wardInOffice[1]; office = office.replace(wardInOffice[0], "").trim(); }
   if (sub) {
     const n = +sub.replace(/\D/g, "");
     if (scope.city || scope.village || scope.township) { scope.ward = n; }
@@ -71,7 +73,8 @@ export async function importCounty(pdf, { url, fips, name }) {
       if (row.some((i) => i.size >= 13)) continue;
       const first = row[0];
       const text = row.filter((i) => i.across < 700).map((i) => i.s).join(" ");
-      if (first.across < 60 && first.size >= 9.5 && !/^Page \d|[AP]M$/.test(first.s)) {
+      if (/^Page \d+$|^\d+\/\d+\/\d{4} \d+:\d+:\d+ [AP]M$/.test(text)) continue;
+      if (first.across < 60 && first.size >= 9.5 && !/^Page \d|[AP]M$/.test(first.s) && (!inProposal || /PROPOSAL$/.test(text))) {
         cur = { title: row.filter((i) => i.across < 400).map((i) => i.s).join(" "), term: "", cands: [], body: [] };
         inProposal = /PROPOSAL/.test(cur.title);
         raw.push(cur);
@@ -94,15 +97,23 @@ export async function importCounty(pdf, { url, fips, name }) {
   for (const k of raw) {
     if (/PROPOSAL/.test(k.title)) {
       if (/^PROPOSAL$|^STATE PROPOSAL/.test(k.title)) continue; // statewide proposals are curated separately
-      const p = parseOffice(k.title.replace(/\s*PROPOSAL$/, ""), "", name);
-      proposals.push({ id: `mi-${fips}-${slug(k.title)}`, title: titleCase(k.title), where: p.where, scope: p.scope, text: k.body.join(" ").replace(/\s+/g, " ").trim() });
+      const juris = k.title.replace(/\s*PROPOSAL$/, "").trim();
+      const p = parseOffice(`X (${juris})`, "", name);
+      const text = k.body.join(" ").replace(/\s+/g, " ").replace(/ \u2019 /g, "\u2019").trim();
+      // One header can hold several questions ("PROPOSED AMENDMENT ... Should this proposal be adopted?").
+      const parts = text.split(/(?=PROPOSED AMENDMENT|[A-Z][A-Z .'-]+ (?:BOND|MILLAGE|OPERATING|SINKING FUND)[A-Z ]* PROPOSAL)/).map((t) => t.trim()).filter(Boolean);
+      parts.forEach((t, i) => {
+        const head = (t.match(/^([A-Z0-9 .,'()-]{8,}?)(?= [A-Z][a-z])/) || [, ""])[1].trim();
+        proposals.push({ id: `mi-${fips}-${slug(juris)}-${slug(head || String(i + 1))}`, title: head ? titleCase(head) : `${titleCase(juris)} proposal`, where: p.where, scope: p.scope, text: head ? t.slice(head.length).trim() : t });
+      });
       continue;
     }
     if (STATE_LEVEL.test(k.title)) continue;
     const p = parseOffice(k.title, k.term, name);
     const candidates = k.cands.filter((c) => !c.mate).map((c) => {
       const pr = PARTY[c.party];
-      const out = { name: c.name.replace(/\s+/g, " ").trim() };
+      const out = { name: c.name.replace(/\s*\(I\)\s*$/, "").replace(/\s+/g, " ").trim() };
+      if (/\(I\)\s*$/.test(c.name)) out.incumbent = true;
       if (pr && pr.code !== "N") { out.party = pr.code; out.partyLabel = pr.label; } else out.party = "N";
       if (/withdr/i.test(c.status) || c.wd) out.status = "withdrew";
       if (/disqual/i.test(c.status)) out.status = "disqualified";

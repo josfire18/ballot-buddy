@@ -1,14 +1,15 @@
-import { searchPlaces, districtsForPlace, districtsForPoint, STATES } from "./geo.js?v=202610270317";
-import { houseRace, statewideRace, statewideRaceSpecs, summary, normName } from "./wiki.js?v=202610270317";
-import { profile, score, curatedFor } from "./match.js?v=202610270317";
+import { searchPlaces, districtsForPlace, districtsForPoint, STATES } from "./geo.js?v=202611041902";
+import { houseRace, statewideRace, statewideRaceSpecs, summary, normName } from "./wiki.js?v=202611041902";
+import { profile, score, curatedFor } from "./match.js?v=202611041902";
+import { loadBallot } from "./ballot.js?v=202611041902";
 
-const V = "202610270317"; // cache-busting version, set by tools/bump-version.sh
+const V = "202611041902"; // cache-busting version, set by tools/bump-version.sh
 // ---------- tiny helpers ----------
 const $ = (s, el = document) => el.querySelector(s);
 const ESC = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ESC[c]);
 const safeUrl = (u) => (/^https:\/\//i.test(u || "") ? esc(u) : "#");
-const PARTY = { D: "Democrat", R: "Republican", L: "Libertarian", G: "Green", I: "Independent", O: "Other" };
+const PARTY = { D: "Democrat", R: "Republican", L: "Libertarian", G: "Green", I: "Independent", O: "Other", N: "Nonpartisan" };
 const STORE_KEY = "bb:v1";
 
 function load() { try { return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; } catch { return {}; } }
@@ -17,7 +18,7 @@ function toast(msg) { const t = $("#toast"); t.textContent = msg; t.classList.ad
 const debounce = (fn, ms) => { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; };
 
 let ISSUES, PRESETS, ENDORSERS, CURATED = null;
-const state = Object.assign({ answers: {}, importance: {}, dealbreakers: {}, picks: {}, preset: null }, load());
+const state = Object.assign({ answers: {}, importance: {}, dealbreakers: {}, picks: {}, choices: {}, preset: null }, load());
 let shared = null; // read-only ballot someone shared
 const races = new Map(); // id -> race data (with profiles)
 
@@ -98,11 +99,15 @@ async function pickPlace(p) {
   status.classList.remove("error"); status.textContent = `Finding the districts for ${p.label}…`;
   try {
     const d = await districtsForPlace(p);
-    await applyWhere({ label: p.label, sub: p.kind === "zcta" ? STATES[d.state]?.[1] : p.sub, exact: false, districts: d, cd: d.congressional[0].number });
+    await applyWhere({ label: p.label, sub: p.kind === "zcta" ? STATES[d.state]?.[1] : p.sub, exact: false, districts: d, cd: d.congressional[0].number, place: { kind: p.kind, layer: p.layer, id: p.id, label: p.label } });
   } catch (e) { status.classList.add("error"); status.textContent = e.message; }
 }
 
 async function applyWhere(where, { restoring = false } = {}) {
+  // Places saved by older versions don't know their county or school district yet; look them up again.
+  if (!where.districts.jurisdictions && where.place) {
+    try { const d = await districtsForPlace(where.place); where = { ...where, districts: d, cd: d.congressional.some((c) => c.number === where.cd) ? where.cd : d.congressional[0].number }; } catch {}
+  }
   const stateChanged = state.where?.districts?.state !== where.districts.state;
   state.where = where; save();
   $("#where-status").textContent = "";
@@ -189,7 +194,124 @@ function renderQuiz() {
 }
 
 // ---------- step 3: races ----------
+let BALLOT = null;
+const shownPickers = new Set();
+
 async function loadRaces() {
+  const wrap = $("#races");
+  const d = state.where.districts, abbr = STATES[d.state]?.[0];
+  wrap.innerHTML = `<p class="race-loading">Loading your ballot…</p>`;
+  BALLOT = d.jurisdictions ? await loadBallot(state.where, abbr, V).catch((e) => { console.error(e); return null; }) : null;
+  if (!BALLOT) return legacyLoadRaces();
+  races.clear();
+  renderBallot();
+  enrichFromWikipedia(); // endorsements, forecasts and bios, added as they arrive
+}
+
+function contestToRace(c) {
+  const note = CURATED?.contestNotes?.[c.id] || c.note || "";
+  return {
+    id: c.id, office: c.office, where: c.where || "", level: c.level, voteFor: c.voteFor || 1, partisan: c.partisan !== false,
+    coverage: c.coverage, picker: c.picker || null, note, wiki: c.wiki || null, scope: c.scope,
+    candidates: c.candidates.map((k) => { const cur = curatedFor(CURATED, k.name); return { ...k, party: k.party || "N", incumbent: k.incumbent || !!cur?.incumbent, curated: cur }; }),
+    endorsements: {}, ratings: [], source: c.source, wikiSource: null,
+  };
+}
+
+function renderBallot() {
+  const wrap = $("#races");
+  shownPickers.clear();
+  const html = [];
+  const notes = ballotNotes();
+  if (notes) html.push(notes);
+  for (const c of BALLOT.contests) {
+    if (c.picker && !shownPickers.has(c.picker.key)) {
+      shownPickers.add(c.picker.key);
+      html.push(`<article class="race picker-card" data-picker="${esc(c.picker.key)}"></article>`);
+    }
+    if (c.picker && choiceFor(c.picker.key) !== String(c.picker.value)) continue;
+    if (!races.has(c.id)) races.set(c.id, contestToRace(c));
+    html.push(`<article class="race" id="race-${esc(c.id)}" data-contest="${esc(c.id)}"></article>`);
+  }
+  const statewideProps = CURATED?.proposals || [];
+  for (const p of statewideProps) html.push(`<article class="race" id="race-${esc(p.id)}" data-contest="${esc(p.id)}"></article>`);
+  for (const p of BALLOT.proposals) html.push(`<article class="race" id="race-${esc(p.id)}" data-contest="${esc(p.id)}"></article>`);
+  wrap.innerHTML = html.join("");
+  wrap.querySelectorAll("[data-picker]").forEach((el) => renderPicker(BALLOT.pickers.find((p) => p.key === el.dataset.picker), el));
+  races.forEach((race) => { const el = $(`#race-${CSS.escape(race.id)}`); if (el) renderRace(race, el); });
+  statewideProps.forEach(renderProposal);
+  BALLOT.proposals.forEach(renderLocalProposal);
+  updateBallot();
+}
+
+const choiceFor = (key) => (state.choices || {})[`${state.where.label}|${key}`];
+function setChoice(key, v) { state.choices = state.choices || {}; state.choices[`${state.where.label}|${key}`] = v; save(); }
+
+function renderPicker(p, el) {
+  if (!p) return;
+  const cur = choiceFor(p.key);
+  const label = p.kind === "ward" ? `Which ward of the ${p.where} do you live in?` : p.kind === "school" ? `Which school district do you live in?` : `Which county commission district do you live in?`;
+  const help = p.kind === "ward"
+    ? `Ward races only show for your ward. ${p.map ? `Not sure? <a href="${safeUrl(p.map)}" rel="noopener">Check the ward map</a> or your` : "Check your"} <a href="${safeUrl(CURATED?.sampleBallotUrl || "https://www.vote411.org/ballot")}" rel="noopener">sample ballot</a>.`
+    : `${esc(state.where.label)} is split between school districts. Your tax bill or <a href="${safeUrl(CURATED?.sampleBallotUrl || "https://www.vote411.org/ballot")}" rel="noopener">sample ballot</a> says which.`;
+  el.innerHTML = `<div class="race-head"><h3>${esc(label)}</h3></div><p class="race-note">${help}</p>
+    <div class="choices picker-choices" role="group" aria-label="${esc(label)}">${p.options.map((o) => `<button type="button" class="chip-btn" data-choice="${esc(o)}" aria-pressed="${String(cur) === String(o)}">${p.kind === "ward" ? `Ward ${esc(o)}` : esc(o)}</button>`).join("")}</div>`;
+  el.querySelectorAll("[data-choice]").forEach((b) => b.addEventListener("click", () => {
+    setChoice(p.key, String(cur) === b.dataset.choice ? undefined : b.dataset.choice);
+    renderBallot();
+    $(`[data-picker="${CSS.escape(p.key)}"] [data-choice="${CSS.escape(b.dataset.choice)}"]`)?.focus();
+  }));
+}
+
+function ballotNotes() {
+  const parts = [];
+  const missing = BALLOT.counties.filter((c) => !c.covered && c.share >= 0.02);
+  if (missing.length) parts.push(`We have every federal, state and legislative race here, but not yet the local races (city, township, school, county) for ${esc(missing.map((c) => `${c.cname} County`).join(" and "))}. Check your <a href="${safeUrl(CURATED?.sampleBallotUrl || "https://www.vote411.org/ballot")}" rel="noopener">sample ballot</a> for those.`);
+  const results = BALLOT.counties.filter((c) => c.resultsUrl);
+  if (Date.now() > new Date("2026-11-04T04:00:00Z")) parts.push(`Election Day has passed. ${results.length ? results.map((c) => `<a href="${safeUrl(c.resultsUrl)}" rel="noopener">${esc(c.cname)} County results</a>`).join(" · ") : "Check your county clerk's site for results."}`);
+  return parts.length ? `<div class="ballot-notes">${parts.map((p) => `<p>${p}</p>`).join("")}</div>` : "";
+}
+
+// Wikipedia adds endorsements, forecasts and photos for the big races. It never decides who's on the ballot.
+async function enrichFromWikipedia() {
+  const stateName = STATES[state.where.districts.state]?.[1];
+  const specs = Object.fromEntries(statewideRaceSpecs(stateName).map((s) => [s.id, s]));
+  for (const race of races.values()) {
+    if (!race.wiki) continue;
+    try {
+      const w = race.wiki === "us-house" ? await houseRace(stateName, race.scope.cd) : specs[race.wiki] ? await statewideRace(race.wiki, race.office, specs[race.wiki].titles) : null;
+      if (!w || !races.has(race.id)) continue;
+      race.endorsements = w.endorsements || {};
+      race.ratings = w.ratings || [];
+      race.wikiSource = w.source;
+      for (const c of race.candidates) {
+        const m = w.candidates.find((x) => normName(x.name) === normName(c.name)) || w.candidates.find((x) => normName(x.name).split(" ").pop() === normName(c.name).split(" ").pop() && x.party === c.party);
+        if (m) { c.link = c.link || m.link; if (m.incumbent) c.incumbent = true; }
+      }
+      const el = $(`#race-${CSS.escape(race.id)}`);
+      if (el) renderRace(race, el);
+    } catch (e) { console.warn("Wikipedia enrichment skipped for", race.id, e); }
+  }
+}
+
+function renderLocalProposal(p) {
+  const el = $(`#race-${CSS.escape(p.id)}`);
+  if (!el) return;
+  const pick = state.picks[p.id]?.name;
+  el.innerHTML = `<div class="race-head"><h3>${esc(p.title)}</h3><span class="race-meta">${esc(p.where || "Local proposal")}</span></div>
+    ${p.coverage < 0.98 ? `<p class="race-note">Only on the ballot for part of ${esc(state.where.label)}.</p>` : ""}
+    <p class="prop-q">${esc(p.text)}</p>
+    <div class="prop-choice">${["Yes", "No"].map((v) => `<div class="prop-side"><button type="button" class="oval-btn" data-yn="${v}" aria-pressed="${pick === v}" aria-label="Vote ${v} on ${esc(p.title)}"><span class="oval"></span></button><div><strong>${v}</strong></div></div>`).join("")}</div>
+    <p class="race-note" style="padding-bottom:12px">Official text: <a href="${safeUrl(p.source?.url)}" rel="noopener">${esc(p.source?.title || "county clerk")}</a></p>`;
+  el.querySelectorAll("[data-yn]").forEach((b) => b.addEventListener("click", () => {
+    if (state.picks[p.id]?.name === b.dataset.yn) delete state.picks[p.id]; else state.picks[p.id] = { name: b.dataset.yn, office: p.title };
+    save(); renderLocalProposal(p); updateBallot();
+  }));
+}
+
+// States we don't have official data for yet: the original Wikipedia-only flow.
+async function legacyLoadRaces() {
+
   const wrap = $("#races");
   const d = state.where.districts, stateName = STATES[d.state]?.[1];
   const specs = [...statewideRaceSpecs(stateName), { id: "us-house", office: "U.S. House", house: true }];
@@ -197,8 +319,8 @@ async function loadRaces() {
   const order = ["us-senate", "us-senate-special", "governor", "us-house", "sos", "ag"];
   specs.sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id));
   wrap.innerHTML = specs.map((s) => `<article class="race" id="race-${s.id}" aria-busy="true"><div class="race-head"><h3>${esc(s.office)}</h3></div><p class="race-loading">Loading candidates…</p></article>`).join("")
-    + (CURATED?.extraRaces || []).map((r) => `<article class="race" id="race-${esc(r.id)}"></article>`).join("")
-    + (CURATED?.proposals || []).map((p) => `<article class="race" id="race-${esc(p.id)}"></article>`).join("");
+    + (CURATED?.extraRaces || []).map((r) => `<article class="race" id="race-${esc(r.id)}"${r.kind !== "info" ? ` data-contest="${esc(r.id)}"` : ""}></article>`).join("")
+    + (CURATED?.proposals || []).map((p) => `<article class="race" id="race-${esc(p.id)}" data-contest="${esc(p.id)}"></article>`).join("");
 
   (CURATED?.extraRaces || []).forEach(renderExtraRace);
   (CURATED?.proposals || []).forEach(renderProposal);
@@ -214,6 +336,7 @@ async function loadRaces() {
       }
       if (s.house) { race.id = `us-house-${state.where.cd}`; el.id = `race-${race.id}`; }
       race.candidates = race.candidates.map((c) => ({ ...c, curated: curatedFor(CURATED, c.name) }));
+      race.legacySource = race.source; delete race.source;
       races.set(race.id, race);
       renderRace(race, el);
     } catch (e) {
@@ -226,6 +349,10 @@ async function loadRaces() {
 }
 
 function endorsementsFor(race, c) {
+  const own = (c.curated?.endorsedBy || []).map((n) => ({ name: n, link: null, text: n }));
+  return own.concat(wikiEndorsements(race, c));
+}
+function wikiEndorsements(race, c) {
   const e = race.endorsements || {};
   const key = normName(c.name);
   if (e[key]) return e[key];
@@ -260,28 +387,51 @@ function relation(issue, v) {
   return Math.sign(u) === Math.sign(v) ? "agree" : "disagree";
 }
 
+const pickedNames = (pick) => pick?.names || (pick?.name ? [pick.name] : []);
+
 function renderRace(race, el) {
+  el.dataset.contest = race.id;
   const list = rank(profiles(race));
   const answered = Object.keys(state.answers).length > 0;
   const topPct = list[0]?.sc?.pct;
   const pick = state.picks[race.id];
+  const voteFor = race.voteFor || 1;
   const ratings = race.ratings?.length ? `<span class="race-meta">Forecast: ${esc(race.ratings[0].rating)} (${esc(race.ratings[0].source)})</span>` : "";
+  const local = !["federal", "state", "legislative", "board"].includes(race.level);
+  const meta = [local && race.where ? race.where : "", voteFor > 1 ? `Vote for up to ${voteFor}` : ""].filter(Boolean).join(" · ");
+  const partial = race.coverage != null && race.coverage < 0.98
+    ? `<p class="race-note">${race.scope?.sldl || race.scope?.sldu ? `About ${Math.round(race.coverage * 100)}% of ${esc(state.where.label)} is in this district.` : `Only part of ${esc(state.where.label)} votes in this race.`} Your sample ballot shows whether yours does.</p>` : "";
+  const uncontested = list.length <= voteFor && list.length > 0 ? `<p class="race-note">Uncontested: ${list.length === 1 ? "one candidate" : `${list.length} candidates`} for ${voteFor} seat${voteFor > 1 ? "s" : ""}.</p>` : "";
+  const empty = !list.length ? `<p class="race-note">No candidates filed for this office. You can write in a name.</p>` : "";
+  const sources = [
+    race.source?.url ? `Candidates: <a href="${safeUrl(race.source.url)}" rel="noopener">${esc(race.source.title)}</a>` : "",
+    race.wikiSource ? `endorsements and forecasts: <a href="${safeUrl(race.wikiSource.url)}" rel="noopener">${esc(race.wikiSource.title)}</a> on Wikipedia` : "",
+    race.legacySource ? `Candidates and endorsements: <a href="${safeUrl(race.legacySource.url)}" rel="noopener">${esc(race.legacySource.title)}</a> on Wikipedia` : "",
+  ].filter(Boolean).join("; ");
   el.innerHTML = `
-    <div class="race-head"><h3>${esc(race.office)}</h3>${ratings}</div>
-    ${!answered ? `<p class="race-note">Answer a few questions in step 2 to see match scores.</p>` : ""}
+    <div class="race-head"><h3>${esc(race.office)}</h3>${meta ? `<span class="race-meta">${esc(meta)}</span>` : ""}${ratings}</div>
+    ${race.note ? `<p class="race-note">${esc(race.note)}</p>` : ""}${partial}${uncontested}${empty}
+    ${!answered && list.some((p) => Object.keys(p.prof.stances).length) ? `<p class="race-note">Answer a few questions in step 2 to see match scores.</p>` : ""}
     <ul class="cands">${list.map((p, idx) => candRow(race, p, idx === 0 && answered && topPct != null && !p.deal.some((d) => d.basis !== "party"), pick)).join("")}</ul>
-    <div class="compare-toggle"><button type="button" class="linklike" data-compare aria-expanded="false">Compare side by side</button></div>
-    <div class="compare-wrap" hidden>${compareTable(list)}</div>
-    <p class="race-note" style="padding-bottom:12px">Candidates and endorsements: <a href="${safeUrl(race.source.url)}" rel="noopener">${esc(race.source.title)}</a> on Wikipedia.</p>`;
+    ${list.filter((p) => Object.keys(p.prof.stances).length).length > 1 ? `<div class="compare-toggle"><button type="button" class="linklike" data-compare aria-expanded="false">Compare side by side</button></div>
+    <div class="compare-wrap" hidden>${compareTable(list)}</div>` : ""}
+    ${sources ? `<p class="race-note" style="padding-bottom:12px">${sources}.</p>` : ""}`;
   el.querySelectorAll("[data-pick]").forEach((b) => b.addEventListener("click", () => {
     const name = b.dataset.pick;
-    state.picks[race.id] = state.picks[race.id]?.name === name ? undefined : { name, office: race.office, party: b.dataset.party };
-    if (!state.picks[race.id]) delete state.picks[race.id];
+    if (voteFor === 1) {
+      state.picks[race.id] = state.picks[race.id]?.name === name ? undefined : { name, office: race.office, party: b.dataset.party };
+      if (!state.picks[race.id]) delete state.picks[race.id];
+    } else {
+      const cur = new Set(pickedNames(state.picks[race.id]));
+      if (cur.has(name)) cur.delete(name);
+      else { if (cur.size >= voteFor) { toast(`You can pick up to ${voteFor} here. Remove one first.`); return; } cur.add(name); }
+      if (cur.size) state.picks[race.id] = { names: [...cur], office: race.office }; else delete state.picks[race.id];
+    }
     save(); renderRace(race, el); updateBallot();
     el.querySelector(`[data-pick="${CSS.escape(name)}"]`)?.focus();
-    if (state.picks[race.id]) toast(`Added ${name} to your ballot.`);
+    if (pickedNames(state.picks[race.id]).includes(name)) toast(`Added ${name} to your ballot.`);
   }));
-  el.querySelector("[data-compare]").addEventListener("click", (e) => {
+  el.querySelector("[data-compare]")?.addEventListener("click", (e) => {
     const w = el.querySelector(".compare-wrap"); w.hidden = !w.hidden;
     e.target.setAttribute("aria-expanded", String(!w.hidden)); e.target.textContent = w.hidden ? "Compare side by side" : "Hide comparison";
   });
@@ -289,7 +439,11 @@ function renderRace(race, el) {
 }
 
 function candRow(race, { c, prof, sc, deal }, isTop, pick) {
-  const picked = pick?.name === c.name;
+  const picked = pickedNames(pick).includes(c.name);
+  const partyText = c.party === "N" ? "" : (c.party === "O" || c.party === "I") && c.partyLabel ? c.partyLabel : PARTY[c.party];
+  const hasStances = Object.keys(prof.stances).length > 0;
+  const known = !!(c.curated?.blurb || hasStances || prof.tags.length || c.link);
+  const searchUrl = `https://duckduckgo.com/?q=${encodeURIComponent(`"${c.name}" ${race.office.replace(/\s*\(.*\)$/, "")} ${race.where || ""} ${state.where.label}`)}`;
   const pct = sc?.pct;
   const band = pct == null ? "" : pct >= 70 ? "" : pct >= 50 ? "mid" : "low";
   // Badges: issues the person answered first (most important first), else strongest stances.
@@ -307,22 +461,23 @@ function candRow(race, { c, prof, sc, deal }, isTop, pick) {
       <button type="button" class="oval-btn" data-pick="${esc(c.name)}" data-party="${esc(c.party)}" aria-pressed="${picked}" aria-label="${picked ? "Remove" : "Pick"} ${esc(c.name)} for ${esc(race.office)}"><span class="oval"></span></button>
       <div>
         <div class="cand-name">${esc(c.name)}</div>
-        <div class="cand-sub"><span class="party party-${esc(c.party)}">${esc(c.partyLabel && c.party === "O" ? c.partyLabel : PARTY[c.party])}</span>
+        <div class="cand-sub">${partyText ? `<span class="party party-${esc(c.party)}">${esc(partyText)}</span>` : ""}
           ${c.incumbent ? "<span>Incumbent</span>" : ""}${c.runningMate || c.curated?.running_mate ? `<span>with ${esc(c.runningMate || c.curated.running_mate)}</span>` : ""}
           ${isTop ? `<span class="top-pick">Your closest match</span>` : ""}</div>
+        ${c.curated?.blurb ? `<p class="cand-blurb">${esc(c.curated.blurb)}</p>` : !known ? `<p class="cand-blurb muted">We haven't found a public bio or candidate questionnaire yet. <a href="${safeUrl(searchUrl)}" rel="noopener">Search the web</a></p>` : ""}
       </div>
       ${pct != null ? `<div class="match ${band}" aria-label="${pct}% match"><div class="match-pct">${pct}%</div><div class="match-bar"><i style="width:${pct}%"></i></div><div class="match-sub">${sc.byRecord ? `${sc.byRecord} on record` : "estimated"}</div></div>` : `<div></div>`}
     </div>
     <ul class="verdicts">${dealHtml}${!badges.length && !deal.length && (c.party === "D" || c.party === "R") ? `<li class="verdict"><i class="basis basis-party"></i>No record found yet; tap below for typical ${c.party === "D" ? "Democratic" : "Republican"} positions</li>` : ""}${badges.map(([iss, s]) => `<li class="verdict ${relation(iss, s.value)}" title="${esc(s.summary)}"><i class="basis basis-${s.basis}"></i>${esc(labelFor(iss, s.value))}</li>`).join("")}</ul>
-    ${!Object.keys(prof.stances).length && !prof.tags.length && !c.curated && !c.link ? "" : `<details class="more" data-link="${esc(c.link || "")}" data-name="${esc(c.name)}">
-      <summary>Where ${esc(c.name.split(" ").slice(-1)[0])} stands</summary>
+    ${!hasStances && !prof.tags.length && !c.curated?.sources?.length && !c.link ? "" : `<details class="more" data-link="${esc(c.link || "")}" data-name="${esc(c.name)}">
+      <summary>${hasStances ? `Where ${esc(c.name.split(" ").slice(-1)[0])} stands` : "More about this candidate"}</summary>
       <div class="more-body">
-        <div class="bio" data-bio>${c.curated?.blurb ? `<p>${esc(c.curated.blurb)}</p>` : ""}</div>
-        <ul class="stance-list">${ISSUES.map((q) => {
+        <div class="bio" data-bio></div>
+        ${!hasStances ? "" : `<ul class="stance-list">${ISSUES.map((q) => {
           const s = prof.stances[q.id];
           if (!s) return `<li class="stance"><span class="stance-issue"><i class="basis" style="opacity:.3"></i>${esc(q.short)}</span><span class="stance-text"><span>No record found.</span></span></li>`;
           return `<li class="stance ${relation(q.id, s.value)}"><span class="stance-issue"><i class="basis basis-${s.basis}"></i>${esc(q.short)}</span><span class="stance-text"><strong>${esc(labelFor(q.id, s.value))}</strong><span>${esc(s.summary)}</span></span></li>`;
-        }).join("")}</ul>
+        }).join("")}</ul>`}
         ${prof.tags.length ? `<h4>Endorsed by</h4><ul class="tags">${prof.tags.map((t) => `<li class="tag" title="${esc(t.examples.join(", "))}">${esc(t.label)}${t.examples.length > 1 || t.examples[0] !== t.label ? `: ${esc(t.examples.slice(0, 3).join(", "))}` : ""}</li>`).join("")}</ul>` : ""}
         ${c.curated?.sources?.length ? `<h4>Sources</h4><ul class="sources">${c.curated.sources.map((s) => `<li><a href="${safeUrl(s.url)}" rel="noopener">${esc(s.title)}</a></li>`).join("")}</ul>` : ""}
       </div>
@@ -402,11 +557,9 @@ function renderProposal(p) {
 // ---------- my ballot ----------
 function ballotRows() {
   const rows = [];
-  document.querySelectorAll("#races .race").forEach((el) => {
-    const id = el.id.replace(/^race-/, "");
+  document.querySelectorAll("#races .race[data-contest]").forEach((el) => {
+    const id = el.dataset.contest;
     const h = el.querySelector("h3"); if (!h) return;
-    const extra = CURATED?.extraRaces?.find((r) => r.id === id);
-    if (extra?.kind === "info") return;
     rows.push({ id, office: h.textContent, pick: state.picks[id] });
   });
   return rows;
@@ -427,7 +580,9 @@ function wireBallot() {
   $("#print-ballot").addEventListener("click", () => window.print());
   $("#clear-ballot").addEventListener("click", () => {
     if (!Object.keys(state.picks).length) return;
-    state.picks = {}; save(); rerankAll();
+    state.picks = {}; save();
+    if (BALLOT) { renderBallot(); toast("Picks cleared."); return; }
+    rerankAll();
     (CURATED?.extraRaces || []).forEach((r) => r.kind !== "info" && renderExtraRace(r));
     (CURATED?.proposals || []).forEach(renderProposal);
     updateBallot(); toast("Picks cleared.");

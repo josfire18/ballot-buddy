@@ -17,15 +17,31 @@ function cacheSet(key, d) {
   try { localStorage.setItem(key, JSON.stringify({ t: Date.now(), d })); } catch {}
 }
 
+// Wikipedia rate-limits bursts (HTTP 429), so requests go out one at a time and back off on 429.
+let queue = Promise.resolve();
+function politeFetch(url) {
+  const run = async () => {
+    for (let attempt = 0; attempt < 4; attempt++) {
+      const res = await fetch(url);
+      if (res.status !== 429 && res.status < 500) return res;
+      await new Promise((r) => setTimeout(r, 800 * 2 ** attempt));
+    }
+    throw new Error("Wikipedia is busy right now");
+  };
+  const p = queue.then(run, run);
+  queue = p.catch(() => {});
+  return p;
+}
+
 export async function wikitext(title) {
   const key = `bb:wt:${title}`;
   const hit = cacheGet(key);
   if (hit !== undefined) return hit;
   const url = `${API}?action=parse&page=${encodeURIComponent(title)}&prop=wikitext|revid&format=json&formatversion=2&redirects=1&origin=*`;
-  const res = await fetch(url);
+  const res = await politeFetch(url);
   const json = await res.json();
   const out = json.error ? null : { text: json.parse.wikitext, title: json.parse.title, revid: json.parse.revid };
-  cacheSet(key, out);
+  cacheSet(key, out); // only reached on a real answer; failures throw and aren't cached
   return out;
 }
 
@@ -34,7 +50,7 @@ export async function summary(title) {
   const hit = cacheGet(key);
   if (hit !== undefined) return hit;
   try {
-    const res = await fetch(REST + encodeURIComponent(title.replace(/ /g, "_")));
+    const res = await politeFetch(REST + encodeURIComponent(title.replace(/ /g, "_")));
     if (!res.ok) { cacheSet(key, null); return null; }
     const j = await res.json();
     const out = j.type === "disambiguation" ? null : { extract: j.extract, description: j.description, thumb: j.thumbnail?.source || null, url: j.content_urls?.desktop?.page };
