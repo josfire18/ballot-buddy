@@ -1,8 +1,6 @@
 name: Import official ballot data
 
 on:
-  push:
-    branches: [import-pipeline] # temporary: lets the branch test itself
   workflow_dispatch:
     inputs:
       states:
