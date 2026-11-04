@@ -1,0 +1,14 @@
+{
+  "name": "ballot-buddy",
+  "private": true,
+  "type": "module",
+  "description": "Static voter guide. The site itself has no build step; Node is only used by the data importers in tools/import.",
+  "scripts": {
+    "import": "node tools/import/run.mjs",
+    "check": "node tools/import/check.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "pdfjs-dist": "4.10.38"
+  }
+}
