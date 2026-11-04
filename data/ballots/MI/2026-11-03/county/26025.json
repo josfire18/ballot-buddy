@@ -207,19 +207,17 @@
     "coa": 3
    },
    "position": "Incumbent position",
-   "partisan": true,
+   "partisan": false,
    "candidates": [
     {
      "name": "Mark T. Boonstra",
      "incumbent": true,
-     "party": "I",
-     "partyLabel": "No party affiliation"
+     "party": "N"
     },
     {
      "name": "Daniel S. Korobkin",
      "incumbent": true,
-     "party": "I",
-     "partyLabel": "No party affiliation"
+     "party": "N"
     }
    ],
    "note": "Incumbent position"
@@ -238,13 +236,12 @@
     "circuit": 37
    },
    "position": "Incumbent position",
-   "partisan": true,
+   "partisan": false,
    "candidates": [
     {
      "name": "Sarah S. Lincoln",
      "incumbent": true,
-     "party": "I",
-     "partyLabel": "No party affiliation"
+     "party": "N"
     }
    ],
    "note": "Incumbent position"
@@ -260,22 +257,20 @@
    "voteFor": 2,
    "term": "6 Year Term",
    "court": {
-    "districtCourt": 10
+    "districtCourt": "10"
    },
    "position": "Incumbent position",
-   "partisan": true,
+   "partisan": false,
    "candidates": [
     {
      "name": "Paul K. Beardslee",
      "incumbent": true,
-     "party": "I",
-     "partyLabel": "No party affiliation"
+     "party": "N"
     },
     {
      "name": "Michelle L. Richardson",
      "incumbent": true,
-     "party": "I",
-     "partyLabel": "No party affiliation"
+     "party": "N"
     }
    ],
    "note": "Incumbent position"

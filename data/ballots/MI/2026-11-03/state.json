@@ -5976,7 +5976,7 @@
    "office": "District Court, 1st District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 1
+    "districtCourt": "1"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -5990,83 +5990,16 @@
    "voteFor": 1,
    "term": "6 Year Term",
    "partisan": false,
-   "id": "mi-district-court-0",
-   "office": "District Court, 0th District",
+   "id": "mi-district-court-2a",
+   "office": "District Court, 2A District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 0
+    "districtCourt": "2A"
    },
    "note": "Incumbent position",
    "candidates": [
     {
      "name": "Todd M. Morgan",
-     "incumbent": true
-    },
-    {
-     "name": "Megan R.M. Stiverson",
-     "incumbent": true
-    },
-    {
-     "name": "Brent R. Weigle",
-     "incumbent": true
-    },
-    {
-     "name": "Anna Maria Frushour",
-     "incumbent": true
-    },
-    {
-     "name": "Erane C. Washington",
-     "incumbent": true
-    },
-    {
-     "name": "Rebekah Ruth Coleman",
-     "incumbent": true
-    },
-    {
-     "name": "Annemarie Marino Lepore",
-     "incumbent": true
-    },
-    {
-     "name": "Jacob Michael Femminineo Jr.",
-     "incumbent": true
-    },
-    {
-     "name": "Stacia Buchanan",
-     "incumbent": true
-    },
-    {
-     "name": "Adrianne K. Van Langevelde",
-     "incumbent": true
-    },
-    {
-     "name": "Pablo Cortes",
-     "incumbent": true
-    },
-    {
-     "name": "Amanda H. Sterkenburg",
-     "incumbent": true
-    },
-    {
-     "name": "Raymond Peter Voet",
-     "incumbent": true
-    },
-    {
-     "name": "Adam James Eggleston",
-     "incumbent": true
-    },
-    {
-     "name": "Andrew M. Stevens",
-     "incumbent": true
-    },
-    {
-     "name": "Jason E. Bitzer",
-     "incumbent": true
-    },
-    {
-     "name": "Craig S. Datz"
-    },
-    {
-     "name": "Julie Ann LaCost",
      "incumbent": true
     }
    ]
@@ -6075,31 +6008,52 @@
    "voteFor": 1,
    "term": "6 Year Term",
    "partisan": false,
-   "id": "mi-district-court-0-open",
-   "office": "District Court, 0th District",
+   "id": "mi-district-court-2b",
+   "office": "District Court, 2B District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 0
+    "districtCourt": "2B"
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Megan R.M. Stiverson",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-3a",
+   "office": "District Court, 3A District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "3A"
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Brent R. Weigle",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-3b-open",
+   "office": "District Court, 3B District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "3B"
    },
    "note": "Non-incumbent position",
    "candidates": [
     {
      "name": "Tim George"
-    },
-    {
-     "name": "Laura M. Bever"
-    },
-    {
-     "name": "David N. Richardson"
-    },
-    {
-     "name": "Maureen Flanigan Salayko"
-    },
-    {
-     "name": "Jeffrey T. Rogg"
-    },
-    {
-     "name": "Alexander Sieminski"
     }
    ]
   },
@@ -6111,7 +6065,7 @@
    "office": "District Court, 4th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 4
+    "districtCourt": "4"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6129,7 +6083,7 @@
    "office": "District Court, 5th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 5
+    "districtCourt": "5"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6147,7 +6101,7 @@
    "office": "District Court, 5th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 5
+    "districtCourt": "5"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -6167,7 +6121,7 @@
    "office": "District Court, 7th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 7
+    "districtCourt": "7"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -6184,7 +6138,7 @@
    "office": "District Court, 8th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 8
+    "districtCourt": "8"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6202,7 +6156,7 @@
    "office": "District Court, 8th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 8
+    "districtCourt": "8"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -6222,7 +6176,7 @@
    "office": "District Court, 10th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 10
+    "districtCourt": "10"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6244,7 +6198,7 @@
    "office": "District Court, 12th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 12
+    "districtCourt": "12"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6265,7 +6219,7 @@
    "office": "District Court, 12th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 12
+    "districtCourt": "12"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -6281,11 +6235,47 @@
    "voteFor": 1,
    "term": "6 Year Term",
    "partisan": false,
+   "id": "mi-district-court-14a",
+   "office": "District Court, 14A District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "14A"
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Anna Maria Frushour",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-14b",
+   "office": "District Court, 14B District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "14B"
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Erane C. Washington",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
    "id": "mi-district-court-15",
    "office": "District Court, 15th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 15
+    "districtCourt": "15"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6303,7 +6293,7 @@
    "office": "District Court, 16th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 16
+    "districtCourt": "16"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6321,7 +6311,7 @@
    "office": "District Court, 17th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 17
+    "districtCourt": "17"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6339,7 +6329,7 @@
    "office": "District Court, 18th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 18
+    "districtCourt": "18"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6357,7 +6347,7 @@
    "office": "District Court, 19th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 19
+    "districtCourt": "19"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6375,7 +6365,7 @@
    "office": "District Court, 20th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 20
+    "districtCourt": "20"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6393,7 +6383,7 @@
    "office": "District Court, 21st District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 21
+    "districtCourt": "21"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -6410,7 +6400,7 @@
    "office": "District Court, 23rd District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 23
+    "districtCourt": "23"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6428,7 +6418,7 @@
    "office": "District Court, 24th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 24
+    "districtCourt": "24"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6446,7 +6436,7 @@
    "office": "District Court, 25th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 25
+    "districtCourt": "25"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -6466,7 +6456,7 @@
    "office": "District Court, 28th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 28
+    "districtCourt": "28"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6484,7 +6474,7 @@
    "office": "District Court, 31st District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 31
+    "districtCourt": "31"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6498,11 +6488,29 @@
    "voteFor": 1,
    "term": "6 Year Term",
    "partisan": false,
+   "id": "mi-district-court-32a",
+   "office": "District Court, 32A District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "32A"
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Rebekah Ruth Coleman",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
    "id": "mi-district-court-34",
    "office": "District Court, 34th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 34
+    "districtCourt": "34"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6520,7 +6528,7 @@
    "office": "District Court, 35th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 35
+    "districtCourt": "35"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6538,7 +6546,7 @@
    "office": "District Court, 36th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 36
+    "districtCourt": "36"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6576,7 +6584,7 @@
    "office": "District Court, 36th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 36
+    "districtCourt": "36"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -6602,7 +6610,7 @@
    "office": "District Court, 36th District (partial term, Ending 01/01/2031s)",
    "level": "judicial",
    "scope": {
-    "districtCourt": 36
+    "districtCourt": "36"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6628,7 +6636,7 @@
    "office": "District Court, 37th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 37
+    "districtCourt": "37"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6646,7 +6654,7 @@
    "office": "District Court, 38th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 38
+    "districtCourt": "38"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6667,7 +6675,7 @@
    "office": "District Court, 39th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 39
+    "districtCourt": "39"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -6687,7 +6695,7 @@
    "office": "District Court, 40th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 40
+    "districtCourt": "40"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6701,11 +6709,47 @@
    "voteFor": 1,
    "term": "6 Year Term",
    "partisan": false,
+   "id": "mi-district-court-41a",
+   "office": "District Court, 41A District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "41A"
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Annemarie Marino Lepore",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-41b",
+   "office": "District Court, 41B District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "41B"
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Jacob Michael Femminineo Jr.",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
    "id": "mi-district-court-42",
    "office": "District Court, 42nd District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 42
+    "districtCourt": "42"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6723,7 +6767,7 @@
    "office": "District Court, 43rd District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 43
+    "districtCourt": "43"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6741,7 +6785,7 @@
    "office": "District Court, 45th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 45
+    "districtCourt": "45"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6759,7 +6803,7 @@
    "office": "District Court, 46th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 46
+    "districtCourt": "46"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6777,7 +6821,7 @@
    "office": "District Court, 47th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 47
+    "districtCourt": "47"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -6797,7 +6841,7 @@
    "office": "District Court, 48th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 48
+    "districtCourt": "48"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6815,7 +6859,7 @@
    "office": "District Court, 50th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 50
+    "districtCourt": "50"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6837,7 +6881,7 @@
    "office": "District Court, 51st District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 51
+    "districtCourt": "51"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -6857,7 +6901,7 @@
    "office": "District Court, 52nd District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 52
+    "districtCourt": "52"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6887,7 +6931,7 @@
    "office": "District Court, 53rd District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 53
+    "districtCourt": "53"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6901,11 +6945,29 @@
    "voteFor": 1,
    "term": "6 Year Term",
    "partisan": false,
+   "id": "mi-district-court-54a",
+   "office": "District Court, 54A District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "54A"
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Stacia Buchanan",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
    "id": "mi-district-court-55",
    "office": "District Court, 55th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 55
+    "districtCourt": "55"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6917,13 +6979,31 @@
   },
   {
    "voteFor": 1,
-   "term": "Partial Term - 2 Years Ending 01/01/2029",
+   "term": "6 Year Term",
    "partisan": false,
-   "id": "mi-district-court-0-partial",
-   "office": "District Court, 0th District (partial term, 2 Years Ending 01/01/2029)",
+   "id": "mi-district-court-56a",
+   "office": "District Court, 56A District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 0
+    "districtCourt": "56A"
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Adrianne K. Van Langevelde",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "Partial Term - 2 Years Ending 01/01/2029",
+   "partisan": false,
+   "id": "mi-district-court-56a-partial",
+   "office": "District Court, 56A District (partial term, 2 Years Ending 01/01/2029)",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "56A"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6941,7 +7021,7 @@
    "office": "District Court, 57th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 57
+    "districtCourt": "57"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -6961,7 +7041,7 @@
    "office": "District Court, 57th District (partial term, Ending 01/01/2031)",
    "level": "judicial",
    "scope": {
-    "districtCourt": 57
+    "districtCourt": "57"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -6982,7 +7062,7 @@
    "office": "District Court, 58th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 58
+    "districtCourt": "58"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7007,7 +7087,7 @@
    "office": "District Court, 60th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 60
+    "districtCourt": "60"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7029,7 +7109,7 @@
    "office": "District Court, 61st District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 61
+    "districtCourt": "61"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7047,11 +7127,47 @@
    "voteFor": 1,
    "term": "6 Year Term",
    "partisan": false,
+   "id": "mi-district-court-62a",
+   "office": "District Court, 62A District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "62A"
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Pablo Cortes",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-62b",
+   "office": "District Court, 62B District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "62B"
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Amanda H. Sterkenburg",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
    "id": "mi-district-court-63",
    "office": "District Court, 63rd District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 63
+    "districtCourt": "63"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7069,7 +7185,7 @@
    "office": "District Court, 63rd District (partial term, Ending 01/01/2029)",
    "level": "judicial",
    "scope": {
-    "districtCourt": 63
+    "districtCourt": "63"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7083,11 +7199,82 @@
    "voteFor": 1,
    "term": "6 Year Term",
    "partisan": false,
+   "id": "mi-district-court-64a",
+   "office": "District Court, 64A District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "64A"
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Raymond Peter Voet",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-64b",
+   "office": "District Court, 64B District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "64B"
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Adam James Eggleston",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-65a",
+   "office": "District Court, 65A District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "65A"
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Andrew M. Stevens",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-65b-open",
+   "office": "District Court, 65B District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "65B"
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Laura M. Bever"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
    "id": "mi-district-court-67",
    "office": "District Court, 67th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 67
+    "districtCourt": "67"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7121,7 +7308,7 @@
    "office": "District Court, 67th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 67
+    "districtCourt": "67"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -7141,7 +7328,7 @@
    "office": "District Court, 70th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 70
+    "districtCourt": "70"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7159,11 +7346,52 @@
    "voteFor": 1,
    "term": "6 Year Term",
    "partisan": false,
+   "id": "mi-district-court-71a-open",
+   "office": "District Court, 71A District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "71A"
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "David N. Richardson"
+    },
+    {
+     "name": "Maureen Flanigan Salayko"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-71b",
+   "office": "District Court, 71B District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "71B"
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Jason E. Bitzer",
+     "incumbent": true
+    },
+    {
+     "name": "Craig S. Datz"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
    "id": "mi-district-court-72",
    "office": "District Court, 72nd District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 72
+    "districtCourt": "72"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7181,7 +7409,7 @@
    "office": "District Court, 74th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 74
+    "districtCourt": "74"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -7201,7 +7429,7 @@
    "office": "District Court, 75th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 75
+    "districtCourt": "75"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7219,7 +7447,7 @@
    "office": "District Court, 76th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 76
+    "districtCourt": "76"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7237,7 +7465,7 @@
    "office": "District Court, 77th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 77
+    "districtCourt": "77"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7255,7 +7483,7 @@
    "office": "District Court, 78th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 78
+    "districtCourt": "78"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7273,7 +7501,7 @@
    "office": "District Court, 79th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 79
+    "districtCourt": "79"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7291,7 +7519,7 @@
    "office": "District Court, 80th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 80
+    "districtCourt": "80"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7309,7 +7537,7 @@
    "office": "District Court, 82nd District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 82
+    "districtCourt": "82"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7327,7 +7555,7 @@
    "office": "District Court, 84th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 84
+    "districtCourt": "84"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7345,7 +7573,7 @@
    "office": "District Court, 89th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 89
+    "districtCourt": "89"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7363,7 +7591,7 @@
    "office": "District Court, 90th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 90
+    "districtCourt": "90"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7381,7 +7609,7 @@
    "office": "District Court, 92nd District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 92
+    "districtCourt": "92"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -7399,7 +7627,7 @@
    "office": "District Court, 94th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 94
+    "districtCourt": "94"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -7415,11 +7643,49 @@
    "voteFor": 1,
    "term": "6 Year Term",
    "partisan": false,
+   "id": "mi-district-court-95a-open",
+   "office": "District Court, 95A District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "95A"
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Jeffrey T. Rogg"
+    },
+    {
+     "name": "Alexander Sieminski"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-95b",
+   "office": "District Court, 95B District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": "95B"
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Julie Ann LaCost",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
    "id": "mi-district-court-96-open",
    "office": "District Court, 96th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 96
+    "districtCourt": "96"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -7439,7 +7705,7 @@
    "office": "District Court, 97th District",
    "level": "judicial",
    "scope": {
-    "districtCourt": 97
+    "districtCourt": "97"
    },
    "note": "Incumbent position",
    "candidates": [
