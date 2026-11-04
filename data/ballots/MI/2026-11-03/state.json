@@ -5669,13 +5669,13 @@
   },
   {
    "voteFor": 1,
-   "term": "",
+   "term": "6 Year Term",
    "partisan": false,
-   "id": "mi-probate-berrien-judge-of-probate-court-incumbent-6-year-term-files-with-county",
-   "office": "BERRIEN Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "id": "mi-probate-berrien",
+   "office": "Probate Court, Berrien County",
    "level": "judicial",
    "scope": {
-    "unmapped": true
+    "countyName": "Berrien"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -5687,13 +5687,13 @@
   },
   {
    "voteFor": 1,
-   "term": "",
+   "term": "6 Year Term",
    "partisan": false,
-   "id": "mi-probate-chippewa-judge-of-probate-court-incumbent-6-year-term-files-with-county",
-   "office": "CHIPPEWA Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "id": "mi-probate-chippewa",
+   "office": "Probate Court, Chippewa County",
    "level": "judicial",
    "scope": {
-    "unmapped": true
+    "countyName": "Chippewa"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -5705,13 +5705,13 @@
   },
   {
    "voteFor": 1,
-   "term": "",
+   "term": "6 Year Term",
    "partisan": false,
-   "id": "mi-probate-genesee-judge-of-probate-court-non-incumbent-6-year-term-files-with-county",
-   "office": "GENESEE Judge of Probate Court Non-Incumbent 6 Year Term Files With County",
+   "id": "mi-probate-genesee-open",
+   "office": "Probate Court, Genesee County",
    "level": "judicial",
    "scope": {
-    "unmapped": true
+    "countyName": "Genesee"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -5725,13 +5725,13 @@
   },
   {
    "voteFor": 1,
-   "term": "",
+   "term": "6 Year Term",
    "partisan": false,
-   "id": "mi-probate-huron-judge-of-probate-court-incumbent-6-year-term-files-with-county",
-   "office": "HURON Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "id": "mi-probate-huron",
+   "office": "Probate Court, Huron County",
    "level": "judicial",
    "scope": {
-    "unmapped": true
+    "countyName": "Huron"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -5746,13 +5746,13 @@
   },
   {
    "voteFor": 1,
-   "term": "",
+   "term": "6 Year Term",
    "partisan": false,
-   "id": "mi-probate-ingham-judge-of-probate-court-incumbent-6-year-term-files-with-county",
-   "office": "INGHAM Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "id": "mi-probate-ingham",
+   "office": "Probate Court, Ingham County",
    "level": "judicial",
    "scope": {
-    "unmapped": true
+    "countyName": "Ingham"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -5764,13 +5764,13 @@
   },
   {
    "voteFor": 1,
-   "term": "",
+   "term": "6 Year Term",
    "partisan": false,
-   "id": "mi-probate-kalamazoo-judge-of-probate-court-incumbent-6-year-term-files-with-county",
-   "office": "KALAMAZOO Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "id": "mi-probate-kalamazoo",
+   "office": "Probate Court, Kalamazoo County",
    "level": "judicial",
    "scope": {
-    "unmapped": true
+    "countyName": "Kalamazoo"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -5782,13 +5782,13 @@
   },
   {
    "voteFor": 1,
-   "term": "",
+   "term": "6 Year Term",
    "partisan": false,
-   "id": "mi-probate-kent-judge-of-probate-court-incumbent-6-year-term-files-with-county",
-   "office": "KENT Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "id": "mi-probate-kent",
+   "office": "Probate Court, Kent County",
    "level": "judicial",
    "scope": {
-    "unmapped": true
+    "countyName": "Kent"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -5800,13 +5800,13 @@
   },
   {
    "voteFor": 1,
-   "term": "",
+   "term": "6 Year Term",
    "partisan": false,
-   "id": "mi-probate-macomb-judge-of-probate-court-incumbent-6-year-term-files-with-county",
-   "office": "MACOMB Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "id": "mi-probate-macomb",
+   "office": "Probate Court, Macomb County",
    "level": "judicial",
    "scope": {
-    "unmapped": true
+    "countyName": "Macomb"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -5818,13 +5818,13 @@
   },
   {
    "voteFor": 1,
-   "term": "",
+   "term": "6 Year Term",
    "partisan": false,
-   "id": "mi-probate-monroe-judge-of-probate-court-incumbent-6-year-term-files-with-county",
-   "office": "MONROE Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "id": "mi-probate-monroe",
+   "office": "Probate Court, Monroe County",
    "level": "judicial",
    "scope": {
-    "unmapped": true
+    "countyName": "Monroe"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -5836,13 +5836,13 @@
   },
   {
    "voteFor": 1,
-   "term": "Partial Term Ending 01/01/2029 Files With County",
+   "term": "Partial Term Ending 01/01/2029",
    "partisan": false,
-   "id": "mi-probate-oakland-judge-of-probate-court-incumbent-partial",
-   "office": "OAKLAND Judge of Probate Court Incumbent (partial term, Ending 01/01/2029 Files With County)",
+   "id": "mi-probate-oakland-partial",
+   "office": "Probate Court, Oakland County (partial term, Ending 01/01/2029)",
    "level": "judicial",
    "scope": {
-    "unmapped": true
+    "countyName": "Oakland"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -5854,13 +5854,13 @@
   },
   {
    "voteFor": 1,
-   "term": "",
+   "term": "6 Year Term",
    "partisan": false,
-   "id": "mi-probate-oakland-judge-of-probate-court-non-incumbent-6-year-term-files-with-county",
-   "office": "OAKLAND Judge of Probate Court Non-Incumbent 6 Year Term Files With County",
+   "id": "mi-probate-oakland-open",
+   "office": "Probate Court, Oakland County",
    "level": "judicial",
    "scope": {
-    "unmapped": true
+    "countyName": "Oakland"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -5874,13 +5874,13 @@
   },
   {
    "voteFor": 1,
-   "term": "",
+   "term": "6 Year Term",
    "partisan": false,
-   "id": "mi-probate-saginaw-judge-of-probate-court-incumbent-6-year-term-files-with-county",
-   "office": "SAGINAW Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "id": "mi-probate-saginaw",
+   "office": "Probate Court, Saginaw County",
    "level": "judicial",
    "scope": {
-    "unmapped": true
+    "countyName": "Saginaw"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -5892,13 +5892,13 @@
   },
   {
    "voteFor": 1,
-   "term": "",
+   "term": "6 Year Term",
    "partisan": false,
-   "id": "mi-probate-st-clair-judge-of-probate-court-incumbent-6-year-term-files-with-county",
-   "office": "ST. CLAIR Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "id": "mi-probate-st-clair",
+   "office": "Probate Court, St. Clair County",
    "level": "judicial",
    "scope": {
-    "unmapped": true
+    "countyName": "St. Clair"
    },
    "note": "Incumbent position",
    "candidates": [
@@ -5910,13 +5910,13 @@
   },
   {
    "voteFor": 1,
-   "term": "",
+   "term": "6 Year Term",
    "partisan": false,
-   "id": "mi-probate-sanilac-judge-of-probate-court-non-incumbent-6-year-term-files-with-county",
-   "office": "SANILAC Judge of Probate Court Non-Incumbent 6 Year Term Files With County",
+   "id": "mi-probate-sanilac-open",
+   "office": "Probate Court, Sanilac County",
    "level": "judicial",
    "scope": {
-    "unmapped": true
+    "countyName": "Sanilac"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -5927,13 +5927,13 @@
   },
   {
    "voteFor": 1,
-   "term": "",
+   "term": "6 Year Term",
    "partisan": false,
-   "id": "mi-probate-washtenaw-judge-of-probate-court-non-incumbent-6-year-term-files-with-county",
-   "office": "WASHTENAW Judge of Probate Court Non-Incumbent 6 Year Term Files With County",
+   "id": "mi-probate-washtenaw-open",
+   "office": "Probate Court, Washtenaw County",
    "level": "judicial",
    "scope": {
-    "unmapped": true
+    "countyName": "Washtenaw"
    },
    "note": "Non-incumbent position",
    "candidates": [
@@ -5949,11 +5949,11 @@
    "voteFor": 1,
    "term": "",
    "partisan": false,
-   "id": "mi-probate-wayne-judge-of-probate-court-non-incumbent-6-year-termss-files-with-county",
-   "office": "WAYNE Judge of Probate Court Non-Incumbent 6 Year Termss Files With County",
+   "id": "mi-probate-wayne-open",
+   "office": "Probate Court, Wayne County",
    "level": "judicial",
    "scope": {
-    "unmapped": true
+    "countyName": "Wayne"
    },
    "note": "Non-incumbent position",
    "candidates": [
