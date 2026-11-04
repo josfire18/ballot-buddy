@@ -1,0 +1,7453 @@
+{
+ "schema": 1,
+ "state": "MI",
+ "election": "2026-11-03",
+ "electionName": "November 3, 2026 General Election",
+ "source": {
+  "title": "Michigan Department of State, Official Candidate Listing (offices certified by the Board of State Canvassers)",
+  "url": "https://elections.calhouncountymi.gov/November2026/docs/Official%20State%20Candidate%20List%20Nov.3.2026%20General.pdf"
+ },
+ "contests": [
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-governor",
+   "office": "Governor and Lieutenant Governor",
+   "level": "state",
+   "scope": {
+    "state": true
+   },
+   "ticket": true,
+   "wiki": "governor",
+   "candidates": [
+    {
+     "name": "Jocelyn Benson",
+     "party": "D",
+     "partyLabel": "Democratic",
+     "runningMate": "Winnie Brinks"
+    },
+    {
+     "name": "John James",
+     "party": "R",
+     "partyLabel": "Republican",
+     "runningMate": "Jay DeBoyer"
+    },
+    {
+     "name": "Anthony Hudson",
+     "party": "L",
+     "partyLabel": "Libertarian",
+     "runningMate": "Beau Parmenter"
+    },
+    {
+     "name": "Donna Brandenburg",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers",
+     "runningMate": "Robert Donald Cowper II"
+    },
+    {
+     "name": "Douglas Campbell",
+     "party": "G",
+     "partyLabel": "Green",
+     "runningMate": "Bobbie Clay"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-sos",
+   "office": "Secretary of State",
+   "level": "state",
+   "scope": {
+    "state": true
+   },
+   "wiki": "sos",
+   "candidates": [
+    {
+     "name": "Garlin Gilchrist II",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Anthony G. Forlini",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Christine Sloan",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    },
+    {
+     "name": "Scott E. Aughney",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers"
+    },
+    {
+     "name": "Eric Borregard",
+     "party": "G",
+     "partyLabel": "Green"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-ag",
+   "office": "Attorney General",
+   "level": "state",
+   "scope": {
+    "state": true
+   },
+   "wiki": "ag",
+   "candidates": [
+    {
+     "name": "Eli Savit",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Doug Lloyd",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Jason Dye",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    },
+    {
+     "name": "John Perry Ludtke Jr.",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers"
+    },
+    {
+     "name": "Jeff Polonowski",
+     "party": "G",
+     "partyLabel": "Green"
+    },
+    {
+     "name": "Doug Dern",
+     "party": "O",
+     "partyLabel": "Natural Law"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": true,
+   "id": "us-senate",
+   "office": "U.S. Senate",
+   "level": "federal",
+   "scope": {
+    "state": true
+   },
+   "wiki": "us-senate",
+   "candidates": [
+    {
+     "name": "Abdul El-Sayed",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Mike Rogers",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Lydia Christensen",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    },
+    {
+     "name": "Tim Long",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers"
+    },
+    {
+     "name": "Douglas P. Marsh",
+     "party": "G",
+     "partyLabel": "Green"
+    },
+    {
+     "name": "Walter P. Kristy",
+     "party": "O",
+     "partyLabel": "Natural Law"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "us-house-1",
+   "office": "U.S. House, 1st District",
+   "level": "federal",
+   "scope": {
+    "cd": 1
+   },
+   "wiki": "us-house",
+   "candidates": [
+    {
+     "name": "Callie Barr",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Jack Bergman",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Arnett Satterla",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    },
+    {
+     "name": "Doc Kovaly",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers"
+    },
+    {
+     "name": "LaVeta Davenport",
+     "party": "G",
+     "partyLabel": "Green"
+    },
+    {
+     "name": "Liz Hakola",
+     "party": "O",
+     "partyLabel": "Working Class"
+    },
+    {
+     "name": "Zebulon Featherly",
+     "party": "I",
+     "partyLabel": "No party affiliation"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "us-house-2",
+   "office": "U.S. House, 2nd District",
+   "level": "federal",
+   "scope": {
+    "cd": 2
+   },
+   "wiki": "us-house",
+   "candidates": [
+    {
+     "name": "Ben Ambrose",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "John Moolenaar",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Charlotte Magoon",
+     "party": "G",
+     "partyLabel": "Green"
+    },
+    {
+     "name": "Richard Sills",
+     "party": "O",
+     "partyLabel": "Natural Law"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "us-house-3",
+   "office": "U.S. House, 3rd District",
+   "level": "federal",
+   "scope": {
+    "cd": 3
+   },
+   "wiki": "us-house",
+   "candidates": [
+    {
+     "name": "Hillary Scholten",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Terri DeBoer",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Joe Jock",
+     "party": "G",
+     "partyLabel": "Green"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "us-house-4",
+   "office": "U.S. House, 4th District",
+   "level": "federal",
+   "scope": {
+    "cd": 4
+   },
+   "wiki": "us-house",
+   "candidates": [
+    {
+     "name": "Sean McCann",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Bill Huizenga",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Shafina Che Barnett",
+     "party": "G",
+     "partyLabel": "Green"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "us-house-5",
+   "office": "U.S. House, 5th District",
+   "level": "federal",
+   "scope": {
+    "cd": 5
+   },
+   "wiki": "us-house",
+   "candidates": [
+    {
+     "name": "Christian Vukasovich",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Tim Walberg",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Ronald A Muszynski",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    },
+    {
+     "name": "Sharon Marie Renier",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers"
+    },
+    {
+     "name": "Jim Bronke",
+     "party": "G",
+     "partyLabel": "Green"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "us-house-6",
+   "office": "U.S. House, 6th District",
+   "level": "federal",
+   "scope": {
+    "cd": 6
+   },
+   "wiki": "us-house",
+   "candidates": [
+    {
+     "name": "Debbie Dingell",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Heather Smiley",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Timothy A. Teagan",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    },
+    {
+     "name": "Mike Mickevicius",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers"
+    },
+    {
+     "name": "Clyde Shabazz",
+     "party": "G",
+     "partyLabel": "Green"
+    },
+    {
+     "name": "Linda Rayburn",
+     "party": "O",
+     "partyLabel": "Working Class"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "us-house-7",
+   "office": "U.S. House, 7th District",
+   "level": "federal",
+   "scope": {
+    "cd": 7
+   },
+   "wiki": "us-house",
+   "candidates": [
+    {
+     "name": "William Lawrence",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Tom Barrett",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Shane Dedrick",
+     "party": "G",
+     "partyLabel": "Green"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "us-house-8",
+   "office": "U.S. House, 8th District",
+   "level": "federal",
+   "scope": {
+    "cd": 8
+   },
+   "wiki": "us-house",
+   "candidates": [
+    {
+     "name": "Kristen McDonald Rivet",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Thomas J. Smith",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "C. Mia Pettus",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    },
+    {
+     "name": "Jim Casha",
+     "party": "G",
+     "partyLabel": "Green"
+    },
+    {
+     "name": "Kathy Goodwin",
+     "party": "O",
+     "partyLabel": "Working Class"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "us-house-9",
+   "office": "U.S. House, 9th District",
+   "level": "federal",
+   "scope": {
+    "cd": 9
+   },
+   "wiki": "us-house",
+   "candidates": [
+    {
+     "name": "Ray Pooley",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Lisa McClain",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Kevin Vayko",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    },
+    {
+     "name": "John Vlahos",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers"
+    },
+    {
+     "name": "Destiny Clayton",
+     "party": "G",
+     "partyLabel": "Green"
+    },
+    {
+     "name": "Jim Walkowicz",
+     "party": "O",
+     "partyLabel": "Working Class"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "us-house-10",
+   "office": "U.S. House, 10th District",
+   "level": "federal",
+   "scope": {
+    "cd": 10
+   },
+   "wiki": "us-house",
+   "candidates": [
+    {
+     "name": "Christina Bertrand Hines",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Michael Bouchard",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Mike Saliba",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    },
+    {
+     "name": "Kwabena Nkromo",
+     "party": "G",
+     "partyLabel": "Green"
+    },
+    {
+     "name": "Andrea L. Kirby",
+     "party": "O",
+     "partyLabel": "Working Class"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "us-house-11",
+   "office": "U.S. House, 11th District",
+   "level": "federal",
+   "scope": {
+    "cd": 11
+   },
+   "wiki": "us-house",
+   "candidates": [
+    {
+     "name": "Jeremy Moss",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Ethan Baker",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Farid Ishac",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    },
+    {
+     "name": "Ryan Teasdale",
+     "party": "G",
+     "partyLabel": "Green"
+    },
+    {
+     "name": "Anil Kumar",
+     "party": "I",
+     "partyLabel": "No party affiliation"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "us-house-12",
+   "office": "U.S. House, 12th District",
+   "level": "federal",
+   "scope": {
+    "cd": 12
+   },
+   "wiki": "us-house",
+   "candidates": [
+    {
+     "name": "Rashida Tlaib",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "James D. Hooper",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Marc Joseph Sosnowski",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers"
+    },
+    {
+     "name": "Brenda K. Sanders",
+     "party": "G",
+     "partyLabel": "Green"
+    },
+    {
+     "name": "Gary Walkowicz",
+     "party": "O",
+     "partyLabel": "Working Class"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "us-house-13",
+   "office": "U.S. House, 13th District",
+   "level": "federal",
+   "scope": {
+    "cd": 13
+   },
+   "wiki": "us-house",
+   "candidates": [
+    {
+     "name": "Donavan McKinney",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "T.P. Nykoriak",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Chris Dardzinski",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers"
+    },
+    {
+     "name": "Raelyn Light",
+     "party": "G",
+     "partyLabel": "Green"
+    },
+    {
+     "name": "Simone R. Coleman",
+     "party": "O",
+     "partyLabel": "Working Class"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-1",
+   "office": "State Senate, 1st District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 1
+   },
+   "candidates": [
+    {
+     "name": "Justin Onwenu",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Patrick O'Connell",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-2",
+   "office": "State Senate, 2nd District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 2
+   },
+   "candidates": [
+    {
+     "name": "Abbas Alawieh",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Harry Sawicki",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Larry Darnell Betts",
+     "party": "O",
+     "partyLabel": "Working Class"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-3",
+   "office": "State Senate, 3rd District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 3
+   },
+   "candidates": [
+    {
+     "name": "John Conyers III",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Mark Ashley Price",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "David Roehrig",
+     "party": "O",
+     "partyLabel": "Working Class"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-4",
+   "office": "State Senate, 4th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 4
+   },
+   "candidates": [
+    {
+     "name": "Darrin Camilleri",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Marcie Grzywacz",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Beth Ann Socia",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers"
+    },
+    {
+     "name": "Walter Willis",
+     "party": "O",
+     "partyLabel": "Working Class"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-5",
+   "office": "State Senate, 5th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 5
+   },
+   "candidates": [
+    {
+     "name": "Matt Koleszar",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Estelle Oliansky",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-6",
+   "office": "State Senate, 6th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 6
+   },
+   "candidates": [
+    {
+     "name": "Mary Cavanagh",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Joi Pokerwinski",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-7",
+   "office": "State Senate, 7th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 7
+   },
+   "candidates": [
+    {
+     "name": "Jason Hoskins",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Anthony Paesano",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-8",
+   "office": "State Senate, 8th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 8
+   },
+   "candidates": [
+    {
+     "name": "Dayna Polehanki",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Kenneth D. Massey",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-9",
+   "office": "State Senate, 9th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 9
+   },
+   "candidates": [
+    {
+     "name": "Theresa Brooks",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Michael Webber",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Jacob R. Schodowski",
+     "party": "O",
+     "partyLabel": "Working Class"
+    },
+    {
+     "name": "Philippe M. Cicchini",
+     "party": "I",
+     "partyLabel": "No party affiliation"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-10",
+   "office": "State Senate, 10th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 10
+   },
+   "candidates": [
+    {
+     "name": "Natalie Price",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Michelle Nard",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-11",
+   "office": "State Senate, 11th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 11
+   },
+   "candidates": [
+    {
+     "name": "Veronica Klinefelt",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Johnnie S. Townsend",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-12",
+   "office": "State Senate, 12th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 12
+   },
+   "candidates": [
+    {
+     "name": "Kevin Hertel",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "John Goldwater",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-13",
+   "office": "State Senate, 13th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 13
+   },
+   "candidates": [
+    {
+     "name": "Sean Carlson",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Ryan Berman",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-14",
+   "office": "State Senate, 14th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 14
+   },
+   "candidates": [
+    {
+     "name": "Sue Shink",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Tawn Shawnelle Beliger",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-15",
+   "office": "State Senate, 15th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 15
+   },
+   "candidates": [
+    {
+     "name": "Felicia Brabec",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Jason Rogers",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-16",
+   "office": "State Senate, 16th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 16
+   },
+   "candidates": [
+    {
+     "name": "Deandre Barnes",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Joseph Bellino Jr.",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-17",
+   "office": "State Senate, 17th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 17
+   },
+   "candidates": [
+    {
+     "name": "Ashleigh Baker",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Jonathan Lindsey",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-18",
+   "office": "State Senate, 18th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 18
+   },
+   "candidates": [
+    {
+     "name": "Anthony Pennock",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Thomas A. Albert",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-19",
+   "office": "State Senate, 19th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 19
+   },
+   "candidates": [
+    {
+     "name": "Julie M. Rogers",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Shaun Young",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-20",
+   "office": "State Senate, 20th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 20
+   },
+   "candidates": [
+    {
+     "name": "Dale Murney",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Chris Moraitis",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Shamara Clay",
+     "party": "G",
+     "partyLabel": "Green"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-21",
+   "office": "State Senate, 21st District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 21
+   },
+   "candidates": [
+    {
+     "name": "Sarah Anthony",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Josh Burns",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-22",
+   "office": "State Senate, 22nd District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 22
+   },
+   "candidates": [
+    {
+     "name": "Robert Hower",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Mike Murphy",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-23",
+   "office": "State Senate, 23rd District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 23
+   },
+   "candidates": [
+    {
+     "name": "Greg Hill",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Donni Steele",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-24",
+   "office": "State Senate, 24th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 24
+   },
+   "candidates": [
+    {
+     "name": "Edlira Sako",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Douglas Chester Wozniak",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-25",
+   "office": "State Senate, 25th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 25
+   },
+   "candidates": [
+    {
+     "name": "April L. Osentoski",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Andrew Beeler",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-26",
+   "office": "State Senate, 26th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 26
+   },
+   "candidates": [
+    {
+     "name": "Brendan J. Johnson",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Matthew Bierlein",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-27",
+   "office": "State Senate, 27th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 27
+   },
+   "candidates": [
+    {
+     "name": "John D. Cherry",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Bill Bain",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-28",
+   "office": "State Senate, 28th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 28
+   },
+   "candidates": [
+    {
+     "name": "Rashida Harrison",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Julie L. DeRose",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Brandon Crabill",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    },
+    {
+     "name": "Wes Peterson",
+     "party": "O",
+     "partyLabel": "Working Class"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-29",
+   "office": "State Senate, 29th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 29
+   },
+   "candidates": [
+    {
+     "name": "Abbie Groff-Blaszak",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Brady A. Middleton",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-30",
+   "office": "State Senate, 30th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 30
+   },
+   "candidates": [
+    {
+     "name": "Carol Glanville",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Mark E. Huizenga",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-31",
+   "office": "State Senate, 31st District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 31
+   },
+   "candidates": [
+    {
+     "name": "Chris Kleinjans",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "John Wetzel",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-32",
+   "office": "State Senate, 32nd District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 32
+   },
+   "candidates": [
+    {
+     "name": "Rebecca Amidon",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Kim Cole",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-33",
+   "office": "State Senate, 33rd District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 33
+   },
+   "candidates": [
+    {
+     "name": "Stan Opal",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Gina Johnsen",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-34",
+   "office": "State Senate, 34th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 34
+   },
+   "candidates": [
+    {
+     "name": "Tyler Landgraf",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Roger Hauck",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-35",
+   "office": "State Senate, 35th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 35
+   },
+   "candidates": [
+    {
+     "name": "Chedrick Greene",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Jason Tunney",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Laurie Atwood",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-36",
+   "office": "State Senate, 36th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 36
+   },
+   "candidates": [
+    {
+     "name": "Mark W. Yonkman",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Michele Hoitenga",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-37",
+   "office": "State Senate, 37th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 37
+   },
+   "candidates": [
+    {
+     "name": "Kate Gallup",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "John Damoose",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "4 Year Term",
+   "partisan": true,
+   "id": "mi-senate-38",
+   "office": "State Senate, 38th District",
+   "level": "legislative",
+   "scope": {
+    "sldu": 38
+   },
+   "candidates": [
+    {
+     "name": "Kelli J. Van Ginhoven",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "David Prestin",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Sara Cambensy",
+     "party": "I",
+     "partyLabel": "No party affiliation"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-1",
+   "office": "State House, 1st District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 1
+   },
+   "candidates": [
+    {
+     "name": "Tyrone Carter",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Valerie Whittaker",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-2",
+   "office": "State House, 2nd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 2
+   },
+   "candidates": [
+    {
+     "name": "Joanna Whaley",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Ron Kokinda",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-3",
+   "office": "State House, 3rd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 3
+   },
+   "candidates": [
+    {
+     "name": "Alabas Farhat",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Gus Tarraf",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-4",
+   "office": "State House, 4th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 4
+   },
+   "candidates": [
+    {
+     "name": "Regina Ross",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Everett Davis",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-5",
+   "office": "State House, 5th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 5
+   },
+   "candidates": [
+    {
+     "name": "Candace Calloway",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Chris Venable",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-6",
+   "office": "State House, 6th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 6
+   },
+   "candidates": [
+    {
+     "name": "Melanie Macey",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Mike Steger",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-7",
+   "office": "State House, 7th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 7
+   },
+   "candidates": [
+    {
+     "name": "Tonya Myers Phillips",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Reginald Moorer",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-8",
+   "office": "State House, 8th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 8
+   },
+   "candidates": [
+    {
+     "name": "Chris Gilmer-Hill",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Bruce P. Langran",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Stephen Boyle",
+     "party": "G",
+     "partyLabel": "Green"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-9",
+   "office": "State House, 9th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 9
+   },
+   "candidates": [
+    {
+     "name": "Willie Burton",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Michele Lundgren",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Jahdante John Elijah Smith",
+     "party": "G",
+     "partyLabel": "Green"
+    },
+    {
+     "name": "Logan Ausherman",
+     "party": "O",
+     "partyLabel": "Working Class"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-10",
+   "office": "State House, 10th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 10
+   },
+   "candidates": [
+    {
+     "name": "Veronica Paiz",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Peter Ochs",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Piper Willow Smith",
+     "party": "O",
+     "partyLabel": "Working Class"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-11",
+   "office": "State House, 11th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 11
+   },
+   "candidates": [
+    {
+     "name": "Kimberly Fisher",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Matthew Stafford",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-12",
+   "office": "State House, 12th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 12
+   },
+   "candidates": [
+    {
+     "name": "Kimberly L. Edwards",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Randell J. Shafer",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-13",
+   "office": "State House, 13th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 13
+   },
+   "candidates": [
+    {
+     "name": "Mai Xiong",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Mark Thomas Foster",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-14",
+   "office": "State House, 14th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 14
+   },
+   "candidates": [
+    {
+     "name": "Mike McFall",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Larry Szyska",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Jeff Sparling",
+     "party": "G",
+     "partyLabel": "Green"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-15",
+   "office": "State House, 15th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 15
+   },
+   "candidates": [
+    {
+     "name": "Jalal Abdallah",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Hassan H Nehme",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-16",
+   "office": "State House, 16th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 16
+   },
+   "candidates": [
+    {
+     "name": "Stephanie A. Young",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Brian M. Duggan",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-17",
+   "office": "State House, 17th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 17
+   },
+   "candidates": [
+    {
+     "name": "Laurie Pohutsky",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Ken Crider",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-18",
+   "office": "State House, 18th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 18
+   },
+   "candidates": [
+    {
+     "name": "Kelly Garrett",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Ryan Foster",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-19",
+   "office": "State House, 19th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 19
+   },
+   "candidates": [
+    {
+     "name": "Samantha Steckloff",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Kevin J. Hammer",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-20",
+   "office": "State House, 20th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 20
+   },
+   "candidates": [
+    {
+     "name": "Noah Arbit",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "S. David Sullivan",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-21",
+   "office": "State House, 21st District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 21
+   },
+   "candidates": [
+    {
+     "name": "Kelly Breen",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Ross Barranco",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-22",
+   "office": "State House, 22nd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 22
+   },
+   "candidates": [
+    {
+     "name": "Lisa McIntyre",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Casey J. Noce",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-23",
+   "office": "State House, 23rd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 23
+   },
+   "candidates": [
+    {
+     "name": "Jason Morgan",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Miriam Corvino",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Christina Marudas",
+     "party": "G",
+     "partyLabel": "Green"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-24",
+   "office": "State House, 24th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 24
+   },
+   "candidates": [
+    {
+     "name": "Ranjeev Puri",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Allison Kay Fuller",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-25",
+   "office": "State House, 25th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 25
+   },
+   "candidates": [
+    {
+     "name": "Peter Herzberg",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Dawn Udell",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-26",
+   "office": "State House, 26th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 26
+   },
+   "candidates": [
+    {
+     "name": "Dylan Wegela",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Chris Dobis",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-27",
+   "office": "State House, 27th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 27
+   },
+   "candidates": [
+    {
+     "name": "Jaime Churches",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Rylee Linting",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-28",
+   "office": "State House, 28th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 28
+   },
+   "candidates": [
+    {
+     "name": "Sherry A. Berecz",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Jamie Thompson",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-29",
+   "office": "State House, 29th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 29
+   },
+   "candidates": [
+    {
+     "name": "Darian Counts",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "James DeSana",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-30",
+   "office": "State House, 30th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 30
+   },
+   "candidates": [
+    {
+     "name": "Omar G. Ferdin",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "William Bruck",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-31",
+   "office": "State House, 31st District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 31
+   },
+   "candidates": [
+    {
+     "name": "Shannon Dare Wayne",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Laura M. Perry",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-32",
+   "office": "State House, 32nd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 32
+   },
+   "candidates": [
+    {
+     "name": "Jimmie Wilson Jr.",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Mike Eller",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "John R. Tatar",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers"
+    },
+    {
+     "name": "Ryan Sample",
+     "party": "G",
+     "partyLabel": "Green"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-33",
+   "office": "State House, 33rd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 33
+   },
+   "candidates": [
+    {
+     "name": "Morgan Foreman",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Catherine Rogers",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-34",
+   "office": "State House, 34th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 34
+   },
+   "candidates": [
+    {
+     "name": "John Dahlgren",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Nancy Jenkins-Arno",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-35",
+   "office": "State House, 35th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 35
+   },
+   "candidates": [
+    {
+     "name": "Jeff Cooley",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Jennifer Wortz",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-36",
+   "office": "State House, 36th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 36
+   },
+   "candidates": [
+    {
+     "name": "Cole Slaski",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Steve Carra",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-37",
+   "office": "State House, 37th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 37
+   },
+   "candidates": [
+    {
+     "name": "Angela M. Jones",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Brad Paquette",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-38",
+   "office": "State House, 38th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 38
+   },
+   "candidates": [
+    {
+     "name": "Joey Andrews",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Mark Krieger",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Jett Newton",
+     "party": "G",
+     "partyLabel": "Green"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-39",
+   "office": "State House, 39th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 39
+   },
+   "candidates": [
+    {
+     "name": "Kerry Tapper",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Pauline Wendzel",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Jared Polonowski",
+     "party": "G",
+     "partyLabel": "Green"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-40",
+   "office": "State House, 40th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 40
+   },
+   "candidates": [
+    {
+     "name": "Matt Longjohn",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Robert M. Sitarski",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-41",
+   "office": "State House, 41st District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 41
+   },
+   "candidates": [
+    {
+     "name": "Jen Strebs",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Nicole C. Sabel",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Rafael Wolf",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-42",
+   "office": "State House, 42nd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 42
+   },
+   "candidates": [
+    {
+     "name": "Nick Rowe",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Matt Hall",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-43",
+   "office": "State House, 43rd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 43
+   },
+   "candidates": [
+    {
+     "name": "Alan Swank",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Rachelle Smit",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-44",
+   "office": "State House, 44th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 44
+   },
+   "candidates": [
+    {
+     "name": "Jim Haadsma",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Steve Frisbie",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-45",
+   "office": "State House, 45th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 45
+   },
+   "candidates": [
+    {
+     "name": "Randy Davis",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Sarah Lightner",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-46",
+   "office": "State House, 46th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 46
+   },
+   "candidates": [
+    {
+     "name": "Jan Maino",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Kathy Schmaltz",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-47",
+   "office": "State House, 47th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 47
+   },
+   "candidates": [
+    {
+     "name": "Carrie A. Rheingans",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Justin Griffis",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-48",
+   "office": "State House, 48th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 48
+   },
+   "candidates": [
+    {
+     "name": "Jennifer A. Conlin",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Brian Ignatowski",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-49",
+   "office": "State House, 49th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 49
+   },
+   "candidates": [
+    {
+     "name": "Dan Pelchat",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Ann M. Bollin",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Trevor Step",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-50",
+   "office": "State House, 50th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 50
+   },
+   "candidates": [
+    {
+     "name": "Cassie Canedo",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Jason Woolford",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-51",
+   "office": "State House, 51st District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 51
+   },
+   "candidates": [
+    {
+     "name": "Stacey McDuffie",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Matt Maddock",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-52",
+   "office": "State House, 52nd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 52
+   },
+   "candidates": [
+    {
+     "name": "Brendan P. Leddy",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Mike Harris",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-53",
+   "office": "State House, 53rd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 53
+   },
+   "candidates": [
+    {
+     "name": "Brenda Carter",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Melissa Schultz",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-54",
+   "office": "State House, 54th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 54
+   },
+   "candidates": [
+    {
+     "name": "Sarah Pounds",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Roman Gaskey",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-55",
+   "office": "State House, 55th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 55
+   },
+   "candidates": [
+    {
+     "name": "Alex Hawkins",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Mark Tisdel",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-56",
+   "office": "State House, 56th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 56
+   },
+   "candidates": [
+    {
+     "name": "Sharon MacDonell",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Ashok Baddi",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-57",
+   "office": "State House, 57th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 57
+   },
+   "candidates": [
+    {
+     "name": "Tom Turner",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Thomas E. Kuhn",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-58",
+   "office": "State House, 58th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 58
+   },
+   "candidates": [
+    {
+     "name": "Katrina Manetta",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Ron Robinson",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-59",
+   "office": "State House, 59th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 59
+   },
+   "candidates": [
+    {
+     "name": "Jason Robbins",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Sylvia Grot",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-60",
+   "office": "State House, 60th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 60
+   },
+   "candidates": [
+    {
+     "name": "Amy Gray",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Joseph Aragona",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-61",
+   "office": "State House, 61st District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 61
+   },
+   "candidates": [
+    {
+     "name": "Denise Mentzer",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Robert Wojtowicz",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-62",
+   "office": "State House, 62nd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 62
+   },
+   "candidates": [
+    {
+     "name": "Matthew Smith",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Alicia St. Germaine",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-63",
+   "office": "State House, 63rd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 63
+   },
+   "candidates": [
+    {
+     "name": "Jamie Sonneberger",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Pamela Hornberger",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-64",
+   "office": "State House, 64th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 64
+   },
+   "candidates": [
+    {
+     "name": "Ken Heuvelman",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Joseph G. Pavlov",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-65",
+   "office": "State House, 65th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 65
+   },
+   "candidates": [
+    {
+     "name": "James M. O'Brien",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Jaime Greene",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-66",
+   "office": "State House, 66th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 66
+   },
+   "candidates": [
+    {
+     "name": "Ned Zimmer",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Josh Schriver",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-67",
+   "office": "State House, 67th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 67
+   },
+   "candidates": [
+    {
+     "name": "Leslie Getz",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Phil Green",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-68",
+   "office": "State House, 68th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 68
+   },
+   "candidates": [
+    {
+     "name": "Matt Schlinker",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "David W. Martin",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Deanna L Martin",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    },
+    {
+     "name": "Joe McHugh",
+     "party": "I",
+     "partyLabel": "No party affiliation"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-69",
+   "office": "State House, 69th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 69
+   },
+   "candidates": [
+    {
+     "name": "Jasper Ryan Martus",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Patrick Duvendeck",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Adam Blake Childress",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-70",
+   "office": "State House, 70th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 70
+   },
+   "candidates": [
+    {
+     "name": "Cynthia R. Neeley",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Larry Hutchinson",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-71",
+   "office": "State House, 71st District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 71
+   },
+   "candidates": [
+    {
+     "name": "Stephen Schlaack",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Brian BeGole",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-72",
+   "office": "State House, 72nd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 72
+   },
+   "candidates": [
+    {
+     "name": "Thomas Ryan",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Mike Mueller",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-73",
+   "office": "State House, 73rd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 73
+   },
+   "candidates": [
+    {
+     "name": "Julie Brixie",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Joshua Jon Rockey",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-74",
+   "office": "State House, 74th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 74
+   },
+   "candidates": [
+    {
+     "name": "Harold A. Pope",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Clinton Tarver",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-75",
+   "office": "State House, 75th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 75
+   },
+   "candidates": [
+    {
+     "name": "Penelope Tsernoglou",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Frank Lambert",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-76",
+   "office": "State House, 76th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 76
+   },
+   "candidates": [
+    {
+     "name": "Angela Witwer",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Bill Kaiser",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-77",
+   "office": "State House, 77th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 77
+   },
+   "candidates": [
+    {
+     "name": "Emily Dievendorf",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Sally Jo Nelton",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Jennifer Long",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-78",
+   "office": "State House, 78th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 78
+   },
+   "candidates": [
+    {
+     "name": "Rachel Gross",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Brandon L. Strong",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Ben DeJong",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-79",
+   "office": "State House, 79th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 79
+   },
+   "candidates": [
+    {
+     "name": "Zach Abbott",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Angela Rigas",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-80",
+   "office": "State House, 80th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 80
+   },
+   "candidates": [
+    {
+     "name": "Lily Cheng-Schulting",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Doug Lee",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-81",
+   "office": "State House, 81st District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 81
+   },
+   "candidates": [
+    {
+     "name": "Stephen Wooden",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Holly DeBoer",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-82",
+   "office": "State House, 82nd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 82
+   },
+   "candidates": [
+    {
+     "name": "Kristian C. Grant",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Ryan Malinoski",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-83",
+   "office": "State House, 83rd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 83
+   },
+   "candidates": [
+    {
+     "name": "John Fitzgerald",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Cindy Ramirez",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-84",
+   "office": "State House, 84th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 84
+   },
+   "candidates": [
+    {
+     "name": "Khristian Silvis",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Drew Jake Robbins",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-85",
+   "office": "State House, 85th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 85
+   },
+   "candidates": [
+    {
+     "name": "Richard Abraham",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Bradley Slagh",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-86",
+   "office": "State House, 86th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 86
+   },
+   "candidates": [
+    {
+     "name": "Joseph McClusky",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Nancy DeBoer",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-87",
+   "office": "State House, 87th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 87
+   },
+   "candidates": [
+    {
+     "name": "Will Snyder",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Cody A. Chipman",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-88",
+   "office": "State House, 88th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 88
+   },
+   "candidates": [
+    {
+     "name": "Kiel Reid",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Greg VanWoerkom",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-89",
+   "office": "State House, 89th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 89
+   },
+   "candidates": [
+    {
+     "name": "Meegan Zickus",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Joe Moss",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-90",
+   "office": "State House, 90th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 90
+   },
+   "candidates": [
+    {
+     "name": "Rachel Crowther",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Lynn Afendoulis",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-91",
+   "office": "State House, 91st District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 91
+   },
+   "candidates": [
+    {
+     "name": "Frank Lafata",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Pat Outman",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-92",
+   "office": "State House, 92nd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 92
+   },
+   "candidates": [
+    {
+     "name": "Luke Del Castillo",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Jerry Neyer",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-93",
+   "office": "State House, 93rd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 93
+   },
+   "candidates": [
+    {
+     "name": "Serenity Hope Salak",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Tim Kelly",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-94",
+   "office": "State House, 94th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 94
+   },
+   "candidates": [
+    {
+     "name": "Amos O'Neal",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Don Sugg",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-95",
+   "office": "State House, 95th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 95
+   },
+   "candidates": [
+    {
+     "name": "AnnMarie Horseman",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Bill G. Schuette",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-96",
+   "office": "State House, 96th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 96
+   },
+   "candidates": [
+    {
+     "name": "Christopher R. Girard",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Timothy Beson",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-97",
+   "office": "State House, 97th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 97
+   },
+   "candidates": [
+    {
+     "name": "Jack Bader",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Briar Bearss",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-98",
+   "office": "State House, 98th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 98
+   },
+   "candidates": [
+    {
+     "name": "Keith Brusseau",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Gregory L. Alexander",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-99",
+   "office": "State House, 99th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 99
+   },
+   "candidates": [
+    {
+     "name": "David Forgione",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Mike Hoadley",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Steven Jacob Lull",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-100",
+   "office": "State House, 100th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 100
+   },
+   "candidates": [
+    {
+     "name": "Tracy Ruell",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Tom Kunse",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-101",
+   "office": "State House, 101st District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 101
+   },
+   "candidates": [
+    {
+     "name": "Christopher R. Crain",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Jaxon Deur",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-102",
+   "office": "State House, 102nd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 102
+   },
+   "candidates": [
+    {
+     "name": "Angel Coon",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Curt Vanderwall",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Shawn Orton",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-103",
+   "office": "State House, 103rd District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 103
+   },
+   "candidates": [
+    {
+     "name": "Betsy Coffia",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Edwin B. Dean",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Michael Gorbe",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-104",
+   "office": "State House, 104th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 104
+   },
+   "candidates": [
+    {
+     "name": "Mitchell Ryan Distin",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "John R. Roth",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Alexander Jarvis",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-105",
+   "office": "State House, 105th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 105
+   },
+   "candidates": [
+    {
+     "name": "Rachel Longendyke Teeter",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Ken Borton",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Frank Tillman",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-106",
+   "office": "State House, 106th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 106
+   },
+   "candidates": [
+    {
+     "name": "Mary Lucille Hamilton",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Cam Cavitt",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-107",
+   "office": "State House, 107th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 107
+   },
+   "candidates": [
+    {
+     "name": "Melissa Perron",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Parker Fairbairn",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-108",
+   "office": "State House, 108th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 108
+   },
+   "candidates": [
+    {
+     "name": "Rachel M. Keys",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Larry Johnson",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-109",
+   "office": "State House, 109th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 109
+   },
+   "candidates": [
+    {
+     "name": "Anna Aho Rink",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Karl Bohnak",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "2 Year Term",
+   "partisan": true,
+   "id": "mi-house-110",
+   "office": "State House, 110th District",
+   "level": "legislative",
+   "scope": {
+    "sldl": 110
+   },
+   "candidates": [
+    {
+     "name": "Brian Irizarry",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Gregory Markkanen",
+     "party": "R",
+     "partyLabel": "Republican"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": true,
+   "id": "mi-sbe",
+   "office": "State Board of Education",
+   "level": "board",
+   "scope": {
+    "state": true
+   },
+   "candidates": [
+    {
+     "name": "Judith Pritchett",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Tiffany Tilley",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Terence Collins",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Bree Moeggenberg",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Charles Essner",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    },
+    {
+     "name": "William Mohr II",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers"
+    },
+    {
+     "name": "Christine C. Schwartz",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers"
+    },
+    {
+     "name": "Wissam Charafeddine",
+     "party": "G",
+     "partyLabel": "Green"
+    },
+    {
+     "name": "Mary Anne Hering",
+     "party": "O",
+     "partyLabel": "Working Class"
+    },
+    {
+     "name": "Kelli Monroe",
+     "party": "O",
+     "partyLabel": "Natural Law"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": true,
+   "id": "mi-um-regents",
+   "office": "University of Michigan Board of Regents",
+   "level": "board",
+   "scope": {
+    "state": true
+   },
+   "candidates": [
+    {
+     "name": "Paul Brown",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Amir Makled",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Lena Epstein",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Michael Schostak",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Andrew Chadderdon",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    },
+    {
+     "name": "Kyle Maas",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": true,
+   "id": "mi-msu-trustees",
+   "office": "Michigan State University Board of Trustees",
+   "level": "board",
+   "scope": {
+    "state": true
+   },
+   "candidates": [
+    {
+     "name": "Brianna Scott",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Kelly Tebay Zemke",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Julie Maday",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Roger Victory",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Daniel R. Patterson",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    },
+    {
+     "name": "Will Tyler White",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    },
+    {
+     "name": "Janet Sanger",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers"
+    },
+    {
+     "name": "John Sanger",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers"
+    },
+    {
+     "name": "John Anthony La Pietra",
+     "party": "G",
+     "partyLabel": "Green"
+    },
+    {
+     "name": "Yaz Ozbek",
+     "party": "O",
+     "partyLabel": "Working Class"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": true,
+   "id": "mi-wsu-governors",
+   "office": "Wayne State University Board of Governors",
+   "level": "board",
+   "scope": {
+    "state": true
+   },
+   "candidates": [
+    {
+     "name": "Shereef Akeel",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Richard Mack",
+     "party": "D",
+     "partyLabel": "Democratic"
+    },
+    {
+     "name": "Andy Anuzis",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Christa Murphy",
+     "party": "R",
+     "partyLabel": "Republican"
+    },
+    {
+     "name": "Alex Avery",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    },
+    {
+     "name": "Jami Van Alstine",
+     "party": "L",
+     "partyLabel": "Libertarian"
+    },
+    {
+     "name": "Jeff McDonald",
+     "party": "O",
+     "partyLabel": "U.S. Taxpayers"
+    },
+    {
+     "name": "Paul M. Ragan",
+     "party": "G",
+     "partyLabel": "Green"
+    },
+    {
+     "name": "Suzanne Roehrig",
+     "party": "O",
+     "partyLabel": "Working Class"
+    },
+    {
+     "name": "Kathleen Oakford",
+     "party": "O",
+     "partyLabel": "Natural Law"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-supreme-court",
+   "office": "Michigan Supreme Court",
+   "level": "judicial",
+   "scope": {
+    "state": true
+   },
+   "candidates": [
+    {
+     "name": "Megan Kathleen Cavanagh",
+     "incumbent": true
+    },
+    {
+     "name": "Noah P. Hood",
+     "incumbent": true
+    },
+    {
+     "name": "Thomas W. Howe"
+    },
+    {
+     "name": "Casandra Morse-Bills"
+    },
+    {
+     "name": "Michael Warren"
+    },
+    {
+     "name": "Jody White"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-coa-1",
+   "office": "Court of Appeals, 1st District",
+   "level": "judicial",
+   "scope": {
+    "coa": 1
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Mariam Saad Bazzi",
+     "incumbent": true
+    },
+    {
+     "name": "Anica Letica",
+     "incumbent": true
+    },
+    {
+     "name": "Christopher M. Murray",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "Partial Term Ending 01/01/2031",
+   "partisan": false,
+   "id": "mi-coa-1-partial",
+   "office": "Court of Appeals, 1st District (partial term, Ending 01/01/2031)",
+   "level": "judicial",
+   "scope": {
+    "coa": 1
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Andrew J. Lievense",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-coa-2",
+   "office": "Court of Appeals, 2nd District",
+   "level": "judicial",
+   "scope": {
+    "coa": 2
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Sima G. Patel",
+     "incumbent": true
+    },
+    {
+     "name": "Christopher M. Trebilcock",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-coa-3",
+   "office": "Court of Appeals, 3rd District",
+   "level": "judicial",
+   "scope": {
+    "coa": 3
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Mark T. Boonstra",
+     "incumbent": true
+    },
+    {
+     "name": "Daniel S. Korobkin",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-coa-4",
+   "office": "Court of Appeals, 4th District",
+   "level": "judicial",
+   "scope": {
+    "coa": 4
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Michael J. Kelly",
+     "incumbent": true
+    },
+    {
+     "name": "Allie Greenleaf Maldonado",
+     "incumbent": true
+    },
+    {
+     "name": "Michelle M. Rick",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-2",
+   "office": "Circuit Court, 2nd Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 2
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Jennifer L. Smith-DenDooven",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-circuit-3",
+   "office": "Circuit Court, 3rd Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 3
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "David J. Allen",
+     "incumbent": true
+    },
+    {
+     "name": "Chandra W. Baker-Robinson",
+     "incumbent": true
+    },
+    {
+     "name": "Christopher M. Blount",
+     "incumbent": true
+    },
+    {
+     "name": "Nicole L. Castka",
+     "incumbent": true
+    },
+    {
+     "name": "Bradley L. Cobb",
+     "incumbent": true
+    },
+    {
+     "name": "Chris Dingell",
+     "incumbent": true
+    },
+    {
+     "name": "Charlene M. Elder",
+     "incumbent": true
+    },
+    {
+     "name": "Helal A. Farhat",
+     "incumbent": true
+    },
+    {
+     "name": "Nicole N. Goodson",
+     "incumbent": true
+    },
+    {
+     "name": "Edward J. Joseph",
+     "incumbent": true
+    },
+    {
+     "name": "Mary Beth Kelly",
+     "incumbent": true
+    },
+    {
+     "name": "Don Knapp",
+     "incumbent": true
+    },
+    {
+     "name": "Cylenthia LaToye Miller",
+     "incumbent": true
+    },
+    {
+     "name": "Carla G. Testani",
+     "incumbent": true
+    },
+    {
+     "name": "Margaret M. Van Houten",
+     "incumbent": true
+    },
+    {
+     "name": "Shannon Nicol Walker",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-3-open",
+   "office": "Circuit Court, 3rd Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 3
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Shakira Lynn Hawkins"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "Partial Term - 4 Years Ending 01/01/2031",
+   "partisan": false,
+   "id": "mi-circuit-3-partial",
+   "office": "Circuit Court, 3rd Circuit (partial term, 4 Years Ending 01/01/2031)",
+   "level": "judicial",
+   "scope": {
+    "circuit": 3
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Aliyah S. Sabree",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-4",
+   "office": "Circuit Court, 4th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 4
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "John G. McBain Jr.",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "Partial Term Ending 01/01/2031",
+   "partisan": false,
+   "id": "mi-circuit-4-partial",
+   "office": "Circuit Court, 4th Circuit (partial term, Ending 01/01/2031)",
+   "level": "judicial",
+   "scope": {
+    "circuit": 4
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Allison L. Bates",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-5",
+   "office": "Circuit Court, 5th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 5
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Vicky L. Alspaugh",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-circuit-6",
+   "office": "Circuit Court, 6th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 6
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Mary Ellen T. Brennan",
+     "incumbent": true
+    },
+    {
+     "name": "David M. Cohen",
+     "incumbent": true
+    },
+    {
+     "name": "Lisa Gorcyca",
+     "incumbent": true
+    },
+    {
+     "name": "Nanci Grant",
+     "incumbent": true
+    },
+    {
+     "name": "Jeffery S. Matis",
+     "incumbent": true
+    },
+    {
+     "name": "Lorie N. Savin",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-6-open",
+   "office": "Circuit Court, 6th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 6
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Victoria King"
+    },
+    {
+     "name": "Lisa Marie Neilson"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-circuit-7",
+   "office": "Circuit Court, 7th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 7
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Chris Christenson",
+     "incumbent": true
+    },
+    {
+     "name": "Mark W. Latchana",
+     "incumbent": true
+    },
+    {
+     "name": "Anthony J. McDowell",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-8-open",
+   "office": "Circuit Court, 8th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 8
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Lori J. Shearer"
+    },
+    {
+     "name": "Ed Sternisha"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-9",
+   "office": "Circuit Court, 9th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 9
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Gary C. Giguere Jr.",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-10",
+   "office": "Circuit Court, 10th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 10
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Manvel Trice III",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-11",
+   "office": "Circuit Court, 11th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 11
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Brian D. Rahilly",
+     "incumbent": true
+    },
+    {
+     "name": "Robert T. Steinhoff"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-12",
+   "office": "Circuit Court, 12th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 12
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Brittany A. Bulleit",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-13",
+   "office": "Circuit Court, 13th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 13
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Kevin A. Elsenheimer",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-14",
+   "office": "Circuit Court, 14th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 14
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Kathy Hoogstra",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-15",
+   "office": "Circuit Court, 15th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 15
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Zachary William Stempien",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-circuit-16",
+   "office": "Circuit Court, 16th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 16
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Julie Gatti",
+     "incumbent": true
+    },
+    {
+     "name": "Tanya A. Grillo",
+     "incumbent": true
+    },
+    {
+     "name": "James M. Maceroni",
+     "incumbent": true
+    },
+    {
+     "name": "Matthew S. Switalski",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-16-open",
+   "office": "Circuit Court, 16th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 16
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "James L. Spagnuolo"
+    },
+    {
+     "name": "Genevieve L. Taylor"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-circuit-17",
+   "office": "Circuit Court, 17th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 17
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Maureen A. Gottlieb",
+     "incumbent": true
+    },
+    {
+     "name": "Scott A. Noto",
+     "incumbent": true
+    },
+    {
+     "name": "Clay M. West",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-18-open",
+   "office": "Circuit Court, 18th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 18
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Michael Huber"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-19",
+   "office": "Circuit Court, 19th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 19
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "David A. Thompson",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-20",
+   "office": "Circuit Court, 20th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 20
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Jon Hulsing",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-circuit-22",
+   "office": "Circuit Court, 22nd Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 22
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Patrick J. Conlin Jr.",
+     "incumbent": true
+    },
+    {
+     "name": "Tracy E. Van den Bergh",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-24",
+   "office": "Circuit Court, 24th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 24
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Timothy C. Wrathell",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-25",
+   "office": "Circuit Court, 25th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 25
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Matt Wiese",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-26",
+   "office": "Circuit Court, 26th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 26
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "K. Edward Black",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-28",
+   "office": "Circuit Court, 28th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 28
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Jason J. Elmore",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-29",
+   "office": "Circuit Court, 29th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 29
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Shannon L.W. Schlegel",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-circuit-30",
+   "office": "Circuit Court, 30th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 30
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Rosemarie Elizabeth Aquilina",
+     "incumbent": true
+    },
+    {
+     "name": "Carol N. Koenig",
+     "incumbent": true
+    },
+    {
+     "name": "Wanda M. Stokes",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "Partial Term - 2 Years Ending 01/01/2029",
+   "partisan": false,
+   "id": "mi-circuit-30-partial",
+   "office": "Circuit Court, 30th Circuit (partial term, 2 Years Ending 01/01/2029)",
+   "level": "judicial",
+   "scope": {
+    "circuit": 30
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Patricia Tremblay",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-31",
+   "office": "Circuit Court, 31st Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 31
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Daniel A. Damman",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-32",
+   "office": "Circuit Court, 32nd Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 32
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Michael K. Pope",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-33",
+   "office": "Circuit Court, 33rd Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 33
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Roy Charles Hayes III",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-35",
+   "office": "Circuit Court, 35th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 35
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Matthew J. Stewart",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-36-open",
+   "office": "Circuit Court, 36th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 36
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Kelly Ward"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-37",
+   "office": "Circuit Court, 37th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 37
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Sarah S. Lincoln",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-38-open",
+   "office": "Circuit Court, 38th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 38
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Lauren K. Beaudry"
+    },
+    {
+     "name": "Maria Zagorski"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-39",
+   "office": "Circuit Court, 39th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 39
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Michael R. Olsaver",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-40",
+   "office": "Circuit Court, 40th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 40
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Mike Hodges",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-41",
+   "office": "Circuit Court, 41st Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 41
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Christopher S. Ninomiya",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-42",
+   "office": "Circuit Court, 42nd Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 42
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Michael J. Beale",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-44-open",
+   "office": "Circuit Court, 44th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 44
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Andrea Banfield"
+    },
+    {
+     "name": "Kristina S. Lyke"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-46",
+   "office": "Circuit Court, 46th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 46
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "George J. Mertz",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-48",
+   "office": "Circuit Court, 48th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 48
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Matt Antkoviak",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-49-open",
+   "office": "Circuit Court, 49th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 49
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Dennis L. Duvall Jr."
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-51",
+   "office": "Circuit Court, 51st Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 51
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Susan Kasley Sniegowski",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-52",
+   "office": "Circuit Court, 52nd Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 52
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Gerald M. Prill",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-55",
+   "office": "Circuit Court, 55th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 55
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Tara S. Hovey",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-circuit-56",
+   "office": "Circuit Court, 56th Circuit",
+   "level": "judicial",
+   "scope": {
+    "circuit": 56
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Kelly E. Morton",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-probate-berrien-judge-of-probate-court-incumbent-6-year-term-files-with-county",
+   "office": "BERRIEN Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "level": "judicial",
+   "scope": {
+    "unmapped": true
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Mabel Johnson Mayfield",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-probate-chippewa-judge-of-probate-court-incumbent-6-year-term-files-with-county",
+   "office": "CHIPPEWA Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "level": "judicial",
+   "scope": {
+    "unmapped": true
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Eric G. Blubaugh",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-probate-genesee-judge-of-probate-court-non-incumbent-6-year-term-files-with-county",
+   "office": "GENESEE Judge of Probate Court Non-Incumbent 6 Year Term Files With County",
+   "level": "judicial",
+   "scope": {
+    "unmapped": true
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Andrea L. LeGendre"
+    },
+    {
+     "name": "Ashley Prew"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-probate-huron-judge-of-probate-court-incumbent-6-year-term-files-with-county",
+   "office": "HURON Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "level": "judicial",
+   "scope": {
+    "unmapped": true
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Julienne M. Ferris",
+     "incumbent": true
+    },
+    {
+     "name": "Jessica Leigh Testolin-Reinke"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-probate-ingham-judge-of-probate-court-incumbent-6-year-term-files-with-county",
+   "office": "INGHAM Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "level": "judicial",
+   "scope": {
+    "unmapped": true
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Richard J. Garcia",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-probate-kalamazoo-judge-of-probate-court-incumbent-6-year-term-files-with-county",
+   "office": "KALAMAZOO Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "level": "judicial",
+   "scope": {
+    "unmapped": true
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Tiffany A. Ankley",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-probate-kent-judge-of-probate-court-incumbent-6-year-term-files-with-county",
+   "office": "KENT Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "level": "judicial",
+   "scope": {
+    "unmapped": true
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "David M. Murkowski",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-probate-macomb-judge-of-probate-court-incumbent-6-year-term-files-with-county",
+   "office": "MACOMB Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "level": "judicial",
+   "scope": {
+    "unmapped": true
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Sara A. Schimke",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-probate-monroe-judge-of-probate-court-incumbent-6-year-term-files-with-county",
+   "office": "MONROE Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "level": "judicial",
+   "scope": {
+    "unmapped": true
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Cheryl R. Sweeney",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "Partial Term Ending 01/01/2029 Files With County",
+   "partisan": false,
+   "id": "mi-probate-oakland-judge-of-probate-court-incumbent-partial",
+   "office": "OAKLAND Judge of Probate Court Incumbent (partial term, Ending 01/01/2029 Files With County)",
+   "level": "judicial",
+   "scope": {
+    "unmapped": true
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Nicole S. Huddleston",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-probate-oakland-judge-of-probate-court-non-incumbent-6-year-term-files-with-county",
+   "office": "OAKLAND Judge of Probate Court Non-Incumbent 6 Year Term Files With County",
+   "level": "judicial",
+   "scope": {
+    "unmapped": true
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Elisabeth Dery"
+    },
+    {
+     "name": "Jessica Ann Hallmark"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-probate-saginaw-judge-of-probate-court-incumbent-6-year-term-files-with-county",
+   "office": "SAGINAW Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "level": "judicial",
+   "scope": {
+    "unmapped": true
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Barbara L. Meter",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-probate-st-clair-judge-of-probate-court-incumbent-6-year-term-files-with-county",
+   "office": "ST. CLAIR Judge of Probate Court Incumbent 6 Year Term Files With County",
+   "level": "judicial",
+   "scope": {
+    "unmapped": true
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Jennifer Deegan",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-probate-sanilac-judge-of-probate-court-non-incumbent-6-year-term-files-with-county",
+   "office": "SANILAC Judge of Probate Court Non-Incumbent 6 Year Term Files With County",
+   "level": "judicial",
+   "scope": {
+    "unmapped": true
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Sara L. Grout"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-probate-washtenaw-judge-of-probate-court-non-incumbent-6-year-term-files-with-county",
+   "office": "WASHTENAW Judge of Probate Court Non-Incumbent 6 Year Term Files With County",
+   "level": "judicial",
+   "scope": {
+    "unmapped": true
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Alethia Jean Battles"
+    },
+    {
+     "name": "Jennifer Lawrence"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-probate-wayne-judge-of-probate-court-non-incumbent-6-year-termss-files-with-county",
+   "office": "WAYNE Judge of Probate Court Non-Incumbent 6 Year Termss Files With County",
+   "level": "judicial",
+   "scope": {
+    "unmapped": true
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Sarah Colegrove"
+    },
+    {
+     "name": "Suzanne Fanning"
+    },
+    {
+     "name": "Vanessa M. Moss"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-1",
+   "office": "District Court, 1st District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 1
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Michael Brown",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-0",
+   "office": "District Court, 0th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 0
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Todd M. Morgan",
+     "incumbent": true
+    },
+    {
+     "name": "Megan R.M. Stiverson",
+     "incumbent": true
+    },
+    {
+     "name": "Brent R. Weigle",
+     "incumbent": true
+    },
+    {
+     "name": "Anna Maria Frushour",
+     "incumbent": true
+    },
+    {
+     "name": "Erane C. Washington",
+     "incumbent": true
+    },
+    {
+     "name": "Rebekah Ruth Coleman",
+     "incumbent": true
+    },
+    {
+     "name": "Annemarie Marino Lepore",
+     "incumbent": true
+    },
+    {
+     "name": "Jacob Michael Femminineo Jr.",
+     "incumbent": true
+    },
+    {
+     "name": "Stacia Buchanan",
+     "incumbent": true
+    },
+    {
+     "name": "Adrianne K. Van Langevelde",
+     "incumbent": true
+    },
+    {
+     "name": "Pablo Cortes",
+     "incumbent": true
+    },
+    {
+     "name": "Amanda H. Sterkenburg",
+     "incumbent": true
+    },
+    {
+     "name": "Raymond Peter Voet",
+     "incumbent": true
+    },
+    {
+     "name": "Adam James Eggleston",
+     "incumbent": true
+    },
+    {
+     "name": "Andrew M. Stevens",
+     "incumbent": true
+    },
+    {
+     "name": "Jason E. Bitzer",
+     "incumbent": true
+    },
+    {
+     "name": "Craig S. Datz"
+    },
+    {
+     "name": "Julie Ann LaCost",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-0-open",
+   "office": "District Court, 0th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 0
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Tim George"
+    },
+    {
+     "name": "Laura M. Bever"
+    },
+    {
+     "name": "David N. Richardson"
+    },
+    {
+     "name": "Maureen Flanigan Salayko"
+    },
+    {
+     "name": "Jeffrey T. Rogg"
+    },
+    {
+     "name": "Alexander Sieminski"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-4",
+   "office": "District Court, 4th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 4
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Stacey A. Rentfrow",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-5",
+   "office": "District Court, 5th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 5
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Gordon Gary Hosbein",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-5-open",
+   "office": "District Court, 5th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 5
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Jennifer E. Fields"
+    },
+    {
+     "name": "Myrene Kay Koch"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-7-open",
+   "office": "District Court, 7th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 7
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Rachel Keeley"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-8",
+   "office": "District Court, 8th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 8
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Kathleen P. Hemingway",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-district-court-8-open",
+   "office": "District Court, 8th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 8
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Mark A. Holsomback"
+    },
+    {
+     "name": "Rachel Vinales"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-district-court-10",
+   "office": "District Court, 10th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 10
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Paul K. Beardslee",
+     "incumbent": true
+    },
+    {
+     "name": "Michelle L. Richardson",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-12",
+   "office": "District Court, 12th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 12
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Nicole Hughes",
+     "incumbent": true
+    },
+    {
+     "name": "George D. Lyons"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-12-open",
+   "office": "District Court, 12th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 12
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Jared L. Hopkins"
+    },
+    {
+     "name": "Stormie Rae McGee"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-15",
+   "office": "District Court, 15th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 15
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Tamara Garwood",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-16",
+   "office": "District Court, 16th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 16
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Sean Patrick Kavanagh",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-17",
+   "office": "District Court, 17th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 17
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Krista Haroutunian",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-18",
+   "office": "District Court, 18th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 18
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Mark A. McConnell",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-19",
+   "office": "District Court, 19th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 19
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Mark W. Somers",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-20",
+   "office": "District Court, 20th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 20
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Mark J. Plawecki",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-21-open",
+   "office": "District Court, 21st District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 21
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Nicholas Opalewski"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-23",
+   "office": "District Court, 23rd District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 23
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Brittany A. Johnson",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-24",
+   "office": "District Court, 24th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 24
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "John T. Courtright",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-25-open",
+   "office": "District Court, 25th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 25
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "David M. Loeckner"
+    },
+    {
+     "name": "Krystle-Marie Medina"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-28",
+   "office": "District Court, 28th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 28
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Elisabeth M. Mullins",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-31",
+   "office": "District Court, 31st District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 31
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Alexis Grace Krot",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-34",
+   "office": "District Court, 34th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 34
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Lisa Martin",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-35",
+   "office": "District Court, 35th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 35
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Jim Plakas",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-district-court-36",
+   "office": "District Court, 36th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 36
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Demetria Brue",
+     "incumbent": true
+    },
+    {
+     "name": "E. Lynise Bryant",
+     "incumbent": true
+    },
+    {
+     "name": "Adrienne Hinnant-Johnson",
+     "incumbent": true
+    },
+    {
+     "name": "Shannon A. Holmes",
+     "incumbent": true
+    },
+    {
+     "name": "Kenneth J. King",
+     "incumbent": true
+    },
+    {
+     "name": "Millicent D. Sherman",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-district-court-36-open",
+   "office": "District Court, 36th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 36
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "William Burton Jr."
+    },
+    {
+     "name": "Delphia J. Burton"
+    },
+    {
+     "name": "Kahlilia Yvette Davis"
+    },
+    {
+     "name": "Jo A. Irby"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "Partial Term Ending 01/01/2031s",
+   "partisan": false,
+   "id": "mi-district-court-36-partial",
+   "office": "District Court, 36th District (partial term, Ending 01/01/2031s)",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 36
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Ponce D. Clay",
+     "incumbent": true
+    },
+    {
+     "name": "Herman Griffin IV",
+     "incumbent": true
+    },
+    {
+     "name": "Chastity A. Youngblood",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-37",
+   "office": "District Court, 37th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 37
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Michael C. Chupa",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-38",
+   "office": "District Court, 38th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 38
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Kathleen G. Galen",
+     "incumbent": true
+    },
+    {
+     "name": "Richard W. Goodman"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-39-open",
+   "office": "District Court, 39th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 39
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Derek G. Boedeker"
+    },
+    {
+     "name": "Dana C. Freers"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-40",
+   "office": "District Court, 40th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 40
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Joseph Craigen Oster",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-42",
+   "office": "District Court, 42nd District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 42
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Jennifer Andary",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-43",
+   "office": "District Court, 43rd District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 43
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Brian Christian Hartwell",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-45",
+   "office": "District Court, 45th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 45
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Jaimie Powell Horowitz",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-46",
+   "office": "District Court, 46th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 46
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Shelia Johnson",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-47-open",
+   "office": "District Court, 47th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 47
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Moneka Sanford"
+    },
+    {
+     "name": "Michael Sawicky"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-48",
+   "office": "District Court, 48th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 48
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Kimberly Small",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-district-court-50",
+   "office": "District Court, 50th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 50
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Jeremy Darnell Bowie",
+     "incumbent": true
+    },
+    {
+     "name": "Cynthia T. Walker",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-51-open",
+   "office": "District Court, 51st District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 51
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Carmen J. DeFranco"
+    },
+    {
+     "name": "Pamela J. Monville"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-52",
+   "office": "District Court, 52nd District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 52
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Travis M. Reeds",
+     "incumbent": true
+    },
+    {
+     "name": "Joseph G. Fabrizio",
+     "incumbent": true
+    },
+    {
+     "name": "Laura E. Polizzi",
+     "incumbent": true
+    },
+    {
+     "name": "Maureen M. McGinnis",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-53",
+   "office": "District Court, 53rd District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 53
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Daniel Bain",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-55",
+   "office": "District Court, 55th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 55
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Richard L. Hillman",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "Partial Term - 2 Years Ending 01/01/2029",
+   "partisan": false,
+   "id": "mi-district-court-0-partial",
+   "office": "District Court, 0th District (partial term, 2 Years Ending 01/01/2029)",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 0
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Reid S. Felsing",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-57-open",
+   "office": "District Court, 57th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 57
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Timothy Slais"
+    },
+    {
+     "name": "Heidi L. Wolf"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "Partial Term Ending 01/01/2031",
+   "partisan": false,
+   "id": "mi-district-court-57-partial",
+   "office": "District Court, 57th District (partial term, Ending 01/01/2031)",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 57
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Christopher E. Burnett",
+     "incumbent": true
+    },
+    {
+     "name": "Tom Siver"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-district-court-58",
+   "office": "District Court, 58th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 58
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Juanita F. Bocanegra",
+     "incumbent": true
+    },
+    {
+     "name": "Paul Ledford"
+    },
+    {
+     "name": "Anna White",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-district-court-60",
+   "office": "District Court, 60th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 60
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Maria Ladas Hoopes",
+     "incumbent": true
+    },
+    {
+     "name": "Paula Baker Mathes",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-district-court-61",
+   "office": "District Court, 61st District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 61
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Kellen A. Dotson",
+     "incumbent": true
+    },
+    {
+     "name": "Angela T. Ross",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-63",
+   "office": "District Court, 63rd District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 63
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Jeffrey J. O'Hara",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "Partial Term Ending 01/01/2029",
+   "partisan": false,
+   "id": "mi-district-court-63-partial",
+   "office": "District Court, 63rd District (partial term, Ending 01/01/2029)",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 63
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Kirsten L. Holz",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-67",
+   "office": "District Court, 67th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 67
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "David J. Goggins",
+     "incumbent": true
+    },
+    {
+     "name": "Jennifer Manley",
+     "incumbent": true
+    },
+    {
+     "name": "Vikki Bayeh Haley",
+     "incumbent": true
+    },
+    {
+     "name": "David Guinn",
+     "incumbent": true
+    },
+    {
+     "name": "Tabitha M. Marsh",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-67-open",
+   "office": "District Court, 67th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 67
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "K.C. Baran"
+    },
+    {
+     "name": "Cheryl A. Lopez"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "",
+   "partisan": false,
+   "id": "mi-district-court-70",
+   "office": "District Court, 70th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 70
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Elian E.H. Fichtner",
+     "incumbent": true
+    },
+    {
+     "name": "A.T. Frank",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-72",
+   "office": "District Court, 72nd District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 72
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Mona S. Armstrong",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-74-open",
+   "office": "District Court, 74th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 74
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Brian H. Jean"
+    },
+    {
+     "name": "James A. Perry"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-75",
+   "office": "District Court, 75th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 75
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Michael D. Carpenter",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-76",
+   "office": "District Court, 76th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 76
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Eric R. Janes",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-77",
+   "office": "District Court, 77th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 77
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Peter Michael Jaklevic",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-78",
+   "office": "District Court, 78th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 78
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Ellsworth J. Stay Jr.",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-79",
+   "office": "District Court, 79th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 79
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "John D. Middlebrook",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-80",
+   "office": "District Court, 80th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 80
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Joshua M. Farrell",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-82",
+   "office": "District Court, 82nd District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 82
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Mary A. Beebe",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-84",
+   "office": "District Court, 84th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 84
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Corey J. Wiggins",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-89",
+   "office": "District Court, 89th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 89
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Michael J. Ekdahl",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-90",
+   "office": "District Court, 90th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 90
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Angela L. Lasher",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-92",
+   "office": "District Court, 92nd District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 92
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Beth Ann Gibson",
+     "incumbent": true
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-94-open",
+   "office": "District Court, 94th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 94
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Andrew Hayse"
+    },
+    {
+     "name": "Trent Stupak"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-96-open",
+   "office": "District Court, 96th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 96
+   },
+   "note": "Non-incumbent position",
+   "candidates": [
+    {
+     "name": "Patrick J. Crowley"
+    },
+    {
+     "name": "Derek G. Swajanen"
+    }
+   ]
+  },
+  {
+   "voteFor": 1,
+   "term": "6 Year Term",
+   "partisan": false,
+   "id": "mi-district-court-97",
+   "office": "District Court, 97th District",
+   "level": "judicial",
+   "scope": {
+    "districtCourt": 97
+   },
+   "note": "Incumbent position",
+   "candidates": [
+    {
+     "name": "Nicholas J. Daavettila",
+     "incumbent": true
+    }
+   ]
+  }
+ ]
+}

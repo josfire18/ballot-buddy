@@ -1,0 +1,16 @@
+{
+ "schema": 1,
+ "states": {
+  "MI": {
+   "election": "2026-11-03",
+   "electionName": "November 3, 2026 General Election",
+   "statewide": true,
+   "counties": [
+    {
+     "fips": "26025",
+     "name": "Calhoun"
+    }
+   ]
+  }
+ }
+}
