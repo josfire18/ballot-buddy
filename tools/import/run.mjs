@@ -22,13 +22,22 @@ const at = (rel) => new URL(rel, ROOT);
 const readJson = async (rel, fallback) => { try { return JSON.parse(await readFile(at(rel), "utf8")); } catch { return fallback; } };
 const jsonl = (rows) => rows.map((r) => JSON.stringify(r)).join("\n") + (rows.length ? "\n" : "");
 
-/** Ask the Internet Archive to keep a copy. Best effort: a slow or refused save never fails the import. */
+/** Ask the Internet Archive to keep a copy, then look up the newest copy it has.
+ *  Best effort: a slow or refused save never fails the import. */
 async function archive(url) {
+  const UA = { "User-Agent": "BallotBuddy-importer (+https://github.com/josfire18/ballot-buddy)" };
   try {
-    const res = await fetch(`https://web.archive.org/save/${url}`, { redirect: "manual", signal: AbortSignal.timeout(90_000), headers: { "User-Agent": "BallotBuddy-importer (+https://github.com/josfire18/ballot-buddy)" } });
+    const res = await fetch(`https://web.archive.org/save/${url}`, { redirect: "manual", signal: AbortSignal.timeout(120_000), headers: UA });
     const loc = res.headers.get("location") || res.headers.get("content-location");
-    if (loc) return new URL(loc, "https://web.archive.org").href;
-  } catch {}
+    console.log(`  archive save: HTTP ${res.status}${loc ? ` -> ${loc}` : ""}`);
+    if (loc && /\/web\/\d{14}/.test(loc)) return new URL(loc, "https://web.archive.org").href;
+  } catch (e) { console.log(`  archive save failed: ${e.message}`); }
+  try {
+    const j = await (await fetch(`https://archive.org/wayback/available?url=${encodeURIComponent(url)}`, { signal: AbortSignal.timeout(30_000), headers: UA })).json();
+    const snap = j?.archived_snapshots?.closest;
+    if (snap?.available && snap.url) return snap.url.replace(/^http:/, "https:");
+    console.log("  no archived copy found yet");
+  } catch (e) { console.log(`  archive lookup failed: ${e.message}`); }
   return null;
 }
 
@@ -52,7 +61,12 @@ async function runSource(dir, unit, cfg) {
   const pdf = await fetchPdf(cfg.url);
   const sha256 = createHash("sha256").update(pdf).digest("hex");
   const prev = await readJson(`${dir}/official/${unit}/source.json`, null);
-  if (prev?.sha256 === sha256) return `${unit}: unchanged`;
+  if (prev?.sha256 === sha256) {
+    if (prev.archived) return `${unit}: unchanged`;
+    const archived = await archive(cfg.url); // retry until the archive has a copy
+    if (archived) await writeFile(at(`${dir}/official/${unit}/source.json`), JSON.stringify({ ...prev, archived }, null, 1) + "\n");
+    return `${unit}: unchanged${archived ? ", archived" : ""}`;
+  }
   const data = await FORMATS[cfg.format](pdf, cfg);
   const meta = {
     title: data.source.title, url: cfg.url, format: cfg.format, sha256,
