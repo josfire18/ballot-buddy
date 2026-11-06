@@ -40,7 +40,13 @@
    "type": [
     "string",
     "null"
-   ]
+   ],
+   "description": "Internet Archive (Wayback Machine) copy, when it has one"
+  },
+  "copy": {
+   "type": "string",
+   "pattern": "^https?://",
+   "description": "Our copy of the exact file, attached to the 'sources' GitHub Release and named by sha256"
   }
  }
 }

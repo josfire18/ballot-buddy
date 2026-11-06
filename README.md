@@ -27,7 +27,7 @@ data/elections/MI/2026-11-03/
   official/state/                    Michigan Secretary of State list (every federal, statewide,
                                      legislative, state-board and court race in all 83 counties)
   official/county-26025/             Calhoun County Clerk list (every local race in the county)
-    source.json                      URL, sha256 fingerprint, retrieval date, Internet Archive copy
+    source.json                      URL, sha256 fingerprint, retrieval date, our copy of the file, Internet Archive copy
     contests.jsonl                   one contest per line
     candidacies.jsonl                one candidate-in-a-contest per line, in ballot order
     proposals.jsonl                  local ballot questions with official text

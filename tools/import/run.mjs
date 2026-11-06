@@ -3,7 +3,7 @@
 // Each election folder has an election.json naming its sources. For every source
 // ("unit": the statewide list, or one county's list) this downloads the file and,
 // only if its fingerprint changed, rewrites:
-//   official/<unit>/source.json        where it came from, sha256, Internet Archive copy
+//   official/<unit>/source.json        where it came from, sha256, our copy, Internet Archive copy
 //   official/<unit>/contests.jsonl     one contest per line
 //   official/<unit>/candidacies.jsonl  one candidate-in-a-contest per line
 //   official/<unit>/proposals.jsonl    local ballot questions (if any)
@@ -57,21 +57,29 @@ async function writeUnit(dir, unit, meta, data) {
   return { contests: contests.length, candidacies: candidacies.length };
 }
 
+// Every official file is also kept as an attachment on the "sources" GitHub Release,
+// named by its fingerprint. The workflow uploads dist/sources/*; the URL is predictable.
+const REPO = process.env.GITHUB_REPOSITORY || "josfire18/ballot-buddy";
+const copyUrl = (sha256) => `https://github.com/${REPO}/releases/download/sources/${sha256}.pdf`;
+
 async function runSource(dir, unit, cfg) {
   const pdf = await fetchPdf(cfg.url);
   const sha256 = createHash("sha256").update(pdf).digest("hex");
+  await mkdir(at("dist/sources/"), { recursive: true });
+  await writeFile(at(`dist/sources/${sha256}.pdf`), pdf);
   const prev = await readJson(`${dir}/official/${unit}/source.json`, null);
   if (prev?.sha256 === sha256) {
-    if (prev.archived) return `${unit}: unchanged`;
-    const archived = await archive(cfg.url); // retry until the archive has a copy
-    if (archived) await writeFile(at(`${dir}/official/${unit}/source.json`), JSON.stringify({ ...prev, archived }, null, 1) + "\n");
-    return `${unit}: unchanged${archived ? ", archived" : ""}`;
+    const next = { ...prev, copy: copyUrl(sha256) };
+    if (!prev.archived) next.archived = (await archive(cfg.url)) || null; // retry until the Internet Archive has one
+    if (JSON.stringify(next) !== JSON.stringify(prev)) await writeFile(at(`${dir}/official/${unit}/source.json`), JSON.stringify(next, null, 1) + "\n");
+    return `${unit}: unchanged`;
   }
   const data = await FORMATS[cfg.format](pdf, cfg);
   const meta = {
     title: data.source.title, url: cfg.url, format: cfg.format, sha256,
     retrieved: new Date().toISOString().slice(0, 10),
-    archived: (await archive(cfg.url)) || prev?.archived || null,
+    copy: copyUrl(sha256),
+    archived: (await archive(cfg.url)) || null,
   };
   const n = await writeUnit(dir, unit, meta, data);
   return `${unit}: ${n.contests} contests, ${n.candidacies} candidacies`;
