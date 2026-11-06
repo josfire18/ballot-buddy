@@ -5,5 +5,6 @@
  "format": "mi-county",
  "sha256": "3dcdfe2fdac54d9f6dccc384382277a92eb50abf15c845c8fc01af22b1493a82",
  "retrieved": "2026-11-06",
- "archived": null
+ "archived": null,
+ "copy": "https://github.com/josfire18/ballot-buddy/releases/download/sources/3dcdfe2fdac54d9f6dccc384382277a92eb50abf15c845c8fc01af22b1493a82.pdf"
 }
