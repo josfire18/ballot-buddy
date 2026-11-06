@@ -1,0 +1,42 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "$id": "https://github.com/josfire18/ballot-buddy/schema/contest-note.schema.json",
+ "title": "Contest note",
+ "description": "One line of data/research/<STATE>/contest-notes.jsonl: context shown under a race.",
+ "type": "object",
+ "required": [
+  "contest",
+  "note"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "contest": {
+   "type": "string"
+  },
+  "note": {
+   "type": "string",
+   "minLength": 10
+  },
+  "sources": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "title",
+     "url"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "title": {
+      "type": "string",
+      "minLength": 3
+     },
+     "url": {
+      "type": "string",
+      "pattern": "^https?://"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "$id": "https://github.com/josfire18/ballot-buddy/schema/candidacy.schema.json",
+ "title": "Candidacy",
+ "description": "One line of official/<unit>/candidacies.jsonl: one person running in one contest, in ballot order. Written by the importer.",
+ "type": "object",
+ "required": [
+  "id",
+  "contest",
+  "order",
+  "name"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "id": {
+   "type": "string"
+  },
+  "contest": {
+   "type": "string"
+  },
+  "order": {
+   "type": "integer",
+   "minimum": 1
+  },
+  "name": {
+   "type": "string",
+   "minLength": 3,
+   "not": {
+    "pattern": "\\d{3}|@"
+   }
+  },
+  "party": {
+   "enum": [
+    "D",
+    "R",
+    "L",
+    "G",
+    "I",
+    "O",
+    "N"
+   ],
+   "description": "D/R/L/G, I = no party affiliation, O = other party (see partyLabel), N = nonpartisan office"
+  },
+  "partyLabel": {
+   "type": "string"
+  },
+  "incumbent": {
+   "type": "boolean"
+  },
+  "runningMate": {
+   "type": "string"
+  },
+  "status": {
+   "enum": [
+    "withdrew",
+    "disqualified"
+   ]
+  }
+ }
+}

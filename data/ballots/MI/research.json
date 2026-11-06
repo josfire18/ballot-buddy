@@ -1,0 +1,1301 @@
+{
+ "state": "MI",
+ "sampleBallotUrl": "https://mvic.sos.state.mi.us/Voter/Index",
+ "votingInfoUrl": "https://www.michigan.gov/vote",
+ "candidates": {
+  "Abdul El-Sayed": {
+   "blurb": "Physician by training and former Detroit and Wayne County health director; has never held elected office. Endorsed by Bernie Sanders.",
+   "stances": {
+    "taxes": [
+     2,
+     "Higher top rate on income over $1M and a billionaire wealth tax; against corporate tax breaks."
+    ],
+    "healthcare": [
+     2,
+     "Would pass Medicare for All, abolish medical debt and reverse 2025 Medicaid/ACA cuts."
+    ],
+    "abortion": [
+     2,
+     "Would codify Roe v. Wade into federal law; supports funding Planned Parenthood."
+    ],
+    "guns": [
+     2,
+     "Supports red flag laws and banning \"guns meant for a theatre of war.\""
+    ],
+    "immigration": [
+     -2,
+     "Path to citizenship, Dream Act, protect birthright citizenship; supports abolishing ICE and restructuring enforcement."
+    ],
+    "climate": [
+     2,
+     "Path to 100% renewable energy; would shut down the Line 5 pipeline."
+    ],
+    "labor": [
+     2,
+     "Would pass the PRO Act; says right-to-work should be illegal."
+    ],
+    "voting": [
+     -2,
+     "Opposes voter ID and the SAVE Act; Election Day holiday, no-reason absentee voting."
+    ],
+    "lgbtq": [
+     2,
+     "\"I stand with the LGBTQ+ community\"; would guarantee civil rights in health care."
+    ],
+    "schools": [
+     -2,
+     "Opposes vouchers moving \"public money into private pockets.\""
+    ],
+    "crime": [
+     -2,
+     "Opposes cash bail; backs the George Floyd Justice in Policing Act and violence-prevention programs."
+    ],
+    "trump": [
+     -2,
+     "Calls the Iran war \"illegal and unjustifiable\"; campaigns against the Trump agenda."
+    ]
+   },
+   "sources": [
+    {
+     "title": "guides.vote: Michigan U.S. Senate 2026",
+     "url": "https://guides.vote/guide/2026-michigan-us-senate-voters-guide/"
+    }
+   ]
+  },
+  "Amir Makled": {
+   "blurb": "Dearborn civil-rights attorney who beat incumbent regent Jordan Acker for the Democratic nomination. Criticizes U-M's surveillance of student protesters and its compliance with Trump administration policies; wants a broad tuition freeze and lower housing, food and book costs.",
+   "endorsedBy": [
+    "Michigan Education Association"
+   ],
+   "sources": [
+    {
+     "title": "Michigan Public: Meet the U-M regent candidates",
+     "url": "https://www.michiganpublic.org/politics-government/2026-10-09/meet-the-candidates-running-for-the-u-m-board-of-regents"
+    },
+    {
+     "title": "MEA 2026 candidate recommendations",
+     "url": "https://mea.org/mea-announces-full-list-of-candidate-recommendations-for-election-2026/"
+    }
+   ]
+  },
+  "Andy Anuzis": {
+   "blurb": "Principal of Lincoln-King High School in Detroit. Wants to cut wasteful spending, expand mentorship programs like Math Corps, and address what he calls soft censorship on campus.",
+   "sources": [
+    {
+     "title": "Michigan Public: Meet the Wayne State governor candidates",
+     "url": "https://www.michiganpublic.org/politics-government/2026-10-23/meet-the-democratic-and-republican-candidates-for-the-wayne-state-board-of-governors"
+    }
+   ]
+  },
+  "Anthony Forlini": {
+   "blurb": "Macomb County Clerk since 2021 and former state representative. Says he's the only candidate already running elections.",
+   "stances": {
+    "voting": [
+     1,
+     "Priorities are cleaner voter rolls, more transparency and supporting local clerks."
+    ]
+   },
+   "sources": [
+    {
+     "title": "Votebeat: SoS candidates on transparency and the Trump administration",
+     "url": "https://www.votebeat.org/michigan/2026/10/08/garlin-gilchrist-anthony-forlini-secretary-of-state-2026-election/"
+    }
+   ]
+  },
+  "Anthony Pennock": {
+   "blurb": "Special education teacher at Battle Creek Public Schools; first run for office. Platform: claw back tax breaks from companies that miss job targets, rent controls, a pause on utility rate hikes, and free school meals.",
+   "stances": {
+    "crime": [
+     -1,
+     "Wants automatic expungement for non-violent offenses, more prison job and treatment programs, and an end to cash bail for low-risk, non-violent defendants."
+    ],
+    "healthcare": [
+     1,
+     "Wants dedicated funding for rural hospitals and higher Medicaid reimbursement rates."
+    ],
+    "labor": [
+     1,
+     "Wants union labor used to rebuild roads."
+    ]
+   },
+   "endorsedBy": [
+    "Michigan Education Association"
+   ],
+   "sources": [
+    {
+     "title": "Branch: Anthony Pennock",
+     "url": "https://www.branch.vote/races/2026-michigan-general-election-mi-state-state-senator-mi-state-senate-18/candidates/anthony-pennock"
+    },
+    {
+     "title": "MEA 2026 candidate recommendations",
+     "url": "https://mea.org/mea-announces-full-list-of-candidate-recommendations-for-election-2026/"
+    }
+   ]
+  },
+  "Bill Huizenga": {
+   "blurb": "U.S. Representative since 2011, seeking a ninth term. Pushing a car-purchase tax break and a gas-tax holiday.",
+   "stances": {
+    "immigration": [
+     2,
+     "Voted YES on the Laken Riley Act ICE detention mandate (Jan 2025) and for the 2025 tax-and-spending law that added roughly $75B for ICE."
+    ]
+   },
+   "sources": [
+    {
+     "title": "Michigan Advance (Oct 14)",
+     "url": "https://michiganadvance.com/2026/10/14/buttigieg-and-mccann-argue-republican-self-interest-is-undermining-the-american-dream/"
+    },
+    {
+     "title": "House Clerk: Laken Riley Act final passage, roll call 23 (Jan 22, 2025)",
+     "url": "https://clerk.house.gov/evs/2025/roll023"
+    }
+   ]
+  },
+  "Brianna Scott": {
+   "blurb": "Incumbent MSU trustee and board chair; Muskegon attorney. Backs the Spartan Tuition Advantage and per-student state funding reform.",
+   "incumbent": true,
+   "endorsedBy": [
+    "Michigan Education Association"
+   ],
+   "sources": [
+    {
+     "title": "Michigan Public: Meet the MSU trustee candidates",
+     "url": "https://www.michiganpublic.org/politics-government/2026-10-23/meet-the-democratic-and-republican-candidates-for-the-msu-board-of-trustees"
+    },
+    {
+     "title": "MEA 2026 candidate recommendations",
+     "url": "https://mea.org/mea-announces-full-list-of-candidate-recommendations-for-election-2026/"
+    }
+   ]
+  },
+  "Carla Reynolds": {
+   "blurb": "KCC trustee and board treasurer; Battle Creek at-large city commissioner (term ending 2026). Ran an Allstate agency in Battle Creek for 28 years.",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "Kellogg Community College: Board of Trustees",
+     "url": "https://kellogg.edu/about/leadership/board-of-trustees/"
+    },
+    {
+     "title": "City of Battle Creek: City Commission 2024–2026",
+     "url": "https://www.battlecreekmi.gov/DocumentCenter/View/14880/City-Commission-2024-2026"
+    }
+   ]
+  },
+  "Casandra Morse-Bills": {
+   "blurb": "Republican-nominated. Presiding judge, 23rd Circuit (Alcona, Arenac, Iosco, Oscoda). Says the current court imposes a political agenda. Endorsed by the Michigan Chamber.",
+   "sources": [
+    {
+     "title": "Bridge Michigan: 6 candidates compete for 2 seats",
+     "url": "https://www.bridgemi.com/michigan-government/whos-running-for-michigan-supreme-court-6-candidates-compete-for-2-seats/"
+    }
+   ]
+  },
+  "Charlie Fulbright": {
+   "blurb": "Battle Creek Public Schools board president; term ends 2026.",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "Battle Creek Public Schools: Board of Education",
+     "url": "https://www.battlecreekpublicschools.org/about/boardofeducation"
+    }
+   ]
+  },
+  "Christa Murphy": {
+   "blurb": "Vibe Credit Union board member; former strategy roles at Samsung, Meta and GM; a Wayne State financial-aid alum. Emphasizes fiscal accountability; says protests shouldn't disrupt classes.",
+   "sources": [
+    {
+     "title": "Michigan Public: Meet the Wayne State governor candidates",
+     "url": "https://www.michiganpublic.org/politics-government/2026-10-23/meet-the-democratic-and-republican-candidates-for-the-wayne-state-board-of-governors"
+    }
+   ]
+  },
+  "Christian Vukasovich": {
+   "blurb": "Educator, union organizer and published researcher (Ph.D., media and communication). Backs Medicare for All and keeping rural hospitals open.",
+   "endorsedBy": [
+    "Michigan Education Association"
+   ],
+   "sources": [
+    {
+     "title": "League of Women Voters of Michigan 2026 voter guide",
+     "url": "https://lwvmi.org/wp-content/uploads/2026/10/VG2026Final-SingPg.pdf"
+    },
+    {
+     "title": "MEA 2026 candidate recommendations",
+     "url": "https://mea.org/mea-announces-full-list-of-candidate-recommendations-for-election-2026/"
+    }
+   ]
+  },
+  "Christina Bertrand Hines": {
+   "blurb": "Former prosecutor in Washtenaw and Wayne counties. Running on health-care costs, reproductive freedom and voting rights.",
+   "stances": {
+    "abortion": [
+     2,
+     "Wants to \"protect reproductive freedom.\""
+    ],
+    "voting": [
+     -1,
+     "Wants to guard voting rights."
+    ]
+   },
+   "sources": [
+    {
+     "title": "Michigan Public: 10th District race (Sep 28)",
+     "url": "https://www.michiganpublic.org/politics-government/2026-09-28/10th-congressional-race-michigan-michael-bouchard-christina-hines"
+    }
+   ]
+  },
+  "Christopher C. Simmons": {
+   "blurb": "Ward 4 city commissioner (2024–2026 term), running unopposed.",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "City of Battle Creek: City Commission 2024–2026",
+     "url": "https://www.battlecreekmi.gov/DocumentCenter/View/14880/City-Commission-2024-2026"
+    }
+   ]
+  },
+  "Daniel S. Korobkin": {
+   "blurb": "Appointed to the Court of Appeals by Gov. Whitmer in 2025. Previously legal director of the ACLU of Michigan (since 2008) and a part-time University of Michigan law instructor.",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "Gov. Whitmer: April 2025 court appointments",
+     "url": "https://www.michigan.gov/whitmer/news/press-releases/2025/04/23/whitmer-makes-appointments-to-the-michigan-supreme-court-michigan-court-of-appeals"
+    }
+   ]
+  },
+  "Darin Aldrich": {
+   "blurb": "KCC trustee. Battle Creek native; spent about 20 years at Kellogg Company (now Kellanova), largely in human resources. KCC, Western Michigan and Penn State graduate.",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "Kellogg Community College: Board of Trustees",
+     "url": "https://kellogg.edu/about/leadership/board-of-trustees/"
+    }
+   ]
+  },
+  "Donavan McKinney": {
+   "blurb": "State representative from Detroit and Democratic Socialists of America member; defeated Rep. Shri Thanedar in the primary. Supports Medicare for All.",
+   "sources": [
+    {
+     "title": "Michigan Public: McKinney ousts Thanedar",
+     "url": "https://www.michiganpublic.org/politics-government/2026-08-05/donavan-mckinney-ousts-democratic-incumbent-shri-thanedar-in13th-congressional-district"
+    }
+   ]
+  },
+  "Donna Brandenburg": {
+   "blurb": "U.S. Taxpayers nominee. Business owner and educator; campaigns on auditing government, transparency, and ending property and income taxes.",
+   "sources": [
+    {
+     "title": "League of Women Voters of Michigan 2026 voter guide",
+     "url": "https://lwvmi.org/wp-content/uploads/2026/10/VG2026Final-SingPg.pdf"
+    }
+   ]
+  },
+  "Doug Dern": {
+   "blurb": "Natural Law Party nominee. Attorney for 24 years, mostly consumer bankruptcy; focuses on abusive debt collection and illegal robocalls.",
+   "sources": [
+    {
+     "title": "League of Women Voters of Michigan 2026 voter guide",
+     "url": "https://lwvmi.org/wp-content/uploads/2026/10/VG2026Final-SingPg.pdf"
+    }
+   ]
+  },
+  "Doug Lloyd": {
+   "blurb": "Eaton County Prosecutor for 13 years; past president of the Prosecuting Attorneys Association of Michigan.",
+   "stances": {
+    "crime": [
+     1,
+     "Favors a more traditional approach; promises even-handed charging."
+    ],
+    "trump": [
+     1,
+     "Criticizes AG Dana Nessel's lawsuits as \"political lawfare\"; would push back on politically driven cases."
+    ]
+   },
+   "sources": [
+    {
+     "title": "Axios Detroit: Meet the AG and SoS candidates (Oct 19)",
+     "url": "https://www.axios.com/local/detroit/2026/10/19/michigan-attorney-general-secretary-state-2026-guide"
+    }
+   ]
+  },
+  "Douglas Campbell": {
+   "blurb": "Green Party nominee. Retired engineer and substitute teacher; says he takes no corporate PAC money.",
+   "sources": [
+    {
+     "title": "League of Women Voters of Michigan 2026 voter guide",
+     "url": "https://lwvmi.org/wp-content/uploads/2026/10/VG2026Final-SingPg.pdf"
+    }
+   ]
+  },
+  "Eli Savit": {
+   "blurb": "Washtenaw County Prosecutor since 2021; clerked for two U.S. Supreme Court justices.",
+   "stances": {
+    "crime": [
+     -2,
+     "Has pursued progressive criminal-justice reforms as prosecutor while promising to pursue serious crime."
+    ],
+    "climate": [
+     1,
+     "Would make polluters answer for environmental damage."
+    ],
+    "voting": [
+     -1,
+     "Promises to guard voters' access to the ballot."
+    ],
+    "trump": [
+     -1,
+     "Vows to protect civil rights and hold corporations accountable; open to challenging federal policy."
+    ]
+   },
+   "sources": [
+    {
+     "title": "Axios Detroit: Meet the AG and SoS candidates (Oct 19)",
+     "url": "https://www.axios.com/local/detroit/2026/10/19/michigan-attorney-general-secretary-state-2026-guide"
+    },
+    {
+     "title": "WDIV: Michigan AG candidates",
+     "url": "https://clickondetroit.com/news/local/2026/05/25/what-to-know-about-the-candidates-running-for-michigan-attorney-general-in-2026-election"
+    }
+   ]
+  },
+  "Eric Borregard": {
+   "blurb": "Green Party nominee. Retired graphic artist and former teacher.",
+   "sources": [
+    {
+     "title": "League of Women Voters of Michigan 2026 voter guide",
+     "url": "https://lwvmi.org/wp-content/uploads/2026/10/VG2026Final-SingPg.pdf"
+    }
+   ]
+  },
+  "Felicia D. Hayden": {
+   "blurb": "Appointed to a vacant Battle Creek Public Schools board seat in March 2026; running to keep it for the rest of the term (through 2030).",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "Battle Creek Public Schools: Board of Education",
+     "url": "https://www.battlecreekpublicschools.org/about/boardofeducation"
+    },
+    {
+     "title": "Citizen Portal: board appoints Felicia Hayden (Mar. 2026)",
+     "url": "https://citizenportal.ai/articles/7728148/michigan/school-boards/battle-creek-public-schools/battle-creek-public-schools-board-appoints-felicia-hayden-to-fill-vacancy"
+    }
+   ]
+  },
+  "Garlin Gilchrist": {
+   "blurb": "Lieutenant Governor since 2019 and former software engineer. Refuses corporate PAC money.",
+   "stances": {
+    "voting": [
+     -2,
+     "Would not give the Trump administration Michigan's unredacted voter roll; wants to expand participation and resist federal interference."
+    ],
+    "trump": [
+     -2,
+     "Pledges to be Michigan's \"chief privacy officer\" against federal election demands."
+    ]
+   },
+   "sources": [
+    {
+     "title": "Votebeat: SoS candidates on transparency and the Trump administration",
+     "url": "https://www.votebeat.org/michigan/2026/10/08/garlin-gilchrist-anthony-forlini-secretary-of-state-2026-election/"
+    }
+   ]
+  },
+  "Hillary Scholten": {
+   "blurb": "U.S. Representative since 2023; former immigration attorney at the Justice Department.",
+   "stances": {
+    "immigration": [
+     1,
+     "Voted YES on the Laken Riley Act (Jan 2025), which requires ICE to detain undocumented immigrants charged with theft or violent crimes. One of 46 House Democrats who did."
+    ]
+   },
+   "sources": [
+    {
+     "title": "House Clerk: Laken Riley Act final passage, roll call 23 (Jan 22, 2025)",
+     "url": "https://clerk.house.gov/evs/2025/roll023"
+    },
+    {
+     "title": "Michigan Public: 2 MI Dems help pass Laken Riley Act",
+     "url": "https://www.michiganpublic.org/politics-government/2025-01-23/immigration-bill-is-first-to-head-to-trumps-desk-with-some-mi-support-and-some-heated-opposition"
+    }
+   ]
+  },
+  "Jack Bergman": {
+   "blurb": "U.S. Representative since 2017; retired Marine Corps lieutenant general.",
+   "stances": {
+    "immigration": [
+     2,
+     "Voted YES on the Laken Riley Act ICE detention mandate (Jan 2025) and for the 2025 tax-and-spending law that added roughly $75B for ICE."
+    ]
+   },
+   "sources": [
+    {
+     "title": "House Clerk: Laken Riley Act final passage, roll call 23 (Jan 22, 2025)",
+     "url": "https://clerk.house.gov/evs/2025/roll023"
+    }
+   ]
+  },
+  "Jessica LaCosse": {
+   "blurb": "Ward 1 city commissioner (2024–2026 term), running unopposed.",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "City of Battle Creek: City Commission 2024–2026",
+     "url": "https://www.battlecreekmi.gov/DocumentCenter/View/14880/City-Commission-2024-2026"
+    }
+   ]
+  },
+  "Jim Bronke": {
+   "blurb": "Green Party nominee. Retired electrical engineer; critical of profit-driven health care.",
+   "sources": [
+    {
+     "title": "League of Women Voters of Michigan 2026 voter guide",
+     "url": "https://lwvmi.org/wp-content/uploads/2026/10/VG2026Final-SingPg.pdf"
+    }
+   ]
+  },
+  "Jim Haadsma": {
+   "blurb": "Battle Creek labor and workers' compensation attorney. Held this seat 2019–2024 and lost it by 79 votes in 2024; earlier served on the Calhoun County Board of Commissioners. Running on public-school funding, affordable health care and college costs.",
+   "stances": {
+    "climate": [
+     1,
+     "88% lifetime score from the League of Conservation Voters."
+    ],
+    "schools": [
+     -1,
+     "Prioritizes adequate funding for public schools and teacher pay."
+    ]
+   },
+   "endorsedBy": [
+    "Michigan Education Association",
+    "Planned Parenthood (2024)"
+   ],
+   "sources": [
+    {
+     "title": "Gander Newsroom: Frisbie vs. Haadsma rematch in the 44th District",
+     "url": "https://gandernewsroom.com/news/frisbie-vs-haadsma-rematch-in-michigans-44th-district-could-tip-control-of-the-state-house/"
+    },
+    {
+     "title": "Branch: Jim Haadsma",
+     "url": "https://www.branch.vote/races/2026-michigan-general-election-mi-state-state-representative-mi-state-house-44/candidates/jim-haadsma"
+    },
+    {
+     "title": "MEA 2026 candidate recommendations",
+     "url": "https://mea.org/mea-announces-full-list-of-candidate-recommendations-for-election-2026/"
+    }
+   ]
+  },
+  "Jim Lance": {
+   "blurb": "Ward 5 city commissioner (2024–2026 term), running unopposed.",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "City of Battle Creek: City Commission 2024–2026",
+     "url": "https://www.battlecreekmi.gov/DocumentCenter/View/14880/City-Commission-2024-2026"
+    }
+   ]
+  },
+  "Jocelyn Benson": {
+   "blurb": "Michigan Secretary of State since 2019; former Wayne State law dean. Running on lowering costs for health care, prescriptions and housing.",
+   "running_mate": "Winnie Brinks",
+   "stances": {
+    "taxes": [
+     0,
+     "Won't raise taxes on the middle class; proposes home-buyer tax credits and cutting government costs instead."
+    ],
+    "healthcare": [
+     2,
+     "\"Healthcare should be a right.\" Would expand low/no-cost preventive care, medical debt relief, $5,000 caregiver credit."
+    ],
+    "abortion": [
+     2,
+     "Supports legal abortion; backed 2022's Proposal 3 that put reproductive rights in the state constitution."
+    ],
+    "guns": [
+     2,
+     "Backs red flag laws, universal background checks and safe storage; banned open carry at polling places in 2020."
+    ],
+    "immigration": [
+     -1,
+     "Opposes federal ICE deployments in Michigan and withholding funds from sanctuary cities."
+    ],
+    "climate": [
+     2,
+     "Supports 100% clean electricity by 2040; tougher penalties for polluters and Great Lakes protections."
+    ],
+    "labor": [
+     2,
+     "\"Unions built the middle class.\" Supports collective bargaining and benefits for striking workers."
+    ],
+    "voting": [
+     -2,
+     "Opposes proof-of-citizenship requirements; backs a state Voting Rights Act."
+    ],
+    "lgbtq": [
+     2,
+     "Supported adding sexual orientation and gender identity to civil-rights law."
+    ],
+    "schools": [
+     -1,
+     "Opposes draining money from neighborhood public schools; OK with charters held to the same standards."
+    ],
+    "crime": [
+     -1,
+     "Launched IDs for newly paroled people; focuses on re-entry and police-community trust."
+    ],
+    "trump": [
+     -2,
+     "Campaigns against Trump administration tariffs, the Iran war and federal cuts."
+    ]
+   },
+   "sources": [
+    {
+     "title": "guides.vote: Michigan Governor 2026",
+     "url": "https://guides.vote/wp-content/uploads/2026/09/Michigan-Governor-Guide-2026.pdf"
+    },
+    {
+     "title": "Michigan Public: Benson and James second debate (Oct 16)",
+     "url": "https://www.michiganpublic.org/politics-government/2026-10-16/republican-john-james-and-democrat-jocelyn-benson-running-for-governor-debate-for-second-time"
+    }
+   ]
+  },
+  "John James": {
+   "blurb": "Two-term U.S. Representative (MI-10, Macomb County), Army helicopter pilot in Iraq, businessman. Running on cutting taxes and government waste.",
+   "running_mate": "Jay DeBoyer",
+   "stances": {
+    "taxes": [
+     -2,
+     "Would eliminate Michigan's income tax and reform property taxes."
+    ],
+    "healthcare": [
+     -2,
+     "\"Not more government, it's less.\" Voted for Medicaid cuts and against extending ACA subsidies; wants Medicaid work requirements."
+    ],
+    "abortion": [
+     -1,
+     "Called himself \"100% pro-life\" (2018); in 2024 said voters \"already decided\" with Proposal 3."
+    ],
+    "guns": [
+     -2,
+     "\"SHALL NOT BE INFRINGED.\" Sponsored national concealed-carry reciprocity."
+    ],
+    "immigration": [
+     2,
+     "Voted for +$75B ICE funding, 900 miles of border wall, E-Verify; opposes sanctuary cities."
+    ],
+    "climate": [
+     -1,
+     "Calls the 100% clean-energy-by-2040 law \"insane\"; prefers \"innovation rather than mandates.\""
+    ],
+    "labor": [
+     -1,
+     "Supports right-to-work; has also joined a nurses' picket line and praised UAW workers."
+    ],
+    "voting": [
+     2,
+     "Wants a constitutional amendment requiring proof of citizenship and voter ID."
+    ],
+    "lgbtq": [
+     -1,
+     "Voted to ban gender-affirming care for minors and trans girls in girls' sports."
+    ],
+    "schools": [
+     2,
+     "Would opt Michigan into the federal private-school scholarship tax credit \"on day one.\""
+    ],
+    "crime": [
+     2,
+     "\"Lock up violent criminals\"; more training, equipment and legal protections for police."
+    ],
+    "trump": [
+     1,
+     "Voted for the 2025 federal tax-and-spending law; says he'll break with Trump when Michigan's interests differ."
+    ]
+   },
+   "sources": [
+    {
+     "title": "guides.vote: Michigan Governor 2026",
+     "url": "https://guides.vote/wp-content/uploads/2026/09/Michigan-Governor-Guide-2026.pdf"
+    },
+    {
+     "title": "Michigan Public: James distances himself from Trump in debate (Oct 7)",
+     "url": "https://www.michiganpublic.org/politics-government/2026-10-07/james-distances-himself-from-trump-as-benson-tries-to-connect-them-in-gubernatorial-debate"
+    }
+   ]
+  },
+  "John Moolenaar": {
+   "blurb": "U.S. Representative since 2015; chairs the House China select committee.",
+   "stances": {
+    "immigration": [
+     2,
+     "Voted YES on the Laken Riley Act ICE detention mandate (Jan 2025) and for the 2025 tax-and-spending law that added roughly $75B for ICE."
+    ]
+   },
+   "sources": [
+    {
+     "title": "House Clerk: Laken Riley Act final passage, roll call 23 (Jan 22, 2025)",
+     "url": "https://clerk.house.gov/evs/2025/roll023"
+    }
+   ]
+  },
+  "John Perry Ludtke Jr.": {
+   "blurb": "U.S. Taxpayers nominee. Electronics technician who says he has studied the state constitution and statutes for decades.",
+   "sources": [
+    {
+     "title": "League of Women Voters of Michigan 2026 voter guide",
+     "url": "https://lwvmi.org/wp-content/uploads/2026/10/VG2026Final-SingPg.pdf"
+    }
+   ]
+  },
+  "Judith Pritchett": {
+   "blurb": "Incumbent State Board of Education member.",
+   "incumbent": true,
+   "endorsedBy": [
+    "Michigan Education Association"
+   ],
+   "sources": [
+    {
+     "title": "MEA 2026 candidate recommendations",
+     "url": "https://mea.org/mea-announces-full-list-of-candidate-recommendations-for-election-2026/"
+    }
+   ]
+  },
+  "Julie Maday": {
+   "blurb": "Former Novi City Council member; narrowly lost an MSU trustee race in 2024. Focuses on the budget deficit and cutting waste; opposes the board's ethics code and transgender women in women's sports.",
+   "sources": [
+    {
+     "title": "Michigan Public: Meet the MSU trustee candidates",
+     "url": "https://www.michiganpublic.org/politics-government/2026-10-23/meet-the-democratic-and-republican-candidates-for-the-msu-board-of-trustees"
+    }
+   ]
+  },
+  "Kate Flores": {
+   "blurb": "Appointed to a vacant Battle Creek Public Schools board seat; now running to keep it for the rest of the term (through 2030).",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "Battle Creek Public Schools: Board of Education",
+     "url": "https://www.battlecreekpublicschools.org/about/boardofeducation"
+    }
+   ]
+  },
+  "Kelly Tebay Zemke": {
+   "blurb": "Incumbent MSU trustee; government relations director at The Henry Ford. Wants to raise the income cap on the Spartan Tuition Advantage and extend it to housing.",
+   "incumbent": true,
+   "endorsedBy": [
+    "Michigan Education Association"
+   ],
+   "sources": [
+    {
+     "title": "Michigan Public: Meet the MSU trustee candidates",
+     "url": "https://www.michiganpublic.org/politics-government/2026-10-23/meet-the-democratic-and-republican-candidates-for-the-msu-board-of-trustees"
+    },
+    {
+     "title": "MEA 2026 candidate recommendations",
+     "url": "https://mea.org/mea-announces-full-list-of-candidate-recommendations-for-election-2026/"
+    }
+   ]
+  },
+  "Kristen McDonald Rivet": {
+   "blurb": "First-term U.S. Representative; former state senator from Bay City.",
+   "stances": {
+    "immigration": [
+     1,
+     "Voted YES on the Laken Riley Act (Jan 2025), which requires ICE to detain undocumented immigrants charged with theft or violent crimes. One of 46 House Democrats who did."
+    ]
+   },
+   "sources": [
+    {
+     "title": "House Clerk: Laken Riley Act final passage, roll call 23 (Jan 22, 2025)",
+     "url": "https://clerk.house.gov/evs/2025/roll023"
+    },
+    {
+     "title": "Michigan Public: 2 MI Dems help pass Laken Riley Act",
+     "url": "https://www.michiganpublic.org/politics-government/2025-01-23/immigration-bill-is-first-to-head-to-trumps-desk-with-some-mi-support-and-some-heated-opposition"
+    }
+   ]
+  },
+  "Lena Epstein": {
+   "blurb": "Co-owner of Vesco Oil; ran for regent in 2022. Wants tuition frozen or cut, more in-state students, more financial documents made public, and a working relationship with the federal government.",
+   "sources": [
+    {
+     "title": "Michigan Public: Meet the U-M regent candidates",
+     "url": "https://www.michiganpublic.org/politics-government/2026-10-09/meet-the-candidates-running-for-the-u-m-board-of-regents"
+    }
+   ]
+  },
+  "LeRoy Smith": {
+   "blurb": "Listed by the city as Pastor LeRoy Smith. Running for the open Ward 2 seat (current commissioner Jenasia Morris isn't on the ballot).",
+   "sources": [
+    {
+     "title": "City of Battle Creek: 2026 candidate list",
+     "url": "https://battlecreekmi.gov/DocumentCenter/View/20516/11326-City-Commission-Candidate-List"
+    },
+    {
+     "title": "City of Battle Creek: City Commission 2024–2026",
+     "url": "https://www.battlecreekmi.gov/DocumentCenter/View/14880/City-Commission-2024-2026"
+    }
+   ]
+  },
+  "Lisa McClain": {
+   "blurb": "U.S. Representative since 2021; House Republican Conference chair.",
+   "stances": {
+    "immigration": [
+     2,
+     "Voted YES on the Laken Riley Act ICE detention mandate (Jan 2025) and for the 2025 tax-and-spending law that added roughly $75B for ICE."
+    ]
+   },
+   "sources": [
+    {
+     "title": "House Clerk: Laken Riley Act final passage, roll call 23 (Jan 22, 2025)",
+     "url": "https://clerk.house.gov/evs/2025/roll023"
+    }
+   ]
+  },
+  "Lydia Christensen": {
+   "blurb": "Libertarian nominee. Company CEO with a computer-science background; emphasizes community organizing.",
+   "sources": [
+    {
+     "title": "League of Women Voters of Michigan 2026 voter guide",
+     "url": "https://lwvmi.org/wp-content/uploads/2026/10/VG2026Final-SingPg.pdf"
+    }
+   ]
+  },
+  "Lynn Ward Gray": {
+   "blurb": "Community activist and former Battle Creek city commissioner (2nd Ward, from 2009). Ran for mayor in 2020 on economic development, small business and more community involvement in city government.",
+   "sources": [
+    {
+     "title": "WWMT: Battle Creek mayoral candidates (2020)",
+     "url": "https://wwmt.com/news/local/battle-creek-voters-can-now-elect-their-mayor-meet-the-candidates"
+    },
+    {
+     "title": "City of Battle Creek: 2026 candidate list",
+     "url": "https://battlecreekmi.gov/DocumentCenter/View/20516/11326-City-Commission-Candidate-List"
+    }
+   ]
+  },
+  "Mark A. Behnke": {
+   "blurb": "Current mayor of Battle Creek and a city commissioner for roughly three decades. Has emphasized jobs, economic development and affordable housing.",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "City of Battle Creek: City Commission 2024–2026",
+     "url": "https://www.battlecreekmi.gov/DocumentCenter/View/14880/City-Commission-2024-2026"
+    },
+    {
+     "title": "WWMT: Battle Creek voters can now elect their mayor (2020)",
+     "url": "https://wwmt.com/news/local/battle-creek-voters-can-now-elect-their-mayor-meet-the-candidates"
+    }
+   ]
+  },
+  "Mark T. Boonstra": {
+   "blurb": "Incumbent Court of Appeals judge. Announced a run for the Michigan Supreme Court in 2024.",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "Steve Gruber Show: Boonstra announces Supreme Court run (2024)",
+     "url": "https://www.stevegruber.com/podcast/2024/03/mark-boonstra-announcing-run-for-open-seat-on-the-michigan-supreme-court/print"
+    }
+   ]
+  },
+  "Megan Kathleen Cavanagh": {
+   "blurb": "Democratic-nominated. Chief Justice; elected 2018. Endorsed by the Michigan AFL-CIO.",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "Bridge Michigan: 6 candidates compete for 2 seats",
+     "url": "https://www.bridgemi.com/michigan-government/whos-running-for-michigan-supreme-court-6-candidates-compete-for-2-seats/"
+    }
+   ]
+  },
+  "Melinda S. Weaver": {
+   "blurb": "Appointed Calhoun County Treasurer; previously Chief Deputy Treasurer and the office's program and customer-service manager, helping residents facing tax foreclosure. Degree in organizational management from Spring Arbor University.",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "Branch: Melinda S. Weaver",
+     "url": "https://www.branch.vote/races/2026-michigan-primary-election-mi-state-county-treasurer-mi-county-calhoun-r-special/candidates/melinda-s-weaver"
+    }
+   ]
+  },
+  "Michael Bouchard Jr.": {
+   "blurb": "Former Army captain (82nd and 101st Airborne), son of Oakland County's sheriff; Trump-endorsed. Priorities: national security, border enforcement, manufacturing, parental school choice.",
+   "stances": {
+    "immigration": [
+     2,
+     "Lists border enforcement among his top priorities."
+    ],
+    "schools": [
+     1,
+     "Supports more parental choice in education."
+    ]
+   },
+   "sources": [
+    {
+     "title": "Michigan Public: 10th District race (Sep 28)",
+     "url": "https://www.michiganpublic.org/politics-government/2026-09-28/10th-congressional-race-michigan-michael-bouchard-christina-hines"
+    }
+   ]
+  },
+  "Michael Schostak": {
+   "blurb": "Bloomfield Township treasurer and former Wayne State finance lecturer; presents himself as a moderate. Would widen the Go Blue Guarantee and is critical of how U-M handled the data center.",
+   "sources": [
+    {
+     "title": "Michigan Public: Meet the U-M regent candidates",
+     "url": "https://www.michiganpublic.org/politics-government/2026-10-09/meet-the-candidates-running-for-the-u-m-board-of-regents"
+    }
+   ]
+  },
+  "Michael Warren": {
+   "blurb": "Republican-nominated. Oakland County Circuit judge since 2002; has taught law at Wayne State. Endorsed by the Michigan Chamber.",
+   "sources": [
+    {
+     "title": "Bridge Michigan: 6 candidates compete for 2 seats",
+     "url": "https://www.bridgemi.com/michigan-government/whos-running-for-michigan-supreme-court-6-candidates-compete-for-2-seats/"
+    }
+   ]
+  },
+  "Michelle L. Richardson": {
+   "blurb": "Incumbent 10th District Court (Calhoun County) judge, running unopposed.",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "Calhoun County Clerk, Official Candidate List (Nov. 3, 2026)",
+     "url": "https://elections.calhouncountymi.gov/November2026/docs/OFFICIAL%20CANDIDATE%20LISTING.pdf"
+    }
+   ]
+  },
+  "Mike Rogers": {
+   "blurb": "Former seven-term U.S. Representative (MI-8, 2001–2015), ex-FBI agent and House Intelligence chair. Narrowly lost the 2024 Senate race.",
+   "stances": {
+    "taxes": [
+     -2,
+     "Backs the 2025 \"One Big Beautiful Bill\" tax cuts: \"There's no tax cut I don't like.\""
+    ],
+    "healthcare": [
+     -1,
+     "Wants free-market health plans; voted to repeal the ACA but called defense-for-health-care cuts \"a bridge too far.\""
+    ],
+    "abortion": [
+     -1,
+     "\"I'm a pro-life guy\"; supported overturning Roe but opposes a national ban and says states decide."
+    ],
+    "guns": [
+     -1,
+     "\"Banning guns isn't going to do it\"; supports background checks and enforcing existing laws."
+    ],
+    "immigration": [
+     2,
+     "Finish the border wall, restore Remain in Mexico, oppose sanctuary cities; prioritizes deporting criminals over mass deportation."
+    ],
+    "climate": [
+     -2,
+     "Says EV and renewable mandates are \"destroying Michigan's auto industry.\""
+    ],
+    "labor": [
+     0,
+     "Backed the 2023 UAW strike; past votes to limit prevailing-wage rules and the NLRB."
+    ],
+    "voting": [
+     2,
+     "Supports voter ID and would pass the SAVE Act."
+    ],
+    "lgbtq": [
+     -1,
+     "Accepts same-sex marriage as law; opposes trans athletes in women's sports; against firing people for being LGBTQ."
+    ],
+    "schools": [
+     2,
+     "Wants Michigan to join the federal private-school scholarship tax credit."
+    ],
+    "crime": [
+     2,
+     "\"Back the blue all the way\"; urged sending the National Guard to Detroit."
+    ],
+    "trump": [
+     2,
+     "Advised Trump's 2016 transition; supports giving the president authority to continue the Iran war."
+    ]
+   },
+   "sources": [
+    {
+     "title": "guides.vote: Michigan U.S. Senate 2026",
+     "url": "https://guides.vote/guide/2026-michigan-us-senate-voters-guide/"
+    }
+   ]
+  },
+  "Nathan Grajek": {
+   "blurb": "Battle Creek Public Schools board secretary; term ends 2026.",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "Battle Creek Public Schools: Board of Education",
+     "url": "https://www.battlecreekpublicschools.org/about/boardofeducation"
+    }
+   ]
+  },
+  "Noah P. Hood": {
+   "blurb": "Democratic-nominated. Appointed by Gov. Whitmer in 2025; previously on the Court of Appeals.",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "Bridge Michigan: 6 candidates compete for 2 seats",
+     "url": "https://www.bridgemi.com/michigan-government/whos-running-for-michigan-supreme-court-6-candidates-compete-for-2-seats/"
+    },
+    {
+     "title": "Gov. Whitmer: April 2025 court appointments",
+     "url": "https://www.michigan.gov/whitmer/news/press-releases/2025/04/23/whitmer-makes-appointments-to-the-michigan-supreme-court-michigan-court-of-appeals"
+    }
+   ]
+  },
+  "Paige Katsarsky-Smith": {
+   "blurb": "At-large Battle Creek city commissioner (2024–2026 term).",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "City of Battle Creek: City Commission 2024–2026",
+     "url": "https://www.battlecreekmi.gov/DocumentCenter/View/14880/City-Commission-2024-2026"
+    }
+   ]
+  },
+  "Patrick A. O'Donnell": {
+   "blurb": "Kellogg Community College trustee and board secretary, and Battle Creek's Ward 3 city commissioner. Network operations specialist at MetroNet; KCC and Siena Heights graduate. On the ballot for both KCC trustee and Ward 3.",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "Kellogg Community College: Board of Trustees",
+     "url": "https://kellogg.edu/about/leadership/board-of-trustees/"
+    },
+    {
+     "title": "City of Battle Creek: City Commission 2024–2026",
+     "url": "https://www.battlecreekmi.gov/DocumentCenter/View/14880/City-Commission-2024-2026"
+    }
+   ]
+  },
+  "Paul Brown": {
+   "blurb": "Incumbent U-M regent. Touts expanding the Go Blue Guarantee and wants it extended to some graduate programs; says he is a named plaintiff in lawsuits against the Trump administration; now calls the Ypsilanti data center project environmental racism.",
+   "incumbent": true,
+   "endorsedBy": [
+    "Michigan Education Association"
+   ],
+   "sources": [
+    {
+     "title": "Michigan Public: Meet the U-M regent candidates",
+     "url": "https://www.michiganpublic.org/politics-government/2026-10-09/meet-the-candidates-running-for-the-u-m-board-of-regents"
+    },
+    {
+     "title": "MEA 2026 candidate recommendations",
+     "url": "https://mea.org/mea-announces-full-list-of-candidate-recommendations-for-election-2026/"
+    }
+   ]
+  },
+  "Paul K. Beardslee": {
+   "blurb": "Incumbent 10th District Court (Calhoun County) judge, running unopposed.",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "Calhoun County Clerk, Official Candidate List (Nov. 3, 2026)",
+     "url": "https://elections.calhouncountymi.gov/November2026/docs/OFFICIAL%20CANDIDATE%20LISTING.pdf"
+    }
+   ]
+  },
+  "Rashida Tlaib": {
+   "blurb": "U.S. Representative since 2019; member of the progressive \"Squad.\"",
+   "stances": {
+    "immigration": [
+     -2,
+     "Voted NO on the Laken Riley Act (Jan 2025) ICE detention mandate."
+    ]
+   },
+   "sources": [
+    {
+     "title": "House Clerk: Laken Riley Act final passage, roll call 23 (Jan 22, 2025)",
+     "url": "https://clerk.house.gov/evs/2025/roll023"
+    },
+    {
+     "title": "Michigan Public: 2 MI Dems help pass Laken Riley Act",
+     "url": "https://www.michiganpublic.org/politics-government/2025-01-23/immigration-bill-is-first-to-head-to-trumps-desk-with-some-mi-support-and-some-heated-opposition"
+    }
+   ]
+  },
+  "Richard Mack": {
+   "blurb": "Union-side labor attorney and Detroit NAACP board member. Focuses on financial aid and student support; sees the Trump administration as the main threat to campus speech.",
+   "endorsedBy": [
+    "Michigan Education Association"
+   ],
+   "sources": [
+    {
+     "title": "Michigan Public: Meet the Wayne State governor candidates",
+     "url": "https://www.michiganpublic.org/politics-government/2026-10-23/meet-the-democratic-and-republican-candidates-for-the-wayne-state-board-of-governors"
+    },
+    {
+     "title": "MEA 2026 candidate recommendations",
+     "url": "https://mea.org/mea-announces-full-list-of-candidate-recommendations-for-election-2026/"
+    }
+   ]
+  },
+  "Rochelle R. Hatcher": {
+   "blurb": "Running for the open Ward 2 seat (current commissioner Jenasia Morris isn't on the ballot).",
+   "sources": [
+    {
+     "title": "City of Battle Creek: 2026 candidate list",
+     "url": "https://battlecreekmi.gov/DocumentCenter/View/20516/11326-City-Commission-Candidate-List"
+    },
+    {
+     "title": "City of Battle Creek: City Commission 2024–2026",
+     "url": "https://www.battlecreekmi.gov/DocumentCenter/View/14880/City-Commission-2024-2026"
+    }
+   ]
+  },
+  "Roger Victory": {
+   "blurb": "Hudsonville farmer and state senator since 2019. Wants to close MSU's deficit, align the university with legislators, and expand agriculture and 4-H programs.",
+   "sources": [
+    {
+     "title": "Michigan Public: Meet the MSU trustee candidates",
+     "url": "https://www.michiganpublic.org/politics-government/2026-10-23/meet-the-democratic-and-republican-candidates-for-the-msu-board-of-trustees"
+    }
+   ]
+  },
+  "Ronald A. Muszynski": {
+   "blurb": "Libertarian nominee. Retired turbine-engine design engineer; opposes government health-care guarantees.",
+   "sources": [
+    {
+     "title": "League of Women Voters of Michigan 2026 voter guide",
+     "url": "https://lwvmi.org/wp-content/uploads/2026/10/VG2026Final-SingPg.pdf"
+    }
+   ]
+  },
+  "Sarah S. Lincoln": {
+   "blurb": "Incumbent 37th Circuit (Calhoun County) judge, running unopposed.",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "Calhoun County Clerk, Official Candidate List (Nov. 3, 2026)",
+     "url": "https://elections.calhouncountymi.gov/November2026/docs/OFFICIAL%20CANDIDATE%20LISTING.pdf"
+    }
+   ]
+  },
+  "Scott E. Aughney": {
+   "blurb": "U.S. Taxpayers nominee. Contractor and musician; wants a more manual, paper-based voting system.",
+   "sources": [
+    {
+     "title": "League of Women Voters of Michigan 2026 voter guide",
+     "url": "https://lwvmi.org/wp-content/uploads/2026/10/VG2026Final-SingPg.pdf"
+    }
+   ]
+  },
+  "Sean McCann": {
+   "blurb": "State senator from Kalamazoo (2019–present). Running on cost of living: gas, housing, health care, child care. Endorsed by Gov. Whitmer and the UAW region.",
+   "sources": [
+    {
+     "title": "Michigan Advance (Oct 14)",
+     "url": "https://michiganadvance.com/2026/10/14/buttigieg-and-mccann-argue-republican-self-interest-is-undermining-the-american-dream/"
+    }
+   ]
+  },
+  "Sharon Marie Renier": {
+   "blurb": "U.S. Taxpayers nominee. Organic farmer and former paralegal.",
+   "sources": [
+    {
+     "title": "League of Women Voters of Michigan 2026 voter guide",
+     "url": "https://lwvmi.org/wp-content/uploads/2026/10/VG2026Final-SingPg.pdf"
+    }
+   ]
+  },
+  "Shereef Akeel": {
+   "blurb": "Civil-rights attorney and CPA. Wants more medical-school outreach to underserved areas and to defend students, faculty and staff from federal legal threats.",
+   "endorsedBy": [
+    "Michigan Education Association"
+   ],
+   "sources": [
+    {
+     "title": "Michigan Public: Meet the Wayne State governor candidates",
+     "url": "https://www.michiganpublic.org/politics-government/2026-10-23/meet-the-democratic-and-republican-candidates-for-the-wayne-state-board-of-governors"
+    },
+    {
+     "title": "MEA 2026 candidate recommendations",
+     "url": "https://mea.org/mea-announces-full-list-of-candidate-recommendations-for-election-2026/"
+    }
+   ]
+  },
+  "Sherry L. Sofia": {
+   "blurb": "Battle Creek vice mayor and at-large city commissioner (2024–2026 term).",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "City of Battle Creek: City Commission 2024–2026",
+     "url": "https://www.battlecreekmi.gov/DocumentCenter/View/14880/City-Commission-2024-2026"
+    }
+   ]
+  },
+  "Steve Frisbie": {
+   "blurb": "State representative since January 2025 after winning a 2024 recount by 79 votes. Longtime paramedic and vice president of LifeCare Ambulance; 13 years on the Calhoun County Commission, including as chair. Has focused on roads, energy and public safety.",
+   "incumbent": true,
+   "stances": {
+    "climate": [
+     -2,
+     "Among lawmakers pushing to repeal Michigan's clean-energy laws; 0% score from the League of Conservation Voters. Sponsored a bill blocking local natural-gas bans."
+    ],
+    "immigration": [
+     1,
+     "Voted for a House resolution to block state funding to 'sanctuary' communities."
+    ],
+    "trump": [
+     1,
+     "Was a delegate to the 2020 Republican National Convention and voted to nominate Donald Trump."
+    ]
+   },
+   "endorsedBy": [
+    "Right to Life of Michigan",
+    "Americans for Prosperity (2024)"
+   ],
+   "sources": [
+    {
+     "title": "Gander Newsroom: Frisbie vs. Haadsma rematch in the 44th District",
+     "url": "https://gandernewsroom.com/news/frisbie-vs-haadsma-rematch-in-michigans-44th-district-could-tip-control-of-the-state-house/"
+    },
+    {
+     "title": "Wikipedia: Steve Frisbie",
+     "url": "https://en.wikipedia.org/wiki/Steve_Frisbie"
+    },
+    {
+     "title": "AFP-Michigan 2024 endorsements",
+     "url": "https://americansforprosperity.org/?p=223099"
+    }
+   ]
+  },
+  "Thomas A. Albert": {
+   "blurb": "State senator for the 18th District since 2023; state representative 2017–2022. Former Marine officer who advised the Iraqi Army, and former investor for the state retirement system. Lives in Lowell.",
+   "incumbent": true,
+   "sources": [
+    {
+     "title": "Wikipedia: Thomas Albert",
+     "url": "https://en.wikipedia.org/wiki/Thomas_Albert_(politician)"
+    },
+    {
+     "title": "Branch: Thomas A. Albert",
+     "url": "https://www.branch.vote/races/2026-michigan-general-election-mi-state-state-senator-mi-state-senate-18/candidates/thomas-a-albert"
+    }
+   ]
+  },
+  "Tiffany Tilley": {
+   "blurb": "Incumbent State Board of Education member.",
+   "incumbent": true,
+   "endorsedBy": [
+    "Michigan Education Association"
+   ],
+   "sources": [
+    {
+     "title": "MEA 2026 candidate recommendations",
+     "url": "https://mea.org/mea-announces-full-list-of-candidate-recommendations-for-election-2026/"
+    }
+   ]
+  },
+  "Tim Long": {
+   "blurb": "U.S. Taxpayers nominee. Evangelist and military and Ford veteran; backs tax cuts and tougher immigration enforcement.",
+   "sources": [
+    {
+     "title": "League of Women Voters of Michigan 2026 voter guide",
+     "url": "https://lwvmi.org/wp-content/uploads/2026/10/VG2026Final-SingPg.pdf"
+    }
+   ]
+  },
+  "Tim Walberg": {
+   "blurb": "U.S. Representative since 2011 (also 2007–2009).",
+   "stances": {
+    "immigration": [
+     2,
+     "Voted YES on the Laken Riley Act ICE detention mandate (Jan 2025) and for the 2025 tax-and-spending law that added roughly $75B for ICE."
+    ]
+   },
+   "sources": [
+    {
+     "title": "House Clerk: Laken Riley Act final passage, roll call 23 (Jan 22, 2025)",
+     "url": "https://clerk.house.gov/evs/2025/roll023"
+    }
+   ]
+  },
+  "Tom Barrett": {
+   "blurb": "First-term U.S. Representative, former state senator and Army helicopter pilot.",
+   "stances": {
+    "immigration": [
+     2,
+     "Voted YES on the Laken Riley Act ICE detention mandate (Jan 2025) and for the 2025 tax-and-spending law that added roughly $75B for ICE."
+    ]
+   },
+   "sources": [
+    {
+     "title": "House Clerk: Laken Riley Act final passage, roll call 23 (Jan 22, 2025)",
+     "url": "https://clerk.house.gov/evs/2025/roll023"
+    }
+   ]
+  },
+  "Walter P. Kristy": {
+   "blurb": "Natural Law Party nominee. Educator.",
+   "sources": [
+    {
+     "title": "League of Women Voters of Michigan 2026 voter guide",
+     "url": "https://lwvmi.org/wp-content/uploads/2026/10/VG2026Final-SingPg.pdf"
+    }
+   ]
+  },
+  "William Lawrence": {
+   "blurb": "Co-founder of the Sunrise climate movement; endorsed by Bernie Sanders. Won a three-way Democratic primary.",
+   "sources": [
+    {
+     "title": "Michigan Advance: Lawrence wins MI-7 primary",
+     "url": "https://michiganadvance.com/2026/08/04/will-lawrence-emerges-as-victor-in-mi-7-democratic-primary/"
+    }
+   ]
+  }
+ },
+ "proposals": [
+  {
+   "id": "mi-prop-1",
+   "title": "Proposal 1: Constitutional convention",
+   "question": "Should Michigan hold a convention of elected delegates in 2027 to rewrite the state constitution?",
+   "yes": "Starts a rewrite of the whole constitution. Voters would still have to approve the final document. Some Republican legislative leaders have voiced support.",
+   "no": "Keeps the constitution as written. Opposed by a coalition of business, labor and voting-rights groups, and by candidates from both parties including Benson and James.",
+   "lean": {
+    "yes": "Some Republican leaders",
+    "no": "Benson, James, and a bipartisan business/labor coalition"
+   },
+   "sources": [
+    {
+     "title": "Votebeat: Proposal 1 explained",
+     "url": "https://www.votebeat.org/michigan/2026/07/09/constitutional-convention-concon-proposal-1-explained/"
+    }
+   ]
+  },
+  {
+   "id": "mi-prop-2",
+   "title": "Proposal 2: Money out of politics",
+   "question": "Ban campaign contributions from regulated utilities and large government contractors, and expand disclosure rules for political ads, including online.",
+   "yes": "Becomes law; it would take a three-quarters vote of the Legislature to change. Backed by Michiganders for Money Out of Politics, funded largely by national progressive groups.",
+   "no": "Keeps current rules. Opposed by Protect MI Free Speech, funded by business groups including Consumers Energy's parent, Blue Cross and Comcast.",
+   "lean": {
+    "yes": "Progressive and good-government groups",
+    "no": "Utilities and business groups"
+   },
+   "sources": [
+    {
+     "title": "Votebeat: everything on Michigan's ballot",
+     "url": "https://www.votebeat.org/michigan/2026/09/16/midterm-election-2026-whats-on-your-ballot-voter-guide/"
+    }
+   ]
+  }
+ ],
+ "contestNotes": {
+  "mi-26025-board-of-trustees-member-kellogg-community-college": "All three incumbents are running for three seats.",
+  "mi-26025-commissioner-ward-3-city-of-battle-creek": "The MEA recommended Diop Harris here, but Harris isn't on the printed ballot.",
+  "mi-26025-mayor-city-of-battle-creek": "Battle Creek voters have elected the mayor directly since a 2020 charter change; before that the City Commission chose the mayor.",
+  "mi-house-44": "A rematch: Steve Frisbie took this seat from Jim Haadsma in 2024 by 79 votes after a hand recount. Both parties see it as key to control of the state House.",
+  "mi-msu-trustees": "Two seats. The board has a 6–2 Democratic majority.",
+  "mi-sbe": "Two of eight seats. The board is 6–2 Democratic now.",
+  "mi-supreme-court": "Nonpartisan on the ballot, but the parties nominate candidates at their conventions (shown in each bio). Democratic nominees currently hold a 6–1 majority.",
+  "mi-um-regents": "Two seats. The board has a 6–2 Democratic majority.",
+  "mi-wsu-governors": "Two seats. The board has a 5–3 Democratic majority."
+ }
+}

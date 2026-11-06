@@ -1,0 +1,2 @@
+data/ballots/** linguist-generated=true -diff
+*.jsonl text eol=lf

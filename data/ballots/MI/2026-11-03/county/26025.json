@@ -208,6 +208,7 @@
    },
    "position": "Incumbent position",
    "partisan": false,
+   "note": "Incumbent position",
    "candidates": [
     {
      "name": "Mark T. Boonstra",
@@ -219,8 +220,7 @@
      "incumbent": true,
      "party": "N"
     }
-   ],
-   "note": "Incumbent position"
+   ]
   },
   {
    "id": "mi-26025-circuit-court-37th-circuit-calhoun-county",
@@ -237,14 +237,14 @@
    },
    "position": "Incumbent position",
    "partisan": false,
+   "note": "Incumbent position",
    "candidates": [
     {
      "name": "Sarah S. Lincoln",
      "incumbent": true,
      "party": "N"
     }
-   ],
-   "note": "Incumbent position"
+   ]
   },
   {
    "id": "mi-26025-district-court-10th-district-calhoun-county",
@@ -261,6 +261,7 @@
    },
    "position": "Incumbent position",
    "partisan": false,
+   "note": "Incumbent position",
    "candidates": [
     {
      "name": "Paul K. Beardslee",
@@ -272,8 +273,7 @@
      "incumbent": true,
      "party": "N"
     }
-   ],
-   "note": "Incumbent position"
+   ]
   },
   {
    "id": "mi-26025-board-of-trustees-member-kalamazoo-valley-community-college",

@@ -1,0 +1,141 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "$id": "https://github.com/josfire18/ballot-buddy/schema/contest.schema.json",
+ "title": "Contest",
+ "description": "One line of official/<unit>/contests.jsonl: an office (or set of seats) on the ballot. Written by the importer.",
+ "type": "object",
+ "required": [
+  "id",
+  "office",
+  "level",
+  "scope",
+  "voteFor",
+  "source"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^[a-z0-9][a-z0-9-]*$"
+  },
+  "office": {
+   "type": "string",
+   "minLength": 3
+  },
+  "where": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "scope": {
+   "type": "object",
+   "minProperties": 1,
+   "additionalProperties": false,
+   "description": "Who votes in this contest. Matched against the Census lookup by js/ballot.js.",
+   "properties": {
+    "state": {
+     "const": true
+    },
+    "cd": {
+     "type": "integer"
+    },
+    "sldu": {
+     "type": "integer"
+    },
+    "sldl": {
+     "type": "integer"
+    },
+    "county": {
+     "const": true
+    },
+    "countyName": {
+     "type": "string"
+    },
+    "commissionDistrict": {
+     "type": "integer"
+    },
+    "city": {
+     "type": "string"
+    },
+    "village": {
+     "type": "string"
+    },
+    "township": {
+     "type": "string"
+    },
+    "ward": {
+     "type": "integer"
+    },
+    "school": {
+     "type": "string"
+    },
+    "college": {
+     "type": "string"
+    },
+    "coa": {
+     "type": "integer"
+    },
+    "circuit": {
+     "type": "integer"
+    },
+    "districtCourt": {
+     "type": [
+      "integer",
+      "string"
+     ]
+    },
+    "unmapped": {
+     "const": true
+    }
+   }
+  },
+  "level": {
+   "enum": [
+    "federal",
+    "state",
+    "legislative",
+    "board",
+    "judicial",
+    "county",
+    "city",
+    "township",
+    "village",
+    "college",
+    "school",
+    "other"
+   ]
+  },
+  "voteFor": {
+   "type": "integer",
+   "minimum": 1
+  },
+  "term": {
+   "type": "string"
+  },
+  "position": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "partisan": {
+   "type": "boolean"
+  },
+  "note": {
+   "type": "string"
+  },
+  "ticket": {
+   "type": "boolean"
+  },
+  "wiki": {
+   "type": "string"
+  },
+  "court": {
+   "type": "object"
+  },
+  "source": {
+   "type": "string"
+  }
+ }
+}

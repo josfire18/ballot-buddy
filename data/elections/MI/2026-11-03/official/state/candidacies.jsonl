@@ -1,0 +1,707 @@
+{"id":"mi-governor/jocelyn-benson","contest":"mi-governor","order":1,"name":"Jocelyn Benson","party":"D","partyLabel":"Democratic","runningMate":"Winnie Brinks"}
+{"id":"mi-governor/john-james","contest":"mi-governor","order":2,"name":"John James","party":"R","partyLabel":"Republican","runningMate":"Jay DeBoyer"}
+{"id":"mi-governor/anthony-hudson","contest":"mi-governor","order":3,"name":"Anthony Hudson","party":"L","partyLabel":"Libertarian","runningMate":"Beau Parmenter"}
+{"id":"mi-governor/donna-brandenburg","contest":"mi-governor","order":4,"name":"Donna Brandenburg","party":"O","partyLabel":"U.S. Taxpayers","runningMate":"Robert Donald Cowper II"}
+{"id":"mi-governor/douglas-campbell","contest":"mi-governor","order":5,"name":"Douglas Campbell","party":"G","partyLabel":"Green","runningMate":"Bobbie Clay"}
+{"id":"mi-sos/garlin-gilchrist-ii","contest":"mi-sos","order":1,"name":"Garlin Gilchrist II","party":"D","partyLabel":"Democratic"}
+{"id":"mi-sos/anthony-g-forlini","contest":"mi-sos","order":2,"name":"Anthony G. Forlini","party":"R","partyLabel":"Republican"}
+{"id":"mi-sos/christine-sloan","contest":"mi-sos","order":3,"name":"Christine Sloan","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-sos/scott-e-aughney","contest":"mi-sos","order":4,"name":"Scott E. Aughney","party":"O","partyLabel":"U.S. Taxpayers"}
+{"id":"mi-sos/eric-borregard","contest":"mi-sos","order":5,"name":"Eric Borregard","party":"G","partyLabel":"Green"}
+{"id":"mi-ag/eli-savit","contest":"mi-ag","order":1,"name":"Eli Savit","party":"D","partyLabel":"Democratic"}
+{"id":"mi-ag/doug-lloyd","contest":"mi-ag","order":2,"name":"Doug Lloyd","party":"R","partyLabel":"Republican"}
+{"id":"mi-ag/jason-dye","contest":"mi-ag","order":3,"name":"Jason Dye","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-ag/john-perry-ludtke-jr","contest":"mi-ag","order":4,"name":"John Perry Ludtke Jr.","party":"O","partyLabel":"U.S. Taxpayers"}
+{"id":"mi-ag/jeff-polonowski","contest":"mi-ag","order":5,"name":"Jeff Polonowski","party":"G","partyLabel":"Green"}
+{"id":"mi-ag/doug-dern","contest":"mi-ag","order":6,"name":"Doug Dern","party":"O","partyLabel":"Natural Law"}
+{"id":"us-senate/abdul-el-sayed","contest":"us-senate","order":1,"name":"Abdul El-Sayed","party":"D","partyLabel":"Democratic"}
+{"id":"us-senate/mike-rogers","contest":"us-senate","order":2,"name":"Mike Rogers","party":"R","partyLabel":"Republican"}
+{"id":"us-senate/lydia-christensen","contest":"us-senate","order":3,"name":"Lydia Christensen","party":"L","partyLabel":"Libertarian"}
+{"id":"us-senate/tim-long","contest":"us-senate","order":4,"name":"Tim Long","party":"O","partyLabel":"U.S. Taxpayers"}
+{"id":"us-senate/douglas-p-marsh","contest":"us-senate","order":5,"name":"Douglas P. Marsh","party":"G","partyLabel":"Green"}
+{"id":"us-senate/walter-p-kristy","contest":"us-senate","order":6,"name":"Walter P. Kristy","party":"O","partyLabel":"Natural Law"}
+{"id":"us-house-1/callie-barr","contest":"us-house-1","order":1,"name":"Callie Barr","party":"D","partyLabel":"Democratic"}
+{"id":"us-house-1/jack-bergman","contest":"us-house-1","order":2,"name":"Jack Bergman","party":"R","partyLabel":"Republican"}
+{"id":"us-house-1/arnett-satterla","contest":"us-house-1","order":3,"name":"Arnett Satterla","party":"L","partyLabel":"Libertarian"}
+{"id":"us-house-1/doc-kovaly","contest":"us-house-1","order":4,"name":"Doc Kovaly","party":"O","partyLabel":"U.S. Taxpayers"}
+{"id":"us-house-1/laveta-davenport","contest":"us-house-1","order":5,"name":"LaVeta Davenport","party":"G","partyLabel":"Green"}
+{"id":"us-house-1/liz-hakola","contest":"us-house-1","order":6,"name":"Liz Hakola","party":"O","partyLabel":"Working Class"}
+{"id":"us-house-1/zebulon-featherly","contest":"us-house-1","order":7,"name":"Zebulon Featherly","party":"I","partyLabel":"No party affiliation"}
+{"id":"us-house-2/ben-ambrose","contest":"us-house-2","order":1,"name":"Ben Ambrose","party":"D","partyLabel":"Democratic"}
+{"id":"us-house-2/john-moolenaar","contest":"us-house-2","order":2,"name":"John Moolenaar","party":"R","partyLabel":"Republican"}
+{"id":"us-house-2/charlotte-magoon","contest":"us-house-2","order":3,"name":"Charlotte Magoon","party":"G","partyLabel":"Green"}
+{"id":"us-house-2/richard-sills","contest":"us-house-2","order":4,"name":"Richard Sills","party":"O","partyLabel":"Natural Law"}
+{"id":"us-house-3/hillary-scholten","contest":"us-house-3","order":1,"name":"Hillary Scholten","party":"D","partyLabel":"Democratic"}
+{"id":"us-house-3/terri-deboer","contest":"us-house-3","order":2,"name":"Terri DeBoer","party":"R","partyLabel":"Republican"}
+{"id":"us-house-3/joe-jock","contest":"us-house-3","order":3,"name":"Joe Jock","party":"G","partyLabel":"Green"}
+{"id":"us-house-4/sean-mccann","contest":"us-house-4","order":1,"name":"Sean McCann","party":"D","partyLabel":"Democratic"}
+{"id":"us-house-4/bill-huizenga","contest":"us-house-4","order":2,"name":"Bill Huizenga","party":"R","partyLabel":"Republican"}
+{"id":"us-house-4/shafina-che-barnett","contest":"us-house-4","order":3,"name":"Shafina Che Barnett","party":"G","partyLabel":"Green"}
+{"id":"us-house-5/christian-vukasovich","contest":"us-house-5","order":1,"name":"Christian Vukasovich","party":"D","partyLabel":"Democratic"}
+{"id":"us-house-5/tim-walberg","contest":"us-house-5","order":2,"name":"Tim Walberg","party":"R","partyLabel":"Republican"}
+{"id":"us-house-5/ronald-a-muszynski","contest":"us-house-5","order":3,"name":"Ronald A Muszynski","party":"L","partyLabel":"Libertarian"}
+{"id":"us-house-5/sharon-marie-renier","contest":"us-house-5","order":4,"name":"Sharon Marie Renier","party":"O","partyLabel":"U.S. Taxpayers"}
+{"id":"us-house-5/jim-bronke","contest":"us-house-5","order":5,"name":"Jim Bronke","party":"G","partyLabel":"Green"}
+{"id":"us-house-6/debbie-dingell","contest":"us-house-6","order":1,"name":"Debbie Dingell","party":"D","partyLabel":"Democratic"}
+{"id":"us-house-6/heather-smiley","contest":"us-house-6","order":2,"name":"Heather Smiley","party":"R","partyLabel":"Republican"}
+{"id":"us-house-6/timothy-a-teagan","contest":"us-house-6","order":3,"name":"Timothy A. Teagan","party":"L","partyLabel":"Libertarian"}
+{"id":"us-house-6/mike-mickevicius","contest":"us-house-6","order":4,"name":"Mike Mickevicius","party":"O","partyLabel":"U.S. Taxpayers"}
+{"id":"us-house-6/clyde-shabazz","contest":"us-house-6","order":5,"name":"Clyde Shabazz","party":"G","partyLabel":"Green"}
+{"id":"us-house-6/linda-rayburn","contest":"us-house-6","order":6,"name":"Linda Rayburn","party":"O","partyLabel":"Working Class"}
+{"id":"us-house-7/william-lawrence","contest":"us-house-7","order":1,"name":"William Lawrence","party":"D","partyLabel":"Democratic"}
+{"id":"us-house-7/tom-barrett","contest":"us-house-7","order":2,"name":"Tom Barrett","party":"R","partyLabel":"Republican"}
+{"id":"us-house-7/shane-dedrick","contest":"us-house-7","order":3,"name":"Shane Dedrick","party":"G","partyLabel":"Green"}
+{"id":"us-house-8/kristen-mcdonald-rivet","contest":"us-house-8","order":1,"name":"Kristen McDonald Rivet","party":"D","partyLabel":"Democratic"}
+{"id":"us-house-8/thomas-j-smith","contest":"us-house-8","order":2,"name":"Thomas J. Smith","party":"R","partyLabel":"Republican"}
+{"id":"us-house-8/c-mia-pettus","contest":"us-house-8","order":3,"name":"C. Mia Pettus","party":"L","partyLabel":"Libertarian"}
+{"id":"us-house-8/jim-casha","contest":"us-house-8","order":4,"name":"Jim Casha","party":"G","partyLabel":"Green"}
+{"id":"us-house-8/kathy-goodwin","contest":"us-house-8","order":5,"name":"Kathy Goodwin","party":"O","partyLabel":"Working Class"}
+{"id":"us-house-9/ray-pooley","contest":"us-house-9","order":1,"name":"Ray Pooley","party":"D","partyLabel":"Democratic"}
+{"id":"us-house-9/lisa-mcclain","contest":"us-house-9","order":2,"name":"Lisa McClain","party":"R","partyLabel":"Republican"}
+{"id":"us-house-9/kevin-vayko","contest":"us-house-9","order":3,"name":"Kevin Vayko","party":"L","partyLabel":"Libertarian"}
+{"id":"us-house-9/john-vlahos","contest":"us-house-9","order":4,"name":"John Vlahos","party":"O","partyLabel":"U.S. Taxpayers"}
+{"id":"us-house-9/destiny-clayton","contest":"us-house-9","order":5,"name":"Destiny Clayton","party":"G","partyLabel":"Green"}
+{"id":"us-house-9/jim-walkowicz","contest":"us-house-9","order":6,"name":"Jim Walkowicz","party":"O","partyLabel":"Working Class"}
+{"id":"us-house-10/christina-bertrand-hines","contest":"us-house-10","order":1,"name":"Christina Bertrand Hines","party":"D","partyLabel":"Democratic"}
+{"id":"us-house-10/michael-bouchard","contest":"us-house-10","order":2,"name":"Michael Bouchard","party":"R","partyLabel":"Republican"}
+{"id":"us-house-10/mike-saliba","contest":"us-house-10","order":3,"name":"Mike Saliba","party":"L","partyLabel":"Libertarian"}
+{"id":"us-house-10/kwabena-nkromo","contest":"us-house-10","order":4,"name":"Kwabena Nkromo","party":"G","partyLabel":"Green"}
+{"id":"us-house-10/andrea-l-kirby","contest":"us-house-10","order":5,"name":"Andrea L. Kirby","party":"O","partyLabel":"Working Class"}
+{"id":"us-house-11/jeremy-moss","contest":"us-house-11","order":1,"name":"Jeremy Moss","party":"D","partyLabel":"Democratic"}
+{"id":"us-house-11/ethan-baker","contest":"us-house-11","order":2,"name":"Ethan Baker","party":"R","partyLabel":"Republican"}
+{"id":"us-house-11/farid-ishac","contest":"us-house-11","order":3,"name":"Farid Ishac","party":"L","partyLabel":"Libertarian"}
+{"id":"us-house-11/ryan-teasdale","contest":"us-house-11","order":4,"name":"Ryan Teasdale","party":"G","partyLabel":"Green"}
+{"id":"us-house-11/anil-kumar","contest":"us-house-11","order":5,"name":"Anil Kumar","party":"I","partyLabel":"No party affiliation"}
+{"id":"us-house-12/rashida-tlaib","contest":"us-house-12","order":1,"name":"Rashida Tlaib","party":"D","partyLabel":"Democratic"}
+{"id":"us-house-12/james-d-hooper","contest":"us-house-12","order":2,"name":"James D. Hooper","party":"R","partyLabel":"Republican"}
+{"id":"us-house-12/marc-joseph-sosnowski","contest":"us-house-12","order":3,"name":"Marc Joseph Sosnowski","party":"O","partyLabel":"U.S. Taxpayers"}
+{"id":"us-house-12/brenda-k-sanders","contest":"us-house-12","order":4,"name":"Brenda K. Sanders","party":"G","partyLabel":"Green"}
+{"id":"us-house-12/gary-walkowicz","contest":"us-house-12","order":5,"name":"Gary Walkowicz","party":"O","partyLabel":"Working Class"}
+{"id":"us-house-13/donavan-mckinney","contest":"us-house-13","order":1,"name":"Donavan McKinney","party":"D","partyLabel":"Democratic"}
+{"id":"us-house-13/t-p-nykoriak","contest":"us-house-13","order":2,"name":"T.P. Nykoriak","party":"R","partyLabel":"Republican"}
+{"id":"us-house-13/chris-dardzinski","contest":"us-house-13","order":3,"name":"Chris Dardzinski","party":"O","partyLabel":"U.S. Taxpayers"}
+{"id":"us-house-13/raelyn-light","contest":"us-house-13","order":4,"name":"Raelyn Light","party":"G","partyLabel":"Green"}
+{"id":"us-house-13/simone-r-coleman","contest":"us-house-13","order":5,"name":"Simone R. Coleman","party":"O","partyLabel":"Working Class"}
+{"id":"mi-senate-1/justin-onwenu","contest":"mi-senate-1","order":1,"name":"Justin Onwenu","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-1/patrick-o-connell","contest":"mi-senate-1","order":2,"name":"Patrick O'Connell","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-2/abbas-alawieh","contest":"mi-senate-2","order":1,"name":"Abbas Alawieh","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-2/harry-sawicki","contest":"mi-senate-2","order":2,"name":"Harry Sawicki","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-2/larry-darnell-betts","contest":"mi-senate-2","order":3,"name":"Larry Darnell Betts","party":"O","partyLabel":"Working Class"}
+{"id":"mi-senate-3/john-conyers-iii","contest":"mi-senate-3","order":1,"name":"John Conyers III","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-3/mark-ashley-price","contest":"mi-senate-3","order":2,"name":"Mark Ashley Price","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-3/david-roehrig","contest":"mi-senate-3","order":3,"name":"David Roehrig","party":"O","partyLabel":"Working Class"}
+{"id":"mi-senate-4/darrin-camilleri","contest":"mi-senate-4","order":1,"name":"Darrin Camilleri","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-4/marcie-grzywacz","contest":"mi-senate-4","order":2,"name":"Marcie Grzywacz","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-4/beth-ann-socia","contest":"mi-senate-4","order":3,"name":"Beth Ann Socia","party":"O","partyLabel":"U.S. Taxpayers"}
+{"id":"mi-senate-4/walter-willis","contest":"mi-senate-4","order":4,"name":"Walter Willis","party":"O","partyLabel":"Working Class"}
+{"id":"mi-senate-5/matt-koleszar","contest":"mi-senate-5","order":1,"name":"Matt Koleszar","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-5/estelle-oliansky","contest":"mi-senate-5","order":2,"name":"Estelle Oliansky","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-6/mary-cavanagh","contest":"mi-senate-6","order":1,"name":"Mary Cavanagh","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-6/joi-pokerwinski","contest":"mi-senate-6","order":2,"name":"Joi Pokerwinski","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-7/jason-hoskins","contest":"mi-senate-7","order":1,"name":"Jason Hoskins","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-7/anthony-paesano","contest":"mi-senate-7","order":2,"name":"Anthony Paesano","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-8/dayna-polehanki","contest":"mi-senate-8","order":1,"name":"Dayna Polehanki","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-8/kenneth-d-massey","contest":"mi-senate-8","order":2,"name":"Kenneth D. Massey","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-9/theresa-brooks","contest":"mi-senate-9","order":1,"name":"Theresa Brooks","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-9/michael-webber","contest":"mi-senate-9","order":2,"name":"Michael Webber","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-9/jacob-r-schodowski","contest":"mi-senate-9","order":3,"name":"Jacob R. Schodowski","party":"O","partyLabel":"Working Class"}
+{"id":"mi-senate-9/philippe-m-cicchini","contest":"mi-senate-9","order":4,"name":"Philippe M. Cicchini","party":"I","partyLabel":"No party affiliation"}
+{"id":"mi-senate-10/natalie-price","contest":"mi-senate-10","order":1,"name":"Natalie Price","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-10/michelle-nard","contest":"mi-senate-10","order":2,"name":"Michelle Nard","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-11/veronica-klinefelt","contest":"mi-senate-11","order":1,"name":"Veronica Klinefelt","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-11/johnnie-s-townsend","contest":"mi-senate-11","order":2,"name":"Johnnie S. Townsend","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-12/kevin-hertel","contest":"mi-senate-12","order":1,"name":"Kevin Hertel","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-12/john-goldwater","contest":"mi-senate-12","order":2,"name":"John Goldwater","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-13/sean-carlson","contest":"mi-senate-13","order":1,"name":"Sean Carlson","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-13/ryan-berman","contest":"mi-senate-13","order":2,"name":"Ryan Berman","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-14/sue-shink","contest":"mi-senate-14","order":1,"name":"Sue Shink","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-14/tawn-shawnelle-beliger","contest":"mi-senate-14","order":2,"name":"Tawn Shawnelle Beliger","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-15/felicia-brabec","contest":"mi-senate-15","order":1,"name":"Felicia Brabec","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-15/jason-rogers","contest":"mi-senate-15","order":2,"name":"Jason Rogers","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-16/deandre-barnes","contest":"mi-senate-16","order":1,"name":"Deandre Barnes","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-16/joseph-bellino-jr","contest":"mi-senate-16","order":2,"name":"Joseph Bellino Jr.","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-17/ashleigh-baker","contest":"mi-senate-17","order":1,"name":"Ashleigh Baker","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-17/jonathan-lindsey","contest":"mi-senate-17","order":2,"name":"Jonathan Lindsey","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-18/anthony-pennock","contest":"mi-senate-18","order":1,"name":"Anthony Pennock","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-18/thomas-a-albert","contest":"mi-senate-18","order":2,"name":"Thomas A. Albert","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-19/julie-m-rogers","contest":"mi-senate-19","order":1,"name":"Julie M. Rogers","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-19/shaun-young","contest":"mi-senate-19","order":2,"name":"Shaun Young","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-20/dale-murney","contest":"mi-senate-20","order":1,"name":"Dale Murney","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-20/chris-moraitis","contest":"mi-senate-20","order":2,"name":"Chris Moraitis","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-20/shamara-clay","contest":"mi-senate-20","order":3,"name":"Shamara Clay","party":"G","partyLabel":"Green"}
+{"id":"mi-senate-21/sarah-anthony","contest":"mi-senate-21","order":1,"name":"Sarah Anthony","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-21/josh-burns","contest":"mi-senate-21","order":2,"name":"Josh Burns","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-22/robert-hower","contest":"mi-senate-22","order":1,"name":"Robert Hower","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-22/mike-murphy","contest":"mi-senate-22","order":2,"name":"Mike Murphy","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-23/greg-hill","contest":"mi-senate-23","order":1,"name":"Greg Hill","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-23/donni-steele","contest":"mi-senate-23","order":2,"name":"Donni Steele","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-24/edlira-sako","contest":"mi-senate-24","order":1,"name":"Edlira Sako","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-24/douglas-chester-wozniak","contest":"mi-senate-24","order":2,"name":"Douglas Chester Wozniak","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-25/april-l-osentoski","contest":"mi-senate-25","order":1,"name":"April L. Osentoski","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-25/andrew-beeler","contest":"mi-senate-25","order":2,"name":"Andrew Beeler","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-26/brendan-j-johnson","contest":"mi-senate-26","order":1,"name":"Brendan J. Johnson","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-26/matthew-bierlein","contest":"mi-senate-26","order":2,"name":"Matthew Bierlein","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-27/john-d-cherry","contest":"mi-senate-27","order":1,"name":"John D. Cherry","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-27/bill-bain","contest":"mi-senate-27","order":2,"name":"Bill Bain","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-28/rashida-harrison","contest":"mi-senate-28","order":1,"name":"Rashida Harrison","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-28/julie-l-derose","contest":"mi-senate-28","order":2,"name":"Julie L. DeRose","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-28/brandon-crabill","contest":"mi-senate-28","order":3,"name":"Brandon Crabill","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-senate-28/wes-peterson","contest":"mi-senate-28","order":4,"name":"Wes Peterson","party":"O","partyLabel":"Working Class"}
+{"id":"mi-senate-29/abbie-groff-blaszak","contest":"mi-senate-29","order":1,"name":"Abbie Groff-Blaszak","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-29/brady-a-middleton","contest":"mi-senate-29","order":2,"name":"Brady A. Middleton","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-30/carol-glanville","contest":"mi-senate-30","order":1,"name":"Carol Glanville","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-30/mark-e-huizenga","contest":"mi-senate-30","order":2,"name":"Mark E. Huizenga","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-31/chris-kleinjans","contest":"mi-senate-31","order":1,"name":"Chris Kleinjans","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-31/john-wetzel","contest":"mi-senate-31","order":2,"name":"John Wetzel","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-32/rebecca-amidon","contest":"mi-senate-32","order":1,"name":"Rebecca Amidon","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-32/kim-cole","contest":"mi-senate-32","order":2,"name":"Kim Cole","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-33/stan-opal","contest":"mi-senate-33","order":1,"name":"Stan Opal","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-33/gina-johnsen","contest":"mi-senate-33","order":2,"name":"Gina Johnsen","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-34/tyler-landgraf","contest":"mi-senate-34","order":1,"name":"Tyler Landgraf","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-34/roger-hauck","contest":"mi-senate-34","order":2,"name":"Roger Hauck","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-35/chedrick-greene","contest":"mi-senate-35","order":1,"name":"Chedrick Greene","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-35/jason-tunney","contest":"mi-senate-35","order":2,"name":"Jason Tunney","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-35/laurie-atwood","contest":"mi-senate-35","order":3,"name":"Laurie Atwood","party":"O","partyLabel":"U.S. Taxpayers"}
+{"id":"mi-senate-36/mark-w-yonkman","contest":"mi-senate-36","order":1,"name":"Mark W. Yonkman","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-36/michele-hoitenga","contest":"mi-senate-36","order":2,"name":"Michele Hoitenga","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-37/kate-gallup","contest":"mi-senate-37","order":1,"name":"Kate Gallup","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-37/john-damoose","contest":"mi-senate-37","order":2,"name":"John Damoose","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-38/kelli-j-van-ginhoven","contest":"mi-senate-38","order":1,"name":"Kelli J. Van Ginhoven","party":"D","partyLabel":"Democratic"}
+{"id":"mi-senate-38/david-prestin","contest":"mi-senate-38","order":2,"name":"David Prestin","party":"R","partyLabel":"Republican"}
+{"id":"mi-senate-38/sara-cambensy","contest":"mi-senate-38","order":3,"name":"Sara Cambensy","party":"I","partyLabel":"No party affiliation"}
+{"id":"mi-house-1/tyrone-carter","contest":"mi-house-1","order":1,"name":"Tyrone Carter","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-1/valerie-whittaker","contest":"mi-house-1","order":2,"name":"Valerie Whittaker","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-2/joanna-whaley","contest":"mi-house-2","order":1,"name":"Joanna Whaley","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-2/ron-kokinda","contest":"mi-house-2","order":2,"name":"Ron Kokinda","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-3/alabas-farhat","contest":"mi-house-3","order":1,"name":"Alabas Farhat","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-3/gus-tarraf","contest":"mi-house-3","order":2,"name":"Gus Tarraf","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-4/regina-ross","contest":"mi-house-4","order":1,"name":"Regina Ross","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-4/everett-davis","contest":"mi-house-4","order":2,"name":"Everett Davis","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-5/candace-calloway","contest":"mi-house-5","order":1,"name":"Candace Calloway","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-5/chris-venable","contest":"mi-house-5","order":2,"name":"Chris Venable","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-6/melanie-macey","contest":"mi-house-6","order":1,"name":"Melanie Macey","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-6/mike-steger","contest":"mi-house-6","order":2,"name":"Mike Steger","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-7/tonya-myers-phillips","contest":"mi-house-7","order":1,"name":"Tonya Myers Phillips","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-7/reginald-moorer","contest":"mi-house-7","order":2,"name":"Reginald Moorer","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-8/chris-gilmer-hill","contest":"mi-house-8","order":1,"name":"Chris Gilmer-Hill","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-8/bruce-p-langran","contest":"mi-house-8","order":2,"name":"Bruce P. Langran","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-8/stephen-boyle","contest":"mi-house-8","order":3,"name":"Stephen Boyle","party":"G","partyLabel":"Green"}
+{"id":"mi-house-9/willie-burton","contest":"mi-house-9","order":1,"name":"Willie Burton","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-9/michele-lundgren","contest":"mi-house-9","order":2,"name":"Michele Lundgren","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-9/jahdante-john-elijah-smith","contest":"mi-house-9","order":3,"name":"Jahdante John Elijah Smith","party":"G","partyLabel":"Green"}
+{"id":"mi-house-9/logan-ausherman","contest":"mi-house-9","order":4,"name":"Logan Ausherman","party":"O","partyLabel":"Working Class"}
+{"id":"mi-house-10/veronica-paiz","contest":"mi-house-10","order":1,"name":"Veronica Paiz","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-10/peter-ochs","contest":"mi-house-10","order":2,"name":"Peter Ochs","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-10/piper-willow-smith","contest":"mi-house-10","order":3,"name":"Piper Willow Smith","party":"O","partyLabel":"Working Class"}
+{"id":"mi-house-11/kimberly-fisher","contest":"mi-house-11","order":1,"name":"Kimberly Fisher","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-11/matthew-stafford","contest":"mi-house-11","order":2,"name":"Matthew Stafford","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-12/kimberly-l-edwards","contest":"mi-house-12","order":1,"name":"Kimberly L. Edwards","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-12/randell-j-shafer","contest":"mi-house-12","order":2,"name":"Randell J. Shafer","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-13/mai-xiong","contest":"mi-house-13","order":1,"name":"Mai Xiong","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-13/mark-thomas-foster","contest":"mi-house-13","order":2,"name":"Mark Thomas Foster","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-14/mike-mcfall","contest":"mi-house-14","order":1,"name":"Mike McFall","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-14/larry-szyska","contest":"mi-house-14","order":2,"name":"Larry Szyska","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-14/jeff-sparling","contest":"mi-house-14","order":3,"name":"Jeff Sparling","party":"G","partyLabel":"Green"}
+{"id":"mi-house-15/jalal-abdallah","contest":"mi-house-15","order":1,"name":"Jalal Abdallah","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-15/hassan-h-nehme","contest":"mi-house-15","order":2,"name":"Hassan H Nehme","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-16/stephanie-a-young","contest":"mi-house-16","order":1,"name":"Stephanie A. Young","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-16/brian-m-duggan","contest":"mi-house-16","order":2,"name":"Brian M. Duggan","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-17/laurie-pohutsky","contest":"mi-house-17","order":1,"name":"Laurie Pohutsky","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-17/ken-crider","contest":"mi-house-17","order":2,"name":"Ken Crider","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-18/kelly-garrett","contest":"mi-house-18","order":1,"name":"Kelly Garrett","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-18/ryan-foster","contest":"mi-house-18","order":2,"name":"Ryan Foster","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-19/samantha-steckloff","contest":"mi-house-19","order":1,"name":"Samantha Steckloff","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-19/kevin-j-hammer","contest":"mi-house-19","order":2,"name":"Kevin J. Hammer","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-20/noah-arbit","contest":"mi-house-20","order":1,"name":"Noah Arbit","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-20/s-david-sullivan","contest":"mi-house-20","order":2,"name":"S. David Sullivan","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-21/kelly-breen","contest":"mi-house-21","order":1,"name":"Kelly Breen","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-21/ross-barranco","contest":"mi-house-21","order":2,"name":"Ross Barranco","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-22/lisa-mcintyre","contest":"mi-house-22","order":1,"name":"Lisa McIntyre","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-22/casey-j-noce","contest":"mi-house-22","order":2,"name":"Casey J. Noce","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-23/jason-morgan","contest":"mi-house-23","order":1,"name":"Jason Morgan","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-23/miriam-corvino","contest":"mi-house-23","order":2,"name":"Miriam Corvino","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-23/christina-marudas","contest":"mi-house-23","order":3,"name":"Christina Marudas","party":"G","partyLabel":"Green"}
+{"id":"mi-house-24/ranjeev-puri","contest":"mi-house-24","order":1,"name":"Ranjeev Puri","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-24/allison-kay-fuller","contest":"mi-house-24","order":2,"name":"Allison Kay Fuller","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-25/peter-herzberg","contest":"mi-house-25","order":1,"name":"Peter Herzberg","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-25/dawn-udell","contest":"mi-house-25","order":2,"name":"Dawn Udell","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-26/dylan-wegela","contest":"mi-house-26","order":1,"name":"Dylan Wegela","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-26/chris-dobis","contest":"mi-house-26","order":2,"name":"Chris Dobis","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-27/jaime-churches","contest":"mi-house-27","order":1,"name":"Jaime Churches","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-27/rylee-linting","contest":"mi-house-27","order":2,"name":"Rylee Linting","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-28/sherry-a-berecz","contest":"mi-house-28","order":1,"name":"Sherry A. Berecz","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-28/jamie-thompson","contest":"mi-house-28","order":2,"name":"Jamie Thompson","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-29/darian-counts","contest":"mi-house-29","order":1,"name":"Darian Counts","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-29/james-desana","contest":"mi-house-29","order":2,"name":"James DeSana","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-30/omar-g-ferdin","contest":"mi-house-30","order":1,"name":"Omar G. Ferdin","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-30/william-bruck","contest":"mi-house-30","order":2,"name":"William Bruck","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-31/shannon-dare-wayne","contest":"mi-house-31","order":1,"name":"Shannon Dare Wayne","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-31/laura-m-perry","contest":"mi-house-31","order":2,"name":"Laura M. Perry","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-32/jimmie-wilson-jr","contest":"mi-house-32","order":1,"name":"Jimmie Wilson Jr.","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-32/mike-eller","contest":"mi-house-32","order":2,"name":"Mike Eller","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-32/john-r-tatar","contest":"mi-house-32","order":3,"name":"John R. Tatar","party":"O","partyLabel":"U.S. Taxpayers"}
+{"id":"mi-house-32/ryan-sample","contest":"mi-house-32","order":4,"name":"Ryan Sample","party":"G","partyLabel":"Green"}
+{"id":"mi-house-33/morgan-foreman","contest":"mi-house-33","order":1,"name":"Morgan Foreman","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-33/catherine-rogers","contest":"mi-house-33","order":2,"name":"Catherine Rogers","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-34/john-dahlgren","contest":"mi-house-34","order":1,"name":"John Dahlgren","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-34/nancy-jenkins-arno","contest":"mi-house-34","order":2,"name":"Nancy Jenkins-Arno","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-35/jeff-cooley","contest":"mi-house-35","order":1,"name":"Jeff Cooley","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-35/jennifer-wortz","contest":"mi-house-35","order":2,"name":"Jennifer Wortz","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-36/cole-slaski","contest":"mi-house-36","order":1,"name":"Cole Slaski","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-36/steve-carra","contest":"mi-house-36","order":2,"name":"Steve Carra","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-37/angela-m-jones","contest":"mi-house-37","order":1,"name":"Angela M. Jones","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-37/brad-paquette","contest":"mi-house-37","order":2,"name":"Brad Paquette","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-38/joey-andrews","contest":"mi-house-38","order":1,"name":"Joey Andrews","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-38/mark-krieger","contest":"mi-house-38","order":2,"name":"Mark Krieger","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-38/jett-newton","contest":"mi-house-38","order":3,"name":"Jett Newton","party":"G","partyLabel":"Green"}
+{"id":"mi-house-39/kerry-tapper","contest":"mi-house-39","order":1,"name":"Kerry Tapper","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-39/pauline-wendzel","contest":"mi-house-39","order":2,"name":"Pauline Wendzel","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-39/jared-polonowski","contest":"mi-house-39","order":3,"name":"Jared Polonowski","party":"G","partyLabel":"Green"}
+{"id":"mi-house-40/matt-longjohn","contest":"mi-house-40","order":1,"name":"Matt Longjohn","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-40/robert-m-sitarski","contest":"mi-house-40","order":2,"name":"Robert M. Sitarski","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-41/jen-strebs","contest":"mi-house-41","order":1,"name":"Jen Strebs","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-41/nicole-c-sabel","contest":"mi-house-41","order":2,"name":"Nicole C. Sabel","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-41/rafael-wolf","contest":"mi-house-41","order":3,"name":"Rafael Wolf","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-house-42/nick-rowe","contest":"mi-house-42","order":1,"name":"Nick Rowe","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-42/matt-hall","contest":"mi-house-42","order":2,"name":"Matt Hall","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-43/alan-swank","contest":"mi-house-43","order":1,"name":"Alan Swank","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-43/rachelle-smit","contest":"mi-house-43","order":2,"name":"Rachelle Smit","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-44/jim-haadsma","contest":"mi-house-44","order":1,"name":"Jim Haadsma","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-44/steve-frisbie","contest":"mi-house-44","order":2,"name":"Steve Frisbie","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-45/randy-davis","contest":"mi-house-45","order":1,"name":"Randy Davis","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-45/sarah-lightner","contest":"mi-house-45","order":2,"name":"Sarah Lightner","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-46/jan-maino","contest":"mi-house-46","order":1,"name":"Jan Maino","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-46/kathy-schmaltz","contest":"mi-house-46","order":2,"name":"Kathy Schmaltz","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-47/carrie-a-rheingans","contest":"mi-house-47","order":1,"name":"Carrie A. Rheingans","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-47/justin-griffis","contest":"mi-house-47","order":2,"name":"Justin Griffis","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-48/jennifer-a-conlin","contest":"mi-house-48","order":1,"name":"Jennifer A. Conlin","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-48/brian-ignatowski","contest":"mi-house-48","order":2,"name":"Brian Ignatowski","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-49/dan-pelchat","contest":"mi-house-49","order":1,"name":"Dan Pelchat","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-49/ann-m-bollin","contest":"mi-house-49","order":2,"name":"Ann M. Bollin","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-49/trevor-step","contest":"mi-house-49","order":3,"name":"Trevor Step","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-house-50/cassie-canedo","contest":"mi-house-50","order":1,"name":"Cassie Canedo","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-50/jason-woolford","contest":"mi-house-50","order":2,"name":"Jason Woolford","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-51/stacey-mcduffie","contest":"mi-house-51","order":1,"name":"Stacey McDuffie","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-51/matt-maddock","contest":"mi-house-51","order":2,"name":"Matt Maddock","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-52/brendan-p-leddy","contest":"mi-house-52","order":1,"name":"Brendan P. Leddy","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-52/mike-harris","contest":"mi-house-52","order":2,"name":"Mike Harris","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-53/brenda-carter","contest":"mi-house-53","order":1,"name":"Brenda Carter","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-53/melissa-schultz","contest":"mi-house-53","order":2,"name":"Melissa Schultz","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-54/sarah-pounds","contest":"mi-house-54","order":1,"name":"Sarah Pounds","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-54/roman-gaskey","contest":"mi-house-54","order":2,"name":"Roman Gaskey","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-55/alex-hawkins","contest":"mi-house-55","order":1,"name":"Alex Hawkins","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-55/mark-tisdel","contest":"mi-house-55","order":2,"name":"Mark Tisdel","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-56/sharon-macdonell","contest":"mi-house-56","order":1,"name":"Sharon MacDonell","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-56/ashok-baddi","contest":"mi-house-56","order":2,"name":"Ashok Baddi","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-57/tom-turner","contest":"mi-house-57","order":1,"name":"Tom Turner","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-57/thomas-e-kuhn","contest":"mi-house-57","order":2,"name":"Thomas E. Kuhn","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-58/katrina-manetta","contest":"mi-house-58","order":1,"name":"Katrina Manetta","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-58/ron-robinson","contest":"mi-house-58","order":2,"name":"Ron Robinson","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-59/jason-robbins","contest":"mi-house-59","order":1,"name":"Jason Robbins","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-59/sylvia-grot","contest":"mi-house-59","order":2,"name":"Sylvia Grot","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-60/amy-gray","contest":"mi-house-60","order":1,"name":"Amy Gray","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-60/joseph-aragona","contest":"mi-house-60","order":2,"name":"Joseph Aragona","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-61/denise-mentzer","contest":"mi-house-61","order":1,"name":"Denise Mentzer","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-61/robert-wojtowicz","contest":"mi-house-61","order":2,"name":"Robert Wojtowicz","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-62/matthew-smith","contest":"mi-house-62","order":1,"name":"Matthew Smith","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-62/alicia-st-germaine","contest":"mi-house-62","order":2,"name":"Alicia St. Germaine","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-63/jamie-sonneberger","contest":"mi-house-63","order":1,"name":"Jamie Sonneberger","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-63/pamela-hornberger","contest":"mi-house-63","order":2,"name":"Pamela Hornberger","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-64/ken-heuvelman","contest":"mi-house-64","order":1,"name":"Ken Heuvelman","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-64/joseph-g-pavlov","contest":"mi-house-64","order":2,"name":"Joseph G. Pavlov","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-65/james-m-o-brien","contest":"mi-house-65","order":1,"name":"James M. O'Brien","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-65/jaime-greene","contest":"mi-house-65","order":2,"name":"Jaime Greene","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-66/ned-zimmer","contest":"mi-house-66","order":1,"name":"Ned Zimmer","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-66/josh-schriver","contest":"mi-house-66","order":2,"name":"Josh Schriver","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-67/leslie-getz","contest":"mi-house-67","order":1,"name":"Leslie Getz","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-67/phil-green","contest":"mi-house-67","order":2,"name":"Phil Green","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-68/matt-schlinker","contest":"mi-house-68","order":1,"name":"Matt Schlinker","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-68/david-w-martin","contest":"mi-house-68","order":2,"name":"David W. Martin","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-68/deanna-l-martin","contest":"mi-house-68","order":3,"name":"Deanna L Martin","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-house-68/joe-mchugh","contest":"mi-house-68","order":4,"name":"Joe McHugh","party":"I","partyLabel":"No party affiliation"}
+{"id":"mi-house-69/jasper-ryan-martus","contest":"mi-house-69","order":1,"name":"Jasper Ryan Martus","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-69/patrick-duvendeck","contest":"mi-house-69","order":2,"name":"Patrick Duvendeck","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-69/adam-blake-childress","contest":"mi-house-69","order":3,"name":"Adam Blake Childress","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-house-70/cynthia-r-neeley","contest":"mi-house-70","order":1,"name":"Cynthia R. Neeley","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-70/larry-hutchinson","contest":"mi-house-70","order":2,"name":"Larry Hutchinson","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-71/stephen-schlaack","contest":"mi-house-71","order":1,"name":"Stephen Schlaack","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-71/brian-begole","contest":"mi-house-71","order":2,"name":"Brian BeGole","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-72/thomas-ryan","contest":"mi-house-72","order":1,"name":"Thomas Ryan","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-72/mike-mueller","contest":"mi-house-72","order":2,"name":"Mike Mueller","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-73/julie-brixie","contest":"mi-house-73","order":1,"name":"Julie Brixie","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-73/joshua-jon-rockey","contest":"mi-house-73","order":2,"name":"Joshua Jon Rockey","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-74/harold-a-pope","contest":"mi-house-74","order":1,"name":"Harold A. Pope","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-74/clinton-tarver","contest":"mi-house-74","order":2,"name":"Clinton Tarver","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-75/penelope-tsernoglou","contest":"mi-house-75","order":1,"name":"Penelope Tsernoglou","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-75/frank-lambert","contest":"mi-house-75","order":2,"name":"Frank Lambert","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-76/angela-witwer","contest":"mi-house-76","order":1,"name":"Angela Witwer","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-76/bill-kaiser","contest":"mi-house-76","order":2,"name":"Bill Kaiser","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-77/emily-dievendorf","contest":"mi-house-77","order":1,"name":"Emily Dievendorf","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-77/sally-jo-nelton","contest":"mi-house-77","order":2,"name":"Sally Jo Nelton","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-77/jennifer-long","contest":"mi-house-77","order":3,"name":"Jennifer Long","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-house-78/rachel-gross","contest":"mi-house-78","order":1,"name":"Rachel Gross","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-78/brandon-l-strong","contest":"mi-house-78","order":2,"name":"Brandon L. Strong","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-78/ben-dejong","contest":"mi-house-78","order":3,"name":"Ben DeJong","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-house-79/zach-abbott","contest":"mi-house-79","order":1,"name":"Zach Abbott","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-79/angela-rigas","contest":"mi-house-79","order":2,"name":"Angela Rigas","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-80/lily-cheng-schulting","contest":"mi-house-80","order":1,"name":"Lily Cheng-Schulting","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-80/doug-lee","contest":"mi-house-80","order":2,"name":"Doug Lee","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-81/stephen-wooden","contest":"mi-house-81","order":1,"name":"Stephen Wooden","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-81/holly-deboer","contest":"mi-house-81","order":2,"name":"Holly DeBoer","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-82/kristian-c-grant","contest":"mi-house-82","order":1,"name":"Kristian C. Grant","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-82/ryan-malinoski","contest":"mi-house-82","order":2,"name":"Ryan Malinoski","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-83/john-fitzgerald","contest":"mi-house-83","order":1,"name":"John Fitzgerald","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-83/cindy-ramirez","contest":"mi-house-83","order":2,"name":"Cindy Ramirez","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-84/khristian-silvis","contest":"mi-house-84","order":1,"name":"Khristian Silvis","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-84/drew-jake-robbins","contest":"mi-house-84","order":2,"name":"Drew Jake Robbins","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-85/richard-abraham","contest":"mi-house-85","order":1,"name":"Richard Abraham","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-85/bradley-slagh","contest":"mi-house-85","order":2,"name":"Bradley Slagh","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-86/joseph-mcclusky","contest":"mi-house-86","order":1,"name":"Joseph McClusky","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-86/nancy-deboer","contest":"mi-house-86","order":2,"name":"Nancy DeBoer","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-87/will-snyder","contest":"mi-house-87","order":1,"name":"Will Snyder","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-87/cody-a-chipman","contest":"mi-house-87","order":2,"name":"Cody A. Chipman","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-88/kiel-reid","contest":"mi-house-88","order":1,"name":"Kiel Reid","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-88/greg-vanwoerkom","contest":"mi-house-88","order":2,"name":"Greg VanWoerkom","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-89/meegan-zickus","contest":"mi-house-89","order":1,"name":"Meegan Zickus","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-89/joe-moss","contest":"mi-house-89","order":2,"name":"Joe Moss","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-90/rachel-crowther","contest":"mi-house-90","order":1,"name":"Rachel Crowther","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-90/lynn-afendoulis","contest":"mi-house-90","order":2,"name":"Lynn Afendoulis","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-91/frank-lafata","contest":"mi-house-91","order":1,"name":"Frank Lafata","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-91/pat-outman","contest":"mi-house-91","order":2,"name":"Pat Outman","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-92/luke-del-castillo","contest":"mi-house-92","order":1,"name":"Luke Del Castillo","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-92/jerry-neyer","contest":"mi-house-92","order":2,"name":"Jerry Neyer","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-93/serenity-hope-salak","contest":"mi-house-93","order":1,"name":"Serenity Hope Salak","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-93/tim-kelly","contest":"mi-house-93","order":2,"name":"Tim Kelly","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-94/amos-o-neal","contest":"mi-house-94","order":1,"name":"Amos O'Neal","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-94/don-sugg","contest":"mi-house-94","order":2,"name":"Don Sugg","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-95/annmarie-horseman","contest":"mi-house-95","order":1,"name":"AnnMarie Horseman","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-95/bill-g-schuette","contest":"mi-house-95","order":2,"name":"Bill G. Schuette","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-96/christopher-r-girard","contest":"mi-house-96","order":1,"name":"Christopher R. Girard","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-96/timothy-beson","contest":"mi-house-96","order":2,"name":"Timothy Beson","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-97/jack-bader","contest":"mi-house-97","order":1,"name":"Jack Bader","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-97/briar-bearss","contest":"mi-house-97","order":2,"name":"Briar Bearss","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-98/keith-brusseau","contest":"mi-house-98","order":1,"name":"Keith Brusseau","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-98/gregory-l-alexander","contest":"mi-house-98","order":2,"name":"Gregory L. Alexander","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-99/david-forgione","contest":"mi-house-99","order":1,"name":"David Forgione","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-99/mike-hoadley","contest":"mi-house-99","order":2,"name":"Mike Hoadley","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-99/steven-jacob-lull","contest":"mi-house-99","order":3,"name":"Steven Jacob Lull","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-house-100/tracy-ruell","contest":"mi-house-100","order":1,"name":"Tracy Ruell","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-100/tom-kunse","contest":"mi-house-100","order":2,"name":"Tom Kunse","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-101/christopher-r-crain","contest":"mi-house-101","order":1,"name":"Christopher R. Crain","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-101/jaxon-deur","contest":"mi-house-101","order":2,"name":"Jaxon Deur","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-102/angel-coon","contest":"mi-house-102","order":1,"name":"Angel Coon","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-102/curt-vanderwall","contest":"mi-house-102","order":2,"name":"Curt Vanderwall","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-102/shawn-orton","contest":"mi-house-102","order":3,"name":"Shawn Orton","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-house-103/betsy-coffia","contest":"mi-house-103","order":1,"name":"Betsy Coffia","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-103/edwin-b-dean","contest":"mi-house-103","order":2,"name":"Edwin B. Dean","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-103/michael-gorbe","contest":"mi-house-103","order":3,"name":"Michael Gorbe","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-house-104/mitchell-ryan-distin","contest":"mi-house-104","order":1,"name":"Mitchell Ryan Distin","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-104/john-r-roth","contest":"mi-house-104","order":2,"name":"John R. Roth","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-104/alexander-jarvis","contest":"mi-house-104","order":3,"name":"Alexander Jarvis","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-house-105/rachel-longendyke-teeter","contest":"mi-house-105","order":1,"name":"Rachel Longendyke Teeter","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-105/ken-borton","contest":"mi-house-105","order":2,"name":"Ken Borton","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-105/frank-tillman","contest":"mi-house-105","order":3,"name":"Frank Tillman","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-house-106/mary-lucille-hamilton","contest":"mi-house-106","order":1,"name":"Mary Lucille Hamilton","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-106/cam-cavitt","contest":"mi-house-106","order":2,"name":"Cam Cavitt","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-107/melissa-perron","contest":"mi-house-107","order":1,"name":"Melissa Perron","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-107/parker-fairbairn","contest":"mi-house-107","order":2,"name":"Parker Fairbairn","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-108/rachel-m-keys","contest":"mi-house-108","order":1,"name":"Rachel M. Keys","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-108/larry-johnson","contest":"mi-house-108","order":2,"name":"Larry Johnson","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-109/anna-aho-rink","contest":"mi-house-109","order":1,"name":"Anna Aho Rink","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-109/karl-bohnak","contest":"mi-house-109","order":2,"name":"Karl Bohnak","party":"R","partyLabel":"Republican"}
+{"id":"mi-house-110/brian-irizarry","contest":"mi-house-110","order":1,"name":"Brian Irizarry","party":"D","partyLabel":"Democratic"}
+{"id":"mi-house-110/gregory-markkanen","contest":"mi-house-110","order":2,"name":"Gregory Markkanen","party":"R","partyLabel":"Republican"}
+{"id":"mi-sbe/judith-pritchett","contest":"mi-sbe","order":1,"name":"Judith Pritchett","party":"D","partyLabel":"Democratic"}
+{"id":"mi-sbe/tiffany-tilley","contest":"mi-sbe","order":2,"name":"Tiffany Tilley","party":"D","partyLabel":"Democratic"}
+{"id":"mi-sbe/terence-collins","contest":"mi-sbe","order":3,"name":"Terence Collins","party":"R","partyLabel":"Republican"}
+{"id":"mi-sbe/bree-moeggenberg","contest":"mi-sbe","order":4,"name":"Bree Moeggenberg","party":"R","partyLabel":"Republican"}
+{"id":"mi-sbe/charles-essner","contest":"mi-sbe","order":5,"name":"Charles Essner","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-sbe/william-mohr-ii","contest":"mi-sbe","order":6,"name":"William Mohr II","party":"O","partyLabel":"U.S. Taxpayers"}
+{"id":"mi-sbe/christine-c-schwartz","contest":"mi-sbe","order":7,"name":"Christine C. Schwartz","party":"O","partyLabel":"U.S. Taxpayers"}
+{"id":"mi-sbe/wissam-charafeddine","contest":"mi-sbe","order":8,"name":"Wissam Charafeddine","party":"G","partyLabel":"Green"}
+{"id":"mi-sbe/mary-anne-hering","contest":"mi-sbe","order":9,"name":"Mary Anne Hering","party":"O","partyLabel":"Working Class"}
+{"id":"mi-sbe/kelli-monroe","contest":"mi-sbe","order":10,"name":"Kelli Monroe","party":"O","partyLabel":"Natural Law"}
+{"id":"mi-um-regents/paul-brown","contest":"mi-um-regents","order":1,"name":"Paul Brown","party":"D","partyLabel":"Democratic"}
+{"id":"mi-um-regents/amir-makled","contest":"mi-um-regents","order":2,"name":"Amir Makled","party":"D","partyLabel":"Democratic"}
+{"id":"mi-um-regents/lena-epstein","contest":"mi-um-regents","order":3,"name":"Lena Epstein","party":"R","partyLabel":"Republican"}
+{"id":"mi-um-regents/michael-schostak","contest":"mi-um-regents","order":4,"name":"Michael Schostak","party":"R","partyLabel":"Republican"}
+{"id":"mi-um-regents/andrew-chadderdon","contest":"mi-um-regents","order":5,"name":"Andrew Chadderdon","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-um-regents/kyle-maas","contest":"mi-um-regents","order":6,"name":"Kyle Maas","party":"O","partyLabel":"U.S. Taxpayers"}
+{"id":"mi-msu-trustees/brianna-scott","contest":"mi-msu-trustees","order":1,"name":"Brianna Scott","party":"D","partyLabel":"Democratic"}
+{"id":"mi-msu-trustees/kelly-tebay-zemke","contest":"mi-msu-trustees","order":2,"name":"Kelly Tebay Zemke","party":"D","partyLabel":"Democratic"}
+{"id":"mi-msu-trustees/julie-maday","contest":"mi-msu-trustees","order":3,"name":"Julie Maday","party":"R","partyLabel":"Republican"}
+{"id":"mi-msu-trustees/roger-victory","contest":"mi-msu-trustees","order":4,"name":"Roger Victory","party":"R","partyLabel":"Republican"}
+{"id":"mi-msu-trustees/daniel-r-patterson","contest":"mi-msu-trustees","order":5,"name":"Daniel R. Patterson","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-msu-trustees/will-tyler-white","contest":"mi-msu-trustees","order":6,"name":"Will Tyler White","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-msu-trustees/janet-sanger","contest":"mi-msu-trustees","order":7,"name":"Janet Sanger","party":"O","partyLabel":"U.S. Taxpayers"}
+{"id":"mi-msu-trustees/john-sanger","contest":"mi-msu-trustees","order":8,"name":"John Sanger","party":"O","partyLabel":"U.S. Taxpayers"}
+{"id":"mi-msu-trustees/john-anthony-la-pietra","contest":"mi-msu-trustees","order":9,"name":"John Anthony La Pietra","party":"G","partyLabel":"Green"}
+{"id":"mi-msu-trustees/yaz-ozbek","contest":"mi-msu-trustees","order":10,"name":"Yaz Ozbek","party":"O","partyLabel":"Working Class"}
+{"id":"mi-wsu-governors/shereef-akeel","contest":"mi-wsu-governors","order":1,"name":"Shereef Akeel","party":"D","partyLabel":"Democratic"}
+{"id":"mi-wsu-governors/richard-mack","contest":"mi-wsu-governors","order":2,"name":"Richard Mack","party":"D","partyLabel":"Democratic"}
+{"id":"mi-wsu-governors/andy-anuzis","contest":"mi-wsu-governors","order":3,"name":"Andy Anuzis","party":"R","partyLabel":"Republican"}
+{"id":"mi-wsu-governors/christa-murphy","contest":"mi-wsu-governors","order":4,"name":"Christa Murphy","party":"R","partyLabel":"Republican"}
+{"id":"mi-wsu-governors/alex-avery","contest":"mi-wsu-governors","order":5,"name":"Alex Avery","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-wsu-governors/jami-van-alstine","contest":"mi-wsu-governors","order":6,"name":"Jami Van Alstine","party":"L","partyLabel":"Libertarian"}
+{"id":"mi-wsu-governors/jeff-mcdonald","contest":"mi-wsu-governors","order":7,"name":"Jeff McDonald","party":"O","partyLabel":"U.S. Taxpayers"}
+{"id":"mi-wsu-governors/paul-m-ragan","contest":"mi-wsu-governors","order":8,"name":"Paul M. Ragan","party":"G","partyLabel":"Green"}
+{"id":"mi-wsu-governors/suzanne-roehrig","contest":"mi-wsu-governors","order":9,"name":"Suzanne Roehrig","party":"O","partyLabel":"Working Class"}
+{"id":"mi-wsu-governors/kathleen-oakford","contest":"mi-wsu-governors","order":10,"name":"Kathleen Oakford","party":"O","partyLabel":"Natural Law"}
+{"id":"mi-supreme-court/megan-kathleen-cavanagh","contest":"mi-supreme-court","order":1,"name":"Megan Kathleen Cavanagh","incumbent":true}
+{"id":"mi-supreme-court/noah-p-hood","contest":"mi-supreme-court","order":2,"name":"Noah P. Hood","incumbent":true}
+{"id":"mi-supreme-court/thomas-w-howe","contest":"mi-supreme-court","order":3,"name":"Thomas W. Howe"}
+{"id":"mi-supreme-court/casandra-morse-bills","contest":"mi-supreme-court","order":4,"name":"Casandra Morse-Bills"}
+{"id":"mi-supreme-court/michael-warren","contest":"mi-supreme-court","order":5,"name":"Michael Warren"}
+{"id":"mi-supreme-court/jody-white","contest":"mi-supreme-court","order":6,"name":"Jody White"}
+{"id":"mi-coa-1/mariam-saad-bazzi","contest":"mi-coa-1","order":1,"name":"Mariam Saad Bazzi","incumbent":true}
+{"id":"mi-coa-1/anica-letica","contest":"mi-coa-1","order":2,"name":"Anica Letica","incumbent":true}
+{"id":"mi-coa-1/christopher-m-murray","contest":"mi-coa-1","order":3,"name":"Christopher M. Murray","incumbent":true}
+{"id":"mi-coa-1-partial/andrew-j-lievense","contest":"mi-coa-1-partial","order":1,"name":"Andrew J. Lievense","incumbent":true}
+{"id":"mi-coa-2/sima-g-patel","contest":"mi-coa-2","order":1,"name":"Sima G. Patel","incumbent":true}
+{"id":"mi-coa-2/christopher-m-trebilcock","contest":"mi-coa-2","order":2,"name":"Christopher M. Trebilcock","incumbent":true}
+{"id":"mi-coa-3/mark-t-boonstra","contest":"mi-coa-3","order":1,"name":"Mark T. Boonstra","incumbent":true}
+{"id":"mi-coa-3/daniel-s-korobkin","contest":"mi-coa-3","order":2,"name":"Daniel S. Korobkin","incumbent":true}
+{"id":"mi-coa-4/michael-j-kelly","contest":"mi-coa-4","order":1,"name":"Michael J. Kelly","incumbent":true}
+{"id":"mi-coa-4/allie-greenleaf-maldonado","contest":"mi-coa-4","order":2,"name":"Allie Greenleaf Maldonado","incumbent":true}
+{"id":"mi-coa-4/michelle-m-rick","contest":"mi-coa-4","order":3,"name":"Michelle M. Rick","incumbent":true}
+{"id":"mi-circuit-2/jennifer-l-smith-dendooven","contest":"mi-circuit-2","order":1,"name":"Jennifer L. Smith-DenDooven","incumbent":true}
+{"id":"mi-circuit-3/david-j-allen","contest":"mi-circuit-3","order":1,"name":"David J. Allen","incumbent":true}
+{"id":"mi-circuit-3/chandra-w-baker-robinson","contest":"mi-circuit-3","order":2,"name":"Chandra W. Baker-Robinson","incumbent":true}
+{"id":"mi-circuit-3/christopher-m-blount","contest":"mi-circuit-3","order":3,"name":"Christopher M. Blount","incumbent":true}
+{"id":"mi-circuit-3/nicole-l-castka","contest":"mi-circuit-3","order":4,"name":"Nicole L. Castka","incumbent":true}
+{"id":"mi-circuit-3/bradley-l-cobb","contest":"mi-circuit-3","order":5,"name":"Bradley L. Cobb","incumbent":true}
+{"id":"mi-circuit-3/chris-dingell","contest":"mi-circuit-3","order":6,"name":"Chris Dingell","incumbent":true}
+{"id":"mi-circuit-3/charlene-m-elder","contest":"mi-circuit-3","order":7,"name":"Charlene M. Elder","incumbent":true}
+{"id":"mi-circuit-3/helal-a-farhat","contest":"mi-circuit-3","order":8,"name":"Helal A. Farhat","incumbent":true}
+{"id":"mi-circuit-3/nicole-n-goodson","contest":"mi-circuit-3","order":9,"name":"Nicole N. Goodson","incumbent":true}
+{"id":"mi-circuit-3/edward-j-joseph","contest":"mi-circuit-3","order":10,"name":"Edward J. Joseph","incumbent":true}
+{"id":"mi-circuit-3/mary-beth-kelly","contest":"mi-circuit-3","order":11,"name":"Mary Beth Kelly","incumbent":true}
+{"id":"mi-circuit-3/don-knapp","contest":"mi-circuit-3","order":12,"name":"Don Knapp","incumbent":true}
+{"id":"mi-circuit-3/cylenthia-latoye-miller","contest":"mi-circuit-3","order":13,"name":"Cylenthia LaToye Miller","incumbent":true}
+{"id":"mi-circuit-3/carla-g-testani","contest":"mi-circuit-3","order":14,"name":"Carla G. Testani","incumbent":true}
+{"id":"mi-circuit-3/margaret-m-van-houten","contest":"mi-circuit-3","order":15,"name":"Margaret M. Van Houten","incumbent":true}
+{"id":"mi-circuit-3/shannon-nicol-walker","contest":"mi-circuit-3","order":16,"name":"Shannon Nicol Walker","incumbent":true}
+{"id":"mi-circuit-3-open/shakira-lynn-hawkins","contest":"mi-circuit-3-open","order":1,"name":"Shakira Lynn Hawkins"}
+{"id":"mi-circuit-3-partial/aliyah-s-sabree","contest":"mi-circuit-3-partial","order":1,"name":"Aliyah S. Sabree","incumbent":true}
+{"id":"mi-circuit-4/john-g-mcbain-jr","contest":"mi-circuit-4","order":1,"name":"John G. McBain Jr.","incumbent":true}
+{"id":"mi-circuit-4-partial/allison-l-bates","contest":"mi-circuit-4-partial","order":1,"name":"Allison L. Bates","incumbent":true}
+{"id":"mi-circuit-5/vicky-l-alspaugh","contest":"mi-circuit-5","order":1,"name":"Vicky L. Alspaugh","incumbent":true}
+{"id":"mi-circuit-6/mary-ellen-t-brennan","contest":"mi-circuit-6","order":1,"name":"Mary Ellen T. Brennan","incumbent":true}
+{"id":"mi-circuit-6/david-m-cohen","contest":"mi-circuit-6","order":2,"name":"David M. Cohen","incumbent":true}
+{"id":"mi-circuit-6/lisa-gorcyca","contest":"mi-circuit-6","order":3,"name":"Lisa Gorcyca","incumbent":true}
+{"id":"mi-circuit-6/nanci-grant","contest":"mi-circuit-6","order":4,"name":"Nanci Grant","incumbent":true}
+{"id":"mi-circuit-6/jeffery-s-matis","contest":"mi-circuit-6","order":5,"name":"Jeffery S. Matis","incumbent":true}
+{"id":"mi-circuit-6/lorie-n-savin","contest":"mi-circuit-6","order":6,"name":"Lorie N. Savin","incumbent":true}
+{"id":"mi-circuit-6-open/victoria-king","contest":"mi-circuit-6-open","order":1,"name":"Victoria King"}
+{"id":"mi-circuit-6-open/lisa-marie-neilson","contest":"mi-circuit-6-open","order":2,"name":"Lisa Marie Neilson"}
+{"id":"mi-circuit-7/chris-christenson","contest":"mi-circuit-7","order":1,"name":"Chris Christenson","incumbent":true}
+{"id":"mi-circuit-7/mark-w-latchana","contest":"mi-circuit-7","order":2,"name":"Mark W. Latchana","incumbent":true}
+{"id":"mi-circuit-7/anthony-j-mcdowell","contest":"mi-circuit-7","order":3,"name":"Anthony J. McDowell","incumbent":true}
+{"id":"mi-circuit-8-open/lori-j-shearer","contest":"mi-circuit-8-open","order":1,"name":"Lori J. Shearer"}
+{"id":"mi-circuit-8-open/ed-sternisha","contest":"mi-circuit-8-open","order":2,"name":"Ed Sternisha"}
+{"id":"mi-circuit-9/gary-c-giguere-jr","contest":"mi-circuit-9","order":1,"name":"Gary C. Giguere Jr.","incumbent":true}
+{"id":"mi-circuit-10/manvel-trice-iii","contest":"mi-circuit-10","order":1,"name":"Manvel Trice III","incumbent":true}
+{"id":"mi-circuit-11/brian-d-rahilly","contest":"mi-circuit-11","order":1,"name":"Brian D. Rahilly","incumbent":true}
+{"id":"mi-circuit-11/robert-t-steinhoff","contest":"mi-circuit-11","order":2,"name":"Robert T. Steinhoff"}
+{"id":"mi-circuit-12/brittany-a-bulleit","contest":"mi-circuit-12","order":1,"name":"Brittany A. Bulleit","incumbent":true}
+{"id":"mi-circuit-13/kevin-a-elsenheimer","contest":"mi-circuit-13","order":1,"name":"Kevin A. Elsenheimer","incumbent":true}
+{"id":"mi-circuit-14/kathy-hoogstra","contest":"mi-circuit-14","order":1,"name":"Kathy Hoogstra","incumbent":true}
+{"id":"mi-circuit-15/zachary-william-stempien","contest":"mi-circuit-15","order":1,"name":"Zachary William Stempien","incumbent":true}
+{"id":"mi-circuit-16/julie-gatti","contest":"mi-circuit-16","order":1,"name":"Julie Gatti","incumbent":true}
+{"id":"mi-circuit-16/tanya-a-grillo","contest":"mi-circuit-16","order":2,"name":"Tanya A. Grillo","incumbent":true}
+{"id":"mi-circuit-16/james-m-maceroni","contest":"mi-circuit-16","order":3,"name":"James M. Maceroni","incumbent":true}
+{"id":"mi-circuit-16/matthew-s-switalski","contest":"mi-circuit-16","order":4,"name":"Matthew S. Switalski","incumbent":true}
+{"id":"mi-circuit-16-open/james-l-spagnuolo","contest":"mi-circuit-16-open","order":1,"name":"James L. Spagnuolo"}
+{"id":"mi-circuit-16-open/genevieve-l-taylor","contest":"mi-circuit-16-open","order":2,"name":"Genevieve L. Taylor"}
+{"id":"mi-circuit-17/maureen-a-gottlieb","contest":"mi-circuit-17","order":1,"name":"Maureen A. Gottlieb","incumbent":true}
+{"id":"mi-circuit-17/scott-a-noto","contest":"mi-circuit-17","order":2,"name":"Scott A. Noto","incumbent":true}
+{"id":"mi-circuit-17/clay-m-west","contest":"mi-circuit-17","order":3,"name":"Clay M. West","incumbent":true}
+{"id":"mi-circuit-18-open/michael-huber","contest":"mi-circuit-18-open","order":1,"name":"Michael Huber"}
+{"id":"mi-circuit-19/david-a-thompson","contest":"mi-circuit-19","order":1,"name":"David A. Thompson","incumbent":true}
+{"id":"mi-circuit-20/jon-hulsing","contest":"mi-circuit-20","order":1,"name":"Jon Hulsing","incumbent":true}
+{"id":"mi-circuit-22/patrick-j-conlin-jr","contest":"mi-circuit-22","order":1,"name":"Patrick J. Conlin Jr.","incumbent":true}
+{"id":"mi-circuit-22/tracy-e-van-den-bergh","contest":"mi-circuit-22","order":2,"name":"Tracy E. Van den Bergh","incumbent":true}
+{"id":"mi-circuit-24/timothy-c-wrathell","contest":"mi-circuit-24","order":1,"name":"Timothy C. Wrathell","incumbent":true}
+{"id":"mi-circuit-25/matt-wiese","contest":"mi-circuit-25","order":1,"name":"Matt Wiese","incumbent":true}
+{"id":"mi-circuit-26/k-edward-black","contest":"mi-circuit-26","order":1,"name":"K. Edward Black","incumbent":true}
+{"id":"mi-circuit-28/jason-j-elmore","contest":"mi-circuit-28","order":1,"name":"Jason J. Elmore","incumbent":true}
+{"id":"mi-circuit-29/shannon-l-w-schlegel","contest":"mi-circuit-29","order":1,"name":"Shannon L.W. Schlegel","incumbent":true}
+{"id":"mi-circuit-30/rosemarie-elizabeth-aquilina","contest":"mi-circuit-30","order":1,"name":"Rosemarie Elizabeth Aquilina","incumbent":true}
+{"id":"mi-circuit-30/carol-n-koenig","contest":"mi-circuit-30","order":2,"name":"Carol N. Koenig","incumbent":true}
+{"id":"mi-circuit-30/wanda-m-stokes","contest":"mi-circuit-30","order":3,"name":"Wanda M. Stokes","incumbent":true}
+{"id":"mi-circuit-30-partial/patricia-tremblay","contest":"mi-circuit-30-partial","order":1,"name":"Patricia Tremblay","incumbent":true}
+{"id":"mi-circuit-31/daniel-a-damman","contest":"mi-circuit-31","order":1,"name":"Daniel A. Damman","incumbent":true}
+{"id":"mi-circuit-32/michael-k-pope","contest":"mi-circuit-32","order":1,"name":"Michael K. Pope","incumbent":true}
+{"id":"mi-circuit-33/roy-charles-hayes-iii","contest":"mi-circuit-33","order":1,"name":"Roy Charles Hayes III","incumbent":true}
+{"id":"mi-circuit-35/matthew-j-stewart","contest":"mi-circuit-35","order":1,"name":"Matthew J. Stewart","incumbent":true}
+{"id":"mi-circuit-36-open/kelly-ward","contest":"mi-circuit-36-open","order":1,"name":"Kelly Ward"}
+{"id":"mi-circuit-37/sarah-s-lincoln","contest":"mi-circuit-37","order":1,"name":"Sarah S. Lincoln","incumbent":true}
+{"id":"mi-circuit-38-open/lauren-k-beaudry","contest":"mi-circuit-38-open","order":1,"name":"Lauren K. Beaudry"}
+{"id":"mi-circuit-38-open/maria-zagorski","contest":"mi-circuit-38-open","order":2,"name":"Maria Zagorski"}
+{"id":"mi-circuit-39/michael-r-olsaver","contest":"mi-circuit-39","order":1,"name":"Michael R. Olsaver","incumbent":true}
+{"id":"mi-circuit-40/mike-hodges","contest":"mi-circuit-40","order":1,"name":"Mike Hodges","incumbent":true}
+{"id":"mi-circuit-41/christopher-s-ninomiya","contest":"mi-circuit-41","order":1,"name":"Christopher S. Ninomiya","incumbent":true}
+{"id":"mi-circuit-42/michael-j-beale","contest":"mi-circuit-42","order":1,"name":"Michael J. Beale","incumbent":true}
+{"id":"mi-circuit-44-open/andrea-banfield","contest":"mi-circuit-44-open","order":1,"name":"Andrea Banfield"}
+{"id":"mi-circuit-44-open/kristina-s-lyke","contest":"mi-circuit-44-open","order":2,"name":"Kristina S. Lyke"}
+{"id":"mi-circuit-46/george-j-mertz","contest":"mi-circuit-46","order":1,"name":"George J. Mertz","incumbent":true}
+{"id":"mi-circuit-48/matt-antkoviak","contest":"mi-circuit-48","order":1,"name":"Matt Antkoviak","incumbent":true}
+{"id":"mi-circuit-49-open/dennis-l-duvall-jr","contest":"mi-circuit-49-open","order":1,"name":"Dennis L. Duvall Jr."}
+{"id":"mi-circuit-51/susan-kasley-sniegowski","contest":"mi-circuit-51","order":1,"name":"Susan Kasley Sniegowski","incumbent":true}
+{"id":"mi-circuit-52/gerald-m-prill","contest":"mi-circuit-52","order":1,"name":"Gerald M. Prill","incumbent":true}
+{"id":"mi-circuit-55/tara-s-hovey","contest":"mi-circuit-55","order":1,"name":"Tara S. Hovey","incumbent":true}
+{"id":"mi-circuit-56/kelly-e-morton","contest":"mi-circuit-56","order":1,"name":"Kelly E. Morton","incumbent":true}
+{"id":"mi-probate-berrien/mabel-johnson-mayfield","contest":"mi-probate-berrien","order":1,"name":"Mabel Johnson Mayfield","incumbent":true}
+{"id":"mi-probate-chippewa/eric-g-blubaugh","contest":"mi-probate-chippewa","order":1,"name":"Eric G. Blubaugh","incumbent":true}
+{"id":"mi-probate-genesee-open/andrea-l-legendre","contest":"mi-probate-genesee-open","order":1,"name":"Andrea L. LeGendre"}
+{"id":"mi-probate-genesee-open/ashley-prew","contest":"mi-probate-genesee-open","order":2,"name":"Ashley Prew"}
+{"id":"mi-probate-huron/julienne-m-ferris","contest":"mi-probate-huron","order":1,"name":"Julienne M. Ferris","incumbent":true}
+{"id":"mi-probate-huron/jessica-leigh-testolin-reinke","contest":"mi-probate-huron","order":2,"name":"Jessica Leigh Testolin-Reinke"}
+{"id":"mi-probate-ingham/richard-j-garcia","contest":"mi-probate-ingham","order":1,"name":"Richard J. Garcia","incumbent":true}
+{"id":"mi-probate-kalamazoo/tiffany-a-ankley","contest":"mi-probate-kalamazoo","order":1,"name":"Tiffany A. Ankley","incumbent":true}
+{"id":"mi-probate-kent/david-m-murkowski","contest":"mi-probate-kent","order":1,"name":"David M. Murkowski","incumbent":true}
+{"id":"mi-probate-macomb/sara-a-schimke","contest":"mi-probate-macomb","order":1,"name":"Sara A. Schimke","incumbent":true}
+{"id":"mi-probate-monroe/cheryl-r-sweeney","contest":"mi-probate-monroe","order":1,"name":"Cheryl R. Sweeney","incumbent":true}
+{"id":"mi-probate-oakland-partial/nicole-s-huddleston","contest":"mi-probate-oakland-partial","order":1,"name":"Nicole S. Huddleston","incumbent":true}
+{"id":"mi-probate-oakland-open/elisabeth-dery","contest":"mi-probate-oakland-open","order":1,"name":"Elisabeth Dery"}
+{"id":"mi-probate-oakland-open/jessica-ann-hallmark","contest":"mi-probate-oakland-open","order":2,"name":"Jessica Ann Hallmark"}
+{"id":"mi-probate-saginaw/barbara-l-meter","contest":"mi-probate-saginaw","order":1,"name":"Barbara L. Meter","incumbent":true}
+{"id":"mi-probate-st-clair/jennifer-deegan","contest":"mi-probate-st-clair","order":1,"name":"Jennifer Deegan","incumbent":true}
+{"id":"mi-probate-sanilac-open/sara-l-grout","contest":"mi-probate-sanilac-open","order":1,"name":"Sara L. Grout"}
+{"id":"mi-probate-washtenaw-open/alethia-jean-battles","contest":"mi-probate-washtenaw-open","order":1,"name":"Alethia Jean Battles"}
+{"id":"mi-probate-washtenaw-open/jennifer-lawrence","contest":"mi-probate-washtenaw-open","order":2,"name":"Jennifer Lawrence"}
+{"id":"mi-probate-wayne-open/sarah-colegrove","contest":"mi-probate-wayne-open","order":1,"name":"Sarah Colegrove"}
+{"id":"mi-probate-wayne-open/suzanne-fanning","contest":"mi-probate-wayne-open","order":2,"name":"Suzanne Fanning"}
+{"id":"mi-probate-wayne-open/vanessa-m-moss","contest":"mi-probate-wayne-open","order":3,"name":"Vanessa M. Moss"}
+{"id":"mi-district-court-1/michael-brown","contest":"mi-district-court-1","order":1,"name":"Michael Brown","incumbent":true}
+{"id":"mi-district-court-2a/todd-m-morgan","contest":"mi-district-court-2a","order":1,"name":"Todd M. Morgan","incumbent":true}
+{"id":"mi-district-court-2b/megan-r-m-stiverson","contest":"mi-district-court-2b","order":1,"name":"Megan R.M. Stiverson","incumbent":true}
+{"id":"mi-district-court-3a/brent-r-weigle","contest":"mi-district-court-3a","order":1,"name":"Brent R. Weigle","incumbent":true}
+{"id":"mi-district-court-3b-open/tim-george","contest":"mi-district-court-3b-open","order":1,"name":"Tim George"}
+{"id":"mi-district-court-4/stacey-a-rentfrow","contest":"mi-district-court-4","order":1,"name":"Stacey A. Rentfrow","incumbent":true}
+{"id":"mi-district-court-5/gordon-gary-hosbein","contest":"mi-district-court-5","order":1,"name":"Gordon Gary Hosbein","incumbent":true}
+{"id":"mi-district-court-5-open/jennifer-e-fields","contest":"mi-district-court-5-open","order":1,"name":"Jennifer E. Fields"}
+{"id":"mi-district-court-5-open/myrene-kay-koch","contest":"mi-district-court-5-open","order":2,"name":"Myrene Kay Koch"}
+{"id":"mi-district-court-7-open/rachel-keeley","contest":"mi-district-court-7-open","order":1,"name":"Rachel Keeley"}
+{"id":"mi-district-court-8/kathleen-p-hemingway","contest":"mi-district-court-8","order":1,"name":"Kathleen P. Hemingway","incumbent":true}
+{"id":"mi-district-court-8-open/mark-a-holsomback","contest":"mi-district-court-8-open","order":1,"name":"Mark A. Holsomback"}
+{"id":"mi-district-court-8-open/rachel-vinales","contest":"mi-district-court-8-open","order":2,"name":"Rachel Vinales"}
+{"id":"mi-district-court-10/paul-k-beardslee","contest":"mi-district-court-10","order":1,"name":"Paul K. Beardslee","incumbent":true}
+{"id":"mi-district-court-10/michelle-l-richardson","contest":"mi-district-court-10","order":2,"name":"Michelle L. Richardson","incumbent":true}
+{"id":"mi-district-court-12/nicole-hughes","contest":"mi-district-court-12","order":1,"name":"Nicole Hughes","incumbent":true}
+{"id":"mi-district-court-12/george-d-lyons","contest":"mi-district-court-12","order":2,"name":"George D. Lyons"}
+{"id":"mi-district-court-12-open/jared-l-hopkins","contest":"mi-district-court-12-open","order":1,"name":"Jared L. Hopkins"}
+{"id":"mi-district-court-12-open/stormie-rae-mcgee","contest":"mi-district-court-12-open","order":2,"name":"Stormie Rae McGee"}
+{"id":"mi-district-court-14a/anna-maria-frushour","contest":"mi-district-court-14a","order":1,"name":"Anna Maria Frushour","incumbent":true}
+{"id":"mi-district-court-14b/erane-c-washington","contest":"mi-district-court-14b","order":1,"name":"Erane C. Washington","incumbent":true}
+{"id":"mi-district-court-15/tamara-garwood","contest":"mi-district-court-15","order":1,"name":"Tamara Garwood","incumbent":true}
+{"id":"mi-district-court-16/sean-patrick-kavanagh","contest":"mi-district-court-16","order":1,"name":"Sean Patrick Kavanagh","incumbent":true}
+{"id":"mi-district-court-17/krista-haroutunian","contest":"mi-district-court-17","order":1,"name":"Krista Haroutunian","incumbent":true}
+{"id":"mi-district-court-18/mark-a-mcconnell","contest":"mi-district-court-18","order":1,"name":"Mark A. McConnell","incumbent":true}
+{"id":"mi-district-court-19/mark-w-somers","contest":"mi-district-court-19","order":1,"name":"Mark W. Somers","incumbent":true}
+{"id":"mi-district-court-20/mark-j-plawecki","contest":"mi-district-court-20","order":1,"name":"Mark J. Plawecki","incumbent":true}
+{"id":"mi-district-court-21-open/nicholas-opalewski","contest":"mi-district-court-21-open","order":1,"name":"Nicholas Opalewski"}
+{"id":"mi-district-court-23/brittany-a-johnson","contest":"mi-district-court-23","order":1,"name":"Brittany A. Johnson","incumbent":true}
+{"id":"mi-district-court-24/john-t-courtright","contest":"mi-district-court-24","order":1,"name":"John T. Courtright","incumbent":true}
+{"id":"mi-district-court-25-open/david-m-loeckner","contest":"mi-district-court-25-open","order":1,"name":"David M. Loeckner"}
+{"id":"mi-district-court-25-open/krystle-marie-medina","contest":"mi-district-court-25-open","order":2,"name":"Krystle-Marie Medina"}
+{"id":"mi-district-court-28/elisabeth-m-mullins","contest":"mi-district-court-28","order":1,"name":"Elisabeth M. Mullins","incumbent":true}
+{"id":"mi-district-court-31/alexis-grace-krot","contest":"mi-district-court-31","order":1,"name":"Alexis Grace Krot","incumbent":true}
+{"id":"mi-district-court-32a/rebekah-ruth-coleman","contest":"mi-district-court-32a","order":1,"name":"Rebekah Ruth Coleman","incumbent":true}
+{"id":"mi-district-court-34/lisa-martin","contest":"mi-district-court-34","order":1,"name":"Lisa Martin","incumbent":true}
+{"id":"mi-district-court-35/jim-plakas","contest":"mi-district-court-35","order":1,"name":"Jim Plakas","incumbent":true}
+{"id":"mi-district-court-36/demetria-brue","contest":"mi-district-court-36","order":1,"name":"Demetria Brue","incumbent":true}
+{"id":"mi-district-court-36/e-lynise-bryant","contest":"mi-district-court-36","order":2,"name":"E. Lynise Bryant","incumbent":true}
+{"id":"mi-district-court-36/adrienne-hinnant-johnson","contest":"mi-district-court-36","order":3,"name":"Adrienne Hinnant-Johnson","incumbent":true}
+{"id":"mi-district-court-36/shannon-a-holmes","contest":"mi-district-court-36","order":4,"name":"Shannon A. Holmes","incumbent":true}
+{"id":"mi-district-court-36/kenneth-j-king","contest":"mi-district-court-36","order":5,"name":"Kenneth J. King","incumbent":true}
+{"id":"mi-district-court-36/millicent-d-sherman","contest":"mi-district-court-36","order":6,"name":"Millicent D. Sherman","incumbent":true}
+{"id":"mi-district-court-36-open/william-burton-jr","contest":"mi-district-court-36-open","order":1,"name":"William Burton Jr."}
+{"id":"mi-district-court-36-open/delphia-j-burton","contest":"mi-district-court-36-open","order":2,"name":"Delphia J. Burton"}
+{"id":"mi-district-court-36-open/kahlilia-yvette-davis","contest":"mi-district-court-36-open","order":3,"name":"Kahlilia Yvette Davis"}
+{"id":"mi-district-court-36-open/jo-a-irby","contest":"mi-district-court-36-open","order":4,"name":"Jo A. Irby"}
+{"id":"mi-district-court-36-partial/ponce-d-clay","contest":"mi-district-court-36-partial","order":1,"name":"Ponce D. Clay","incumbent":true}
+{"id":"mi-district-court-36-partial/herman-griffin-iv","contest":"mi-district-court-36-partial","order":2,"name":"Herman Griffin IV","incumbent":true}
+{"id":"mi-district-court-36-partial/chastity-a-youngblood","contest":"mi-district-court-36-partial","order":3,"name":"Chastity A. Youngblood","incumbent":true}
+{"id":"mi-district-court-37/michael-c-chupa","contest":"mi-district-court-37","order":1,"name":"Michael C. Chupa","incumbent":true}
+{"id":"mi-district-court-38/kathleen-g-galen","contest":"mi-district-court-38","order":1,"name":"Kathleen G. Galen","incumbent":true}
+{"id":"mi-district-court-38/richard-w-goodman","contest":"mi-district-court-38","order":2,"name":"Richard W. Goodman"}
+{"id":"mi-district-court-39-open/derek-g-boedeker","contest":"mi-district-court-39-open","order":1,"name":"Derek G. Boedeker"}
+{"id":"mi-district-court-39-open/dana-c-freers","contest":"mi-district-court-39-open","order":2,"name":"Dana C. Freers"}
+{"id":"mi-district-court-40/joseph-craigen-oster","contest":"mi-district-court-40","order":1,"name":"Joseph Craigen Oster","incumbent":true}
+{"id":"mi-district-court-41a/annemarie-marino-lepore","contest":"mi-district-court-41a","order":1,"name":"Annemarie Marino Lepore","incumbent":true}
+{"id":"mi-district-court-41b/jacob-michael-femminineo-jr","contest":"mi-district-court-41b","order":1,"name":"Jacob Michael Femminineo Jr.","incumbent":true}
+{"id":"mi-district-court-42/jennifer-andary","contest":"mi-district-court-42","order":1,"name":"Jennifer Andary","incumbent":true}
+{"id":"mi-district-court-43/brian-christian-hartwell","contest":"mi-district-court-43","order":1,"name":"Brian Christian Hartwell","incumbent":true}
+{"id":"mi-district-court-45/jaimie-powell-horowitz","contest":"mi-district-court-45","order":1,"name":"Jaimie Powell Horowitz","incumbent":true}
+{"id":"mi-district-court-46/shelia-johnson","contest":"mi-district-court-46","order":1,"name":"Shelia Johnson","incumbent":true}
+{"id":"mi-district-court-47-open/moneka-sanford","contest":"mi-district-court-47-open","order":1,"name":"Moneka Sanford"}
+{"id":"mi-district-court-47-open/michael-sawicky","contest":"mi-district-court-47-open","order":2,"name":"Michael Sawicky"}
+{"id":"mi-district-court-48/kimberly-small","contest":"mi-district-court-48","order":1,"name":"Kimberly Small","incumbent":true}
+{"id":"mi-district-court-50/jeremy-darnell-bowie","contest":"mi-district-court-50","order":1,"name":"Jeremy Darnell Bowie","incumbent":true}
+{"id":"mi-district-court-50/cynthia-t-walker","contest":"mi-district-court-50","order":2,"name":"Cynthia T. Walker","incumbent":true}
+{"id":"mi-district-court-51-open/carmen-j-defranco","contest":"mi-district-court-51-open","order":1,"name":"Carmen J. DeFranco"}
+{"id":"mi-district-court-51-open/pamela-j-monville","contest":"mi-district-court-51-open","order":2,"name":"Pamela J. Monville"}
+{"id":"mi-district-court-52/travis-m-reeds","contest":"mi-district-court-52","order":1,"name":"Travis M. Reeds","incumbent":true}
+{"id":"mi-district-court-52/joseph-g-fabrizio","contest":"mi-district-court-52","order":2,"name":"Joseph G. Fabrizio","incumbent":true}
+{"id":"mi-district-court-52/laura-e-polizzi","contest":"mi-district-court-52","order":3,"name":"Laura E. Polizzi","incumbent":true}
+{"id":"mi-district-court-52/maureen-m-mcginnis","contest":"mi-district-court-52","order":4,"name":"Maureen M. McGinnis","incumbent":true}
+{"id":"mi-district-court-53/daniel-bain","contest":"mi-district-court-53","order":1,"name":"Daniel Bain","incumbent":true}
+{"id":"mi-district-court-54a/stacia-buchanan","contest":"mi-district-court-54a","order":1,"name":"Stacia Buchanan","incumbent":true}
+{"id":"mi-district-court-55/richard-l-hillman","contest":"mi-district-court-55","order":1,"name":"Richard L. Hillman","incumbent":true}
+{"id":"mi-district-court-56a/adrianne-k-van-langevelde","contest":"mi-district-court-56a","order":1,"name":"Adrianne K. Van Langevelde","incumbent":true}
+{"id":"mi-district-court-56a-partial/reid-s-felsing","contest":"mi-district-court-56a-partial","order":1,"name":"Reid S. Felsing","incumbent":true}
+{"id":"mi-district-court-57-open/timothy-slais","contest":"mi-district-court-57-open","order":1,"name":"Timothy Slais"}
+{"id":"mi-district-court-57-open/heidi-l-wolf","contest":"mi-district-court-57-open","order":2,"name":"Heidi L. Wolf"}
+{"id":"mi-district-court-57-partial/christopher-e-burnett","contest":"mi-district-court-57-partial","order":1,"name":"Christopher E. Burnett","incumbent":true}
+{"id":"mi-district-court-57-partial/tom-siver","contest":"mi-district-court-57-partial","order":2,"name":"Tom Siver"}
+{"id":"mi-district-court-58/juanita-f-bocanegra","contest":"mi-district-court-58","order":1,"name":"Juanita F. Bocanegra","incumbent":true}
+{"id":"mi-district-court-58/paul-ledford","contest":"mi-district-court-58","order":2,"name":"Paul Ledford"}
+{"id":"mi-district-court-58/anna-white","contest":"mi-district-court-58","order":3,"name":"Anna White","incumbent":true}
+{"id":"mi-district-court-60/maria-ladas-hoopes","contest":"mi-district-court-60","order":1,"name":"Maria Ladas Hoopes","incumbent":true}
+{"id":"mi-district-court-60/paula-baker-mathes","contest":"mi-district-court-60","order":2,"name":"Paula Baker Mathes","incumbent":true}
+{"id":"mi-district-court-61/kellen-a-dotson","contest":"mi-district-court-61","order":1,"name":"Kellen A. Dotson","incumbent":true}
+{"id":"mi-district-court-61/angela-t-ross","contest":"mi-district-court-61","order":2,"name":"Angela T. Ross","incumbent":true}
+{"id":"mi-district-court-62a/pablo-cortes","contest":"mi-district-court-62a","order":1,"name":"Pablo Cortes","incumbent":true}
+{"id":"mi-district-court-62b/amanda-h-sterkenburg","contest":"mi-district-court-62b","order":1,"name":"Amanda H. Sterkenburg","incumbent":true}
+{"id":"mi-district-court-63/jeffrey-j-o-hara","contest":"mi-district-court-63","order":1,"name":"Jeffrey J. O'Hara","incumbent":true}
+{"id":"mi-district-court-63-partial/kirsten-l-holz","contest":"mi-district-court-63-partial","order":1,"name":"Kirsten L. Holz","incumbent":true}
+{"id":"mi-district-court-64a/raymond-peter-voet","contest":"mi-district-court-64a","order":1,"name":"Raymond Peter Voet","incumbent":true}
+{"id":"mi-district-court-64b/adam-james-eggleston","contest":"mi-district-court-64b","order":1,"name":"Adam James Eggleston","incumbent":true}
+{"id":"mi-district-court-65a/andrew-m-stevens","contest":"mi-district-court-65a","order":1,"name":"Andrew M. Stevens","incumbent":true}
+{"id":"mi-district-court-65b-open/laura-m-bever","contest":"mi-district-court-65b-open","order":1,"name":"Laura M. Bever"}
+{"id":"mi-district-court-67/david-j-goggins","contest":"mi-district-court-67","order":1,"name":"David J. Goggins","incumbent":true}
+{"id":"mi-district-court-67/jennifer-manley","contest":"mi-district-court-67","order":2,"name":"Jennifer Manley","incumbent":true}
+{"id":"mi-district-court-67/vikki-bayeh-haley","contest":"mi-district-court-67","order":3,"name":"Vikki Bayeh Haley","incumbent":true}
+{"id":"mi-district-court-67/david-guinn","contest":"mi-district-court-67","order":4,"name":"David Guinn","incumbent":true}
+{"id":"mi-district-court-67/tabitha-m-marsh","contest":"mi-district-court-67","order":5,"name":"Tabitha M. Marsh","incumbent":true}
+{"id":"mi-district-court-67-open/k-c-baran","contest":"mi-district-court-67-open","order":1,"name":"K.C. Baran"}
+{"id":"mi-district-court-67-open/cheryl-a-lopez","contest":"mi-district-court-67-open","order":2,"name":"Cheryl A. Lopez"}
+{"id":"mi-district-court-70/elian-e-h-fichtner","contest":"mi-district-court-70","order":1,"name":"Elian E.H. Fichtner","incumbent":true}
+{"id":"mi-district-court-70/a-t-frank","contest":"mi-district-court-70","order":2,"name":"A.T. Frank","incumbent":true}
+{"id":"mi-district-court-71a-open/david-n-richardson","contest":"mi-district-court-71a-open","order":1,"name":"David N. Richardson"}
+{"id":"mi-district-court-71a-open/maureen-flanigan-salayko","contest":"mi-district-court-71a-open","order":2,"name":"Maureen Flanigan Salayko"}
+{"id":"mi-district-court-71b/jason-e-bitzer","contest":"mi-district-court-71b","order":1,"name":"Jason E. Bitzer","incumbent":true}
+{"id":"mi-district-court-71b/craig-s-datz","contest":"mi-district-court-71b","order":2,"name":"Craig S. Datz"}
+{"id":"mi-district-court-72/mona-s-armstrong","contest":"mi-district-court-72","order":1,"name":"Mona S. Armstrong","incumbent":true}
+{"id":"mi-district-court-74-open/brian-h-jean","contest":"mi-district-court-74-open","order":1,"name":"Brian H. Jean"}
+{"id":"mi-district-court-74-open/james-a-perry","contest":"mi-district-court-74-open","order":2,"name":"James A. Perry"}
+{"id":"mi-district-court-75/michael-d-carpenter","contest":"mi-district-court-75","order":1,"name":"Michael D. Carpenter","incumbent":true}
+{"id":"mi-district-court-76/eric-r-janes","contest":"mi-district-court-76","order":1,"name":"Eric R. Janes","incumbent":true}
+{"id":"mi-district-court-77/peter-michael-jaklevic","contest":"mi-district-court-77","order":1,"name":"Peter Michael Jaklevic","incumbent":true}
+{"id":"mi-district-court-78/ellsworth-j-stay-jr","contest":"mi-district-court-78","order":1,"name":"Ellsworth J. Stay Jr.","incumbent":true}
+{"id":"mi-district-court-79/john-d-middlebrook","contest":"mi-district-court-79","order":1,"name":"John D. Middlebrook","incumbent":true}
+{"id":"mi-district-court-80/joshua-m-farrell","contest":"mi-district-court-80","order":1,"name":"Joshua M. Farrell","incumbent":true}
+{"id":"mi-district-court-82/mary-a-beebe","contest":"mi-district-court-82","order":1,"name":"Mary A. Beebe","incumbent":true}
+{"id":"mi-district-court-84/corey-j-wiggins","contest":"mi-district-court-84","order":1,"name":"Corey J. Wiggins","incumbent":true}
+{"id":"mi-district-court-89/michael-j-ekdahl","contest":"mi-district-court-89","order":1,"name":"Michael J. Ekdahl","incumbent":true}
+{"id":"mi-district-court-90/angela-l-lasher","contest":"mi-district-court-90","order":1,"name":"Angela L. Lasher","incumbent":true}
+{"id":"mi-district-court-92/beth-ann-gibson","contest":"mi-district-court-92","order":1,"name":"Beth Ann Gibson","incumbent":true}
+{"id":"mi-district-court-94-open/andrew-hayse","contest":"mi-district-court-94-open","order":1,"name":"Andrew Hayse"}
+{"id":"mi-district-court-94-open/trent-stupak","contest":"mi-district-court-94-open","order":2,"name":"Trent Stupak"}
+{"id":"mi-district-court-95a-open/jeffrey-t-rogg","contest":"mi-district-court-95a-open","order":1,"name":"Jeffrey T. Rogg"}
+{"id":"mi-district-court-95a-open/alexander-sieminski","contest":"mi-district-court-95a-open","order":2,"name":"Alexander Sieminski"}
+{"id":"mi-district-court-95b/julie-ann-lacost","contest":"mi-district-court-95b","order":1,"name":"Julie Ann LaCost","incumbent":true}
+{"id":"mi-district-court-96-open/patrick-j-crowley","contest":"mi-district-court-96-open","order":1,"name":"Patrick J. Crowley"}
+{"id":"mi-district-court-96-open/derek-g-swajanen","contest":"mi-district-court-96-open","order":2,"name":"Derek G. Swajanen"}
+{"id":"mi-district-court-97/nicholas-j-daavettila","contest":"mi-district-court-97","order":1,"name":"Nicholas J. Daavettila","incumbent":true}

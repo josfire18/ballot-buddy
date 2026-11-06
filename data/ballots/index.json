@@ -1,5 +1,6 @@
 {
  "schema": 1,
+ "generated": "by tools/build/build.mjs from data/elections and data/research; do not edit",
  "states": {
   "MI": {
    "election": "2026-11-03",

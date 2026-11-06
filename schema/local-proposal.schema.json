@@ -1,0 +1,99 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "$id": "https://github.com/josfire18/ballot-buddy/schema/local-proposal.schema.json",
+ "title": "Local proposal",
+ "description": "One line of official/<unit>/proposals.jsonl: a local ballot question with its official text.",
+ "type": "object",
+ "required": [
+  "id",
+  "title",
+  "scope",
+  "text",
+  "source"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^[a-z0-9][a-z0-9-]*$"
+  },
+  "title": {
+   "type": "string"
+  },
+  "where": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "scope": {
+   "type": "object",
+   "minProperties": 1,
+   "additionalProperties": false,
+   "description": "Who votes in this contest. Matched against the Census lookup by js/ballot.js.",
+   "properties": {
+    "state": {
+     "const": true
+    },
+    "cd": {
+     "type": "integer"
+    },
+    "sldu": {
+     "type": "integer"
+    },
+    "sldl": {
+     "type": "integer"
+    },
+    "county": {
+     "const": true
+    },
+    "countyName": {
+     "type": "string"
+    },
+    "commissionDistrict": {
+     "type": "integer"
+    },
+    "city": {
+     "type": "string"
+    },
+    "village": {
+     "type": "string"
+    },
+    "township": {
+     "type": "string"
+    },
+    "ward": {
+     "type": "integer"
+    },
+    "school": {
+     "type": "string"
+    },
+    "college": {
+     "type": "string"
+    },
+    "coa": {
+     "type": "integer"
+    },
+    "circuit": {
+     "type": "integer"
+    },
+    "districtCourt": {
+     "type": [
+      "integer",
+      "string"
+     ]
+    },
+    "unmapped": {
+     "const": true
+    }
+   }
+  },
+  "text": {
+   "type": "string",
+   "minLength": 10
+  },
+  "source": {
+   "type": "string"
+  }
+ }
+}

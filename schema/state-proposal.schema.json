@@ -1,0 +1,66 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "$id": "https://github.com/josfire18/ballot-buddy/schema/state-proposal.schema.json",
+ "title": "Statewide proposal",
+ "description": "One line of data/research/<STATE>/proposals.jsonl: a statewide ballot question explained in plain language.",
+ "type": "object",
+ "required": [
+  "id",
+  "title",
+  "question",
+  "yes",
+  "no",
+  "sources"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^[a-z0-9][a-z0-9-]*$"
+  },
+  "title": {
+   "type": "string"
+  },
+  "question": {
+   "type": "string"
+  },
+  "yes": {
+   "type": "string"
+  },
+  "no": {
+   "type": "string"
+  },
+  "lean": {
+   "type": "object",
+   "properties": {
+    "yes": {
+     "type": "string"
+    },
+    "no": {
+     "type": "string"
+    }
+   }
+  },
+  "sources": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "title",
+     "url"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "title": {
+      "type": "string",
+      "minLength": 3
+     },
+     "url": {
+      "type": "string",
+      "pattern": "^https?://"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "$id": "https://github.com/josfire18/ballot-buddy/schema/election.schema.json",
+ "title": "Election",
+ "description": "data/elections/<STATE>/<DATE>/election.json: one election in one state and where its official lists come from.",
+ "type": "object",
+ "required": [
+  "id",
+  "state",
+  "date",
+  "name"
+ ],
+ "properties": {
+  "_about": {
+   "type": "string"
+  },
+  "id": {
+   "type": "string",
+   "pattern": "^[A-Z]{2}-\\d{4}-\\d{2}-\\d{2}$"
+  },
+  "state": {
+   "type": "string",
+   "pattern": "^[A-Z]{2}$"
+  },
+  "date": {
+   "type": "string",
+   "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+  },
+  "name": {
+   "type": "string"
+  },
+  "statewide": {
+   "type": "object",
+   "required": [
+    "format",
+    "url"
+   ],
+   "properties": {
+    "format": {
+     "type": "string",
+     "description": "Which importer in tools/import reads this list"
+    },
+    "url": {
+     "type": "string",
+     "pattern": "^https?://"
+    },
+    "note": {
+     "type": "string"
+    }
+   }
+  },
+  "counties": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "fips",
+     "name",
+     "format",
+     "url"
+    ],
+    "properties": {
+     "fips": {
+      "type": "string",
+      "pattern": "^\\d{5}$"
+     },
+     "name": {
+      "type": "string"
+     },
+     "format": {
+      "type": "string"
+     },
+     "url": {
+      "type": "string",
+      "pattern": "^https?://"
+     },
+     "resultsUrl": {
+      "type": "string"
+     },
+     "colleges": {
+      "type": "object"
+     },
+     "wardMaps": {
+      "type": "object"
+     }
+    }
+   }
+  }
+ }
+}

@@ -6,9 +6,9 @@ A free, static voter guide. Pick your city, township or ZIP and it finds every r
 
 | What | Where it comes from | When |
 |---|---|---|
-| **Who is on your ballot** | Official candidate lists from election officials, imported into `data/ballots/` (see below) | Refreshed daily by GitHub Actions |
+| **Who is on your ballot** | Official candidate lists from election officials (`data/elections/`) | Re-imported daily by GitHub Actions |
+| Candidate bios, stances, endorsements | Hand-checked research with sources (`data/research/`) | Edited by pull request |
 | Your districts, county, city/township, school district | U.S. Census Bureau TIGERweb map service | Live, in the browser |
-| Candidate bios, stances, endorsements | `data/curated/{STATE}.json` (hand-checked, every line sourced) | Bundled |
 | Extra endorsements, race forecasts, photos | Wikipedia's public API, one request at a time | Live, cached 12 hours |
 
 Wikipedia never decides who is on the ballot; it only adds detail to races the official list already has. States without official data yet fall back to the older Wikipedia-only mode.
@@ -17,27 +17,42 @@ Every stance on a card is marked as **from the record**, **inferred from endorse
 
 Your answers and picks never leave your browser (localStorage). Share links put the picks inside the URL itself.
 
-## Ballot data
+## The data
+
+The dataset lives in this repo as plain text, one record per line, so every change is a reviewable diff with history. There is no server and nothing to pay for.
 
 ```
-data/sources/MI.json                     where each official list lives (edit this to add coverage)
-data/ballots/index.json                  which states/counties have data
-data/ballots/MI/2026-11-03/state.json    every federal, statewide, legislative, appellate/circuit/probate race (MI Secretary of State)
-data/ballots/MI/2026-11-03/county/26025.json   every local race in Calhoun County (county clerk)
-data/curated/MI.json                     researched candidate profiles and race notes, keyed by name / contest id
+data/elections/MI/2026-11-03/
+  election.json                      the election and where its official lists come from
+  official/state/                    Michigan Secretary of State list (every federal, statewide,
+                                     legislative, state-board and court race in all 83 counties)
+  official/county-26025/             Calhoun County Clerk list (every local race in the county)
+    source.json                      URL, sha256 fingerprint, retrieval date, Internet Archive copy
+    contests.jsonl                   one contest per line
+    candidacies.jsonl                one candidate-in-a-contest per line, in ballot order
+    proposals.jsonl                  local ballot questions with official text
+data/research/MI/
+  people.jsonl                       candidate profiles: blurb, stances, endorsements, sources
+  contest-notes.jsonl                context shown under a race
+  proposals.jsonl                    statewide proposals explained
+  state.json                         sample-ballot and voter-info links
+schema/                              JSON Schema for every record type (the field reference)
+data/ballots/                        GENERATED for the website by the build; never edit
 ```
 
-Each contest has a `scope` (`state`, `cd`, `sldu`, `sldl`, `county`, `city`, `township`, `village`, `school`, `college`, `ward`, …) that `js/ballot.js` matches against the Census lookup. Ward and split school-district races get a picker.
+`official/` is written only by the importers; corrections to it go into the importer, not the files. `research/` is written by people.
 
-The files are plain JSON in a table-like shape (contests → candidates, with sources), so moving to a hosted database later is a load script, not a rewrite.
+**The build** (`npm run build`) validates every record against `schema/`, checks cross-links (every candidacy has a contest, every stance uses a known issue, every note points at a real race) and fails if a source suddenly parses to almost nothing. Then it writes `data/ballots/` for the site and `dist/ballot.sqlite`.
 
-**Michigan coverage:** all 83 counties get every federal, statewide, legislative, state-board and Supreme Court race. Local races are in for Calhoun County. To add a county, add its clerk's *Official Candidate List* PDF to `data/sources/MI.json` (most Michigan counties publish the same report) and run the importer. **Other states:** add `data/sources/XX.json` and an importer for that state's official list in `tools/import/`.
+**The database** is published on every change:
+- [Download `ballot.sqlite`](https://github.com/josfire18/ballot-buddy/releases/tag/data-latest) from the `data-latest` release
+- [Browse and query it in your browser](https://lite.datasette.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjosfire18%2Fballot-buddy%2Fdata-dist%2Fballot.sqlite#/ballot/ballot) with Datasette Lite (reads the copy on the `data-dist` branch, which the workflow overwrites each time)
 
-**Running the importer:** `npm ci && npm run import && npm run check`, or run the *Import official ballot data* workflow in GitHub Actions. `check` fails the run if a list suddenly parses to too few contests, so a layout change can't silently ship an empty ballot.
+Contests carry Open Civic Data division IDs (`ocd-division/country:us/state:mi/sldl:44`) where the mapping is unambiguous, the same IDs Google Civic and the Voting Information Project use.
 
-## Adding candidate research
+**Automation** (`.github/workflows/data.yml`): pull requests are validated; pushes to `main` rebuild and publish; a daily run re-imports the official lists and only commits when a list's fingerprint changed. A source that fails keeps its last good data.
 
-Add entries to `data/curated/{STATE}.json` → `candidates` with `blurb`, optional `incumbent`, `endorsedBy` (names matched against `data/endorsers.json`), `stances` (`issue: [-2..2, "one-line summary"]`) and `sources`. Names match the official list; "Jr.", "II" and middle initials are ignored. Race-level context goes in `contestNotes`, keyed by contest id.
+**Coverage today:** Michigan: every non-local race statewide, plus local races for Calhoun County. To add a Michigan county, add its clerk's *Official Candidate List* PDF to the election's `election.json`. To add a state, add `data/elections/XX/<date>/election.json` and an importer in `tools/import/`. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Run locally
 
@@ -46,3 +61,7 @@ Any static server works, e.g. `npx serve .` or `python -m http.server`. Opening 
 ## Deploy
 
 GitHub Pages: Settings → Pages → Deploy from branch → `main` / root.
+
+## License
+
+Code: [MIT](LICENSE). Data in `data/` and the published database: [CC BY 4.0](data/LICENSE.md).

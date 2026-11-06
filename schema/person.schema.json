@@ -1,0 +1,105 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "$id": "https://github.com/josfire18/ballot-buddy/schema/person.schema.json",
+ "title": "Person",
+ "description": "One line of data/research/<STATE>/people.jsonl: hand-checked research about a candidate. Matched to candidacies by name (\"Jr.\", \"II\" and middle initials are ignored). Every fact needs a source.",
+ "type": "object",
+ "required": [
+  "id",
+  "name",
+  "blurb"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^[a-z]{2}/[a-z0-9-]+$"
+  },
+  "name": {
+   "type": "string"
+  },
+  "blurb": {
+   "type": "string",
+   "minLength": 10,
+   "maxLength": 600
+  },
+  "incumbent": {
+   "type": "boolean"
+  },
+  "runningMate": {
+   "type": "string"
+  },
+  "stances": {
+   "type": "object",
+   "description": "Keys are issue ids from data/issues.json. value: -2 (strongly disagrees with the issue statement) .. 2 (strongly agrees).",
+   "additionalProperties": {
+    "type": "object",
+    "required": [
+     "value",
+     "summary"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "value": {
+      "type": "integer",
+      "minimum": -2,
+      "maximum": 2
+     },
+     "summary": {
+      "type": "string",
+      "minLength": 10
+     },
+     "sources": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "title",
+        "url"
+       ],
+       "additionalProperties": false,
+       "properties": {
+        "title": {
+         "type": "string",
+         "minLength": 3
+        },
+        "url": {
+         "type": "string",
+         "pattern": "^https?://"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "endorsedBy": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "description": "Names as in data/endorsers.json"
+  },
+  "sources": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "title",
+     "url"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "title": {
+      "type": "string",
+      "minLength": 3
+     },
+     "url": {
+      "type": "string",
+      "pattern": "^https?://"
+     }
+    }
+   }
+  }
+ }
+}

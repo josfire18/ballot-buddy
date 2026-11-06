@@ -1,0 +1,38 @@
+name: Ballot correction
+description: Something on a ballot is wrong or missing (candidate, race, bio, proposal).
+title: "[Correction] "
+labels: ["data", "correction"]
+body:
+  - type: input
+    id: place
+    attributes:
+      label: Where
+      description: The city, township or ZIP you searched.
+      placeholder: Battle Creek, MI
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem?
+      options:
+        - A candidate is missing or shouldn't be there
+        - A whole race is missing or shouldn't be there
+        - A candidate's bio, stance or endorsement is wrong
+        - A proposal is wrong or missing
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What's wrong, and what's correct?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A link showing the correct information (official candidate list, sample ballot, candidate's own site, news story).
+    validations:
+      required: true

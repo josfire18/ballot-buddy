@@ -1,0 +1,37 @@
+{
+ "_about": "How this election is imported. tools/import/run.mjs downloads each official list named here and rewrites official/<unit>/ only when the file changed. To add a Michigan county, add its clerk's Official Candidate List PDF (most counties publish the same report) with format \"mi-county\". 'colleges' says which part of a county votes in each community-college race; 'wardMaps' links each city's ward map for the ward picker.",
+ "id": "MI-2026-11-03",
+ "state": "MI",
+ "date": "2026-11-03",
+ "name": "November 3, 2026 General Election",
+ "statewide": {
+  "format": "mi-sos",
+  "url": "https://elections.calhouncountymi.gov/November2026/docs/Official%20State%20Candidate%20List%20Nov.3.2026%20General.pdf",
+  "note": "The Bureau of Elections' statewide certified list, as republished by the Calhoun County Clerk."
+ },
+ "counties": [
+  {
+   "fips": "26025",
+   "name": "Calhoun",
+   "format": "mi-county",
+   "url": "https://elections.calhouncountymi.gov/November2026/docs/OFFICIAL%20CANDIDATE%20LISTING.pdf",
+   "resultsUrl": "https://elections.calhouncountymi.gov/November2026/",
+   "colleges": {
+    "Kellogg Community College": {
+     "exceptTownships": [
+      "Charleston"
+     ],
+     "source": "https://www.michigan.gov/frontliners/community-college/list-colleges/find-your-cc/kellogg-community-college"
+    },
+    "Kalamazoo Valley Community College": {
+     "townships": [
+      "Charleston"
+     ]
+    }
+   },
+   "wardMaps": {
+    "Battle Creek": "https://www.battlecreekmi.gov/966/Wards-and-Precinct-Maps"
+   }
+  }
+ ]
+}

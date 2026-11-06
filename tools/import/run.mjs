@@ -1,61 +1,82 @@
-// Rebuilds data/ballots/** from the official sources listed in data/sources/*.json.
+// Imports official candidate lists into data/elections/<STATE>/<DATE>/official/.
+//
+// Each election folder has an election.json naming its sources. For every source
+// ("unit": the statewide list, or one county's list) this downloads the file and,
+// only if its fingerprint changed, rewrites:
+//   official/<unit>/source.json        where it came from, sha256, Internet Archive copy
+//   official/<unit>/contests.jsonl     one contest per line
+//   official/<unit>/candidacies.jsonl  one candidate-in-a-contest per line
+//   official/<unit>/proposals.jsonl    local ballot questions (if any)
+// A source that fails to download or parse leaves its last good files untouched.
+//
 // Usage: node tools/import/run.mjs [STATE ...]
-// Runs in GitHub Actions (.github/workflows/import-ballots.yml) on a schedule, so the
-// site's data refreshes itself; a run only commits when an official list changed.
-import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
-import { fetchPdf } from "./lib/pdf.mjs";
+import { readFile, writeFile, mkdir, readdir, rm } from "node:fs/promises";
+import { createHash } from "node:crypto";
+import { fetchPdf, slug } from "./lib/pdf.mjs";
 import { importSos } from "./mi-sos.mjs";
 import { importCounty } from "./mi-county.mjs";
 
 const ROOT = new URL("../../", import.meta.url);
 const FORMATS = { "mi-sos": importSos, "mi-county": importCounty };
+const at = (rel) => new URL(rel, ROOT);
+const readJson = async (rel, fallback) => { try { return JSON.parse(await readFile(at(rel), "utf8")); } catch { return fallback; } };
+const jsonl = (rows) => rows.map((r) => JSON.stringify(r)).join("\n") + (rows.length ? "\n" : "");
 
-async function writeJson(rel, obj) {
-  const url = new URL(rel, ROOT);
-  await mkdir(new URL(".", url), { recursive: true });
-  await writeFile(url, JSON.stringify(obj, null, 1) + "\n");
-  console.log("wrote", rel);
+/** Ask the Internet Archive to keep a copy. Best effort: a slow or refused save never fails the import. */
+async function archive(url) {
+  try {
+    const res = await fetch(`https://web.archive.org/save/${url}`, { redirect: "manual", signal: AbortSignal.timeout(90_000), headers: { "User-Agent": "BallotBuddy-importer (+https://github.com/josfire18/ballot-buddy)" } });
+    const loc = res.headers.get("location") || res.headers.get("content-location");
+    if (loc) return new URL(loc, "https://web.archive.org").href;
+  } catch {}
+  return null;
 }
 
-async function readJson(rel, fallback) { try { return JSON.parse(await readFile(new URL(rel, ROOT), "utf8")); } catch { return fallback; } }
-
-async function runState(file) {
-  const src = JSON.parse(await readFile(new URL(`data/sources/${file}`, ROOT), "utf8"));
-  const dir = `data/ballots/${src.state}/${src.election}`;
-  const failures = [];
-
-  if (src.statewide) {
-    try {
-      const data = await FORMATS[src.statewide.format](await fetchPdf(src.statewide.url), src.statewide);
-      await writeJson(`${dir}/state.json`, { schema: 1, state: src.state, election: src.election, electionName: src.electionName, ...data });
-      console.log(`  ${data.contests.length} statewide/district contests, ${data.contests.reduce((a, c) => a + c.candidates.length, 0)} candidates`);
-    } catch (e) { failures.push(`statewide: ${e.message}`); }
+async function writeUnit(dir, unit, meta, data) {
+  const base = `${dir}/official/${unit}`;
+  await rm(at(base + "/"), { recursive: true, force: true });
+  await mkdir(at(base + "/"), { recursive: true });
+  const contests = [], candidacies = [];
+  for (const { candidates = [], ...c } of data.contests) {
+    contests.push({ ...c, source: unit });
+    candidates.forEach((k, i) => candidacies.push({ id: `${c.id}/${slug(k.name)}`, contest: c.id, order: i + 1, ...k }));
   }
-  const counties = [];
-  for (const c of src.counties || []) {
-    try {
-      const data = await FORMATS[c.format](await fetchPdf(c.url), c);
-      const { url, format, ...config } = c;
-      await writeJson(`${dir}/county/${c.fips}.json`, { schema: 1, state: src.state, election: src.election, county: config, ...data });
-      console.log(`  ${c.name}: ${data.contests.length} local contests, ${data.proposals.length} local proposals`);
-      counties.push({ fips: c.fips, name: c.name });
-    } catch (e) {
-      failures.push(`${c.name}: ${e.message}`);
-      const prev = await readJson(`${dir}/county/${c.fips}.json`, null);
-      if (prev) counties.push({ fips: c.fips, name: c.name, stale: true }); // keep last good copy
-    }
-  }
-  return { state: src.state, election: src.election, electionName: src.electionName, statewide: !!src.statewide, counties, failures };
+  await writeFile(at(`${base}/source.json`), JSON.stringify({ id: unit, ...meta }, null, 1) + "\n");
+  await writeFile(at(`${base}/contests.jsonl`), jsonl(contests));
+  await writeFile(at(`${base}/candidacies.jsonl`), jsonl(candidacies));
+  if (data.proposals?.length) await writeFile(at(`${base}/proposals.jsonl`), jsonl(data.proposals.map((p) => ({ ...p, source: unit }))));
+  return { contests: contests.length, candidacies: candidacies.length };
+}
+
+async function runSource(dir, unit, cfg) {
+  const pdf = await fetchPdf(cfg.url);
+  const sha256 = createHash("sha256").update(pdf).digest("hex");
+  const prev = await readJson(`${dir}/official/${unit}/source.json`, null);
+  if (prev?.sha256 === sha256) return `${unit}: unchanged`;
+  const data = await FORMATS[cfg.format](pdf, cfg);
+  const meta = {
+    title: data.source.title, url: cfg.url, format: cfg.format, sha256,
+    retrieved: new Date().toISOString().slice(0, 10),
+    archived: (await archive(cfg.url)) || prev?.archived || null,
+  };
+  const n = await writeUnit(dir, unit, meta, data);
+  return `${unit}: ${n.contests} contests, ${n.candidacies} candidacies`;
 }
 
 const want = process.argv.slice(2).map((s) => s.toUpperCase());
-const files = (await readdir(new URL("data/sources/", ROOT))).filter((f) => f.endsWith(".json") && (!want.length || want.includes(f.replace(".json", ""))));
-const index = await readJson("data/ballots/index.json", { schema: 1, states: {} });
-let failed = [];
-for (const f of files) {
-  const r = await runState(f);
-  index.states[r.state] = { election: r.election, electionName: r.electionName, statewide: r.statewide, counties: r.counties };
-  failed = failed.concat(r.failures.map((x) => `${r.state} ${x}`));
+const failures = [];
+for (const st of (await readdir(at("data/elections/"))).filter((s) => !want.length || want.includes(s))) {
+  for (const date of await readdir(at(`data/elections/${st}/`))) {
+    const dir = `data/elections/${st}/${date}`;
+    const el = await readJson(`${dir}/election.json`, null);
+    if (!el) continue;
+    const units = [];
+    if (el.statewide) units.push(["state", el.statewide]);
+    for (const c of el.counties || []) units.push([`county-${c.fips}`, c]);
+    for (const [unit, cfg] of units) {
+      try { console.log(`${el.id} ${await runSource(dir, unit, cfg)}`); }
+      catch (e) { failures.push(`${el.id} ${unit}: ${e.message}`); }
+    }
+  }
 }
-await writeJson("data/ballots/index.json", index);
-if (failed.length) { console.error("Failures:\n" + failed.join("\n")); process.exitCode = 1; }
+if (failures.length) { console.error("Failures (last good data kept):\n" + failures.join("\n")); process.exitCode = 1; }

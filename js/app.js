@@ -1,9 +1,9 @@
-import { searchPlaces, districtsForPlace, districtsForPoint, STATES } from "./geo.js?v=202611041906";
-import { houseRace, statewideRace, statewideRaceSpecs, summary, normName } from "./wiki.js?v=202611041906";
-import { profile, score, curatedFor } from "./match.js?v=202611041906";
-import { loadBallot } from "./ballot.js?v=202611041906";
+import { searchPlaces, districtsForPlace, districtsForPoint, STATES } from "./geo.js?v=202611060137";
+import { houseRace, statewideRace, statewideRaceSpecs, summary, normName } from "./wiki.js?v=202611060137";
+import { profile, score, curatedFor } from "./match.js?v=202611060137";
+import { loadBallot } from "./ballot.js?v=202611060137";
 
-const V = "202611041906"; // cache-busting version, set by tools/bump-version.sh
+const V = "202611060137"; // cache-busting version, set by tools/bump-version.sh
 // ---------- tiny helpers ----------
 const $ = (s, el = document) => el.querySelector(s);
 const ESC = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
@@ -112,7 +112,7 @@ async function applyWhere(where, { restoring = false } = {}) {
   state.where = where; save();
   $("#where-status").textContent = "";
   const abbr = STATES[where.districts.state]?.[0];
-  CURATED = abbr ? await fetch(`data/curated/${abbr}.json?v=${V}`).then((r) => (r.ok ? r.json() : null)).catch(() => null) : null;
+  CURATED = abbr ? await fetch(`data/ballots/${abbr}/research.json?v=${V}`).then((r) => (r.ok ? r.json() : null)).catch(() => null) : null;
   if (CURATED?.sampleBallotUrl) $("#sample-ballot-link").href = CURATED.sampleBallotUrl;
   renderWhere();
   $("#step-what").hidden = false; $("#step-races").hidden = false; $("#step-ballot").hidden = false; $("#ballot-bar").hidden = false;
