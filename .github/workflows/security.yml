@@ -1,0 +1,129 @@
+# Security check, one job:
+#  - when main changes: leaked secrets (gitleaks) + vulnerable dependencies (npm audit)
+#  - once a week (Sunday) and when run by hand: the same plus semgrep
+# Dependabot alerts and security updates watch the lockfile between runs; the Data
+# workflow also runs `npm audit` on every build.
+# A failed run = something needs attention; GitHub emails you. Findings show as
+# annotations on the run. Run it any time from the Actions tab (workflow_dispatch).
+name: Security scan
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 9 * * 0"   # weekly, Sunday ~5:17 AM Eastern
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: security-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  scan:
+    name: Security scan
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Decide what to run
+        id: plan
+        shell: bash
+        run: |
+          # pushes get the quick secret (and dependency) scan; the weekly and manual runs do everything
+          full=false
+          if [ "${{ github.event_name }}" != "push" ]; then full=true; fi
+          echo "full=$full" >> "$GITHUB_OUTPUT"
+          echo "has_node=$( [ -n "$(find . -name package-lock.json -not -path '*/node_modules/*' -print -quit)" ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+          echo "has_py=$( [ -n "$(find . \( -name 'requirements*.txt' -o -name pyproject.toml \) -not -path '*/node_modules/*' -print -quit)" ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+          echo "has_ps=$( [ -n "$(find . \( -name '*.ps1' -o -name '*.psm1' \) -not -path '*/node_modules/*' -not -path './.git/*' -print -quit)" ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        if: steps.plan.outputs.has_node == 'true'
+        with: { node-version: 22 }
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        if: steps.plan.outputs.has_py == 'true' || steps.plan.outputs.full == 'true'
+        with: { python-version: "3.12" }
+
+      - name: Leaked secrets (gitleaks)
+        if: ${{ !cancelled() }}
+        # Reviewed false positives are listed by fingerprint in .gitleaksignore
+        run: |
+          curl -sSL https://github.com/gitleaks/gitleaks/releases/download/v8.24.3/gitleaks_8.24.3_linux_x64.tar.gz | tar xz gitleaks
+          ./gitleaks dir . --no-banner --redact --report-format json --report-path gl.json || true
+          python3 - <<'EOF'
+          import json, sys
+          f = json.load(open("gl.json"))
+          for x in f:
+              print(f"::error file={x['File'].lstrip('./')},line={x['StartLine']},title=Secret ({x['RuleID']})::"
+                    f"Possible secret committed. Fingerprint: {x['Fingerprint']}")
+          print(f"{len(f)} secret finding(s)")
+          sys.exit(1 if f else 0)
+          EOF
+
+      - name: Vulnerable dependencies (npm audit / pip-audit)
+        if: ${{ !cancelled() && (steps.plan.outputs.has_node == 'true' || steps.plan.outputs.has_py == 'true') }}
+        shell: bash
+        run: |
+          set -u; fail=0
+          [ "${{ steps.plan.outputs.has_py }}" = true ] && pip install -q pip-audit
+          while IFS= read -r lock; do
+            dir=$(dirname "$lock")
+            if ! (cd "$dir" && npm audit --omit=dev); then
+              fail=1; echo "::error file=$lock,title=npm audit::Vulnerable npm dependencies in $dir (run npm audit there)"
+            fi
+          done < <(find . -name package-lock.json -not -path '*/node_modules/*')
+          while IFS= read -r req; do
+            if ! out=$(pip-audit -r "$req" --progress-spinner off 2>&1); then
+              fail=1; echo "$out"; echo "::error file=$req,title=pip-audit::$(echo "$out" | grep -E '^[A-Za-z0-9_.-]+ +[0-9]' | tr '\n' ';' | head -c 900)"
+            fi
+          done < <(find . -name 'requirements*.txt' -not -path '*/node_modules/*')
+          while IFS= read -r pp; do
+            dir=$(dirname "$pp"); ls "$dir"/requirements*.txt >/dev/null 2>&1 && continue
+            if ! out=$(cd "$dir" && pip-audit --progress-spinner off . 2>&1); then
+              fail=1; echo "$out"; echo "::error file=$pp,title=pip-audit::$(echo "$out" | grep -E '^[A-Za-z0-9_.-]+ +[0-9]' | tr '\n' ';' | head -c 900)"
+            fi
+          done < <(find . -name pyproject.toml -not -path '*/node_modules/*')
+          exit $fail
+
+      - name: Risky code patterns (semgrep) — weekly
+        if: ${{ !cancelled() && steps.plan.outputs.full == 'true' }}
+        # To accept a reviewed finding, add a `# nosemgrep: <rule-id>` comment on that line.
+        run: |
+          pip install -q semgrep
+          semgrep scan --config p/default --severity ERROR --metrics off --quiet --json -o sg.json || true
+          python3 - <<'EOF'
+          import json, sys
+          d = json.load(open("sg.json"))
+          for r in d.get("results", []):
+              msg = r["extra"]["message"].replace("\n", " ")[:400]
+              print(f"::error file={r['path']},line={r['start']['line']},title={r['check_id'].split('.')[-1]}::{msg}")
+          errs = [e for e in d.get("errors", []) if e.get("level") == "error"]
+          for e in errs[:5]:
+              print(f"::warning title=semgrep error::{str(e.get('message'))[:300]}")
+          print(f"{len(d.get('results', []))} finding(s)")
+          sys.exit(1 if d.get("results") else 0)
+          EOF
+
+      - name: PowerShell security rules (PSScriptAnalyzer) — weekly
+        if: ${{ !cancelled() && steps.plan.outputs.full == 'true' && steps.plan.outputs.has_ps == 'true' }}
+        # To accept a reviewed finding, use [Diagnostics.CodeAnalysis.SuppressMessageAttribute()].
+        shell: pwsh
+        run: |
+          $files = Get-ChildItem -Recurse -Include *.ps1,*.psm1 -File | Where-Object { $_.FullName -notmatch '[\\/](node_modules|\.git)[\\/]' -and $_.Name -notlike '*.Tests.ps1' }
+          if (-not $files) { "No PowerShell files."; exit 0 }
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          # PSGallery downloads flake now and then; retry so a hiccup can't fail the build
+          foreach ($i in 1..4) { try { Install-Module PSScriptAnalyzer -Scope CurrentUser -Force -ErrorAction Stop; break } catch { if ($i -eq 4) { throw }; Start-Sleep (10 * $i) } }
+          $root = (Get-Location).Path + [IO.Path]::DirectorySeparatorChar
+          $r = $files | ForEach-Object { Invoke-ScriptAnalyzer -Path $_.FullName -Severity Error }
+          foreach ($x in $r) {
+            $rel = $x.ScriptPath.Replace($root, '')
+            $m = ($x.Message -replace "`r?`n", ' ')
+            "::error file=$rel,line=$($x.Line),title=$($x.RuleName)::$m"
+          }
+          "Errors: $(@($r).Count)"
+          if (@($r).Count) { exit 1 }
